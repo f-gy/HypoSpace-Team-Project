@@ -7,7 +7,7 @@ A four-person course project investigating hypothesis generation on the [HypoSpa
 | Member | GitHub | Contributions |
 | --- | --- | --- |
 | Member 1 | TBD | TBD |
-| Member 2 | TBD | TBD |
+| 徐晗笑 | [Xiao-ada](https://github.com/Xiao-ada) | Boolean: [BACE](tasks/boolean/Xiao-ada/bace/README.md) and [COVE](tasks/boolean/Xiao-ada/cove/README.md) |
 | Member 3 | TBD | TBD |
 | Member 4 | TBD | TBD |
 
@@ -19,7 +19,7 @@ A four-person course project investigating hypothesis generation on the [HypoSpa
 - `common/` — shared interfaces, validators and metrics
 - `experiments/`, `results/`, `docs/`, `tests/` — reproducible work
 
-This repository is being set up; methods and results will be added after review.
+The [Boolean contribution from 徐晗笑 (Xiao-ada)](tasks/boolean/Xiao-ada/README.md) includes source code, configurations, result evidence, reproduction instructions and [presentation materials](tasks/boolean/Xiao-ada/presentation/README.md). BACE studies budget-aware structural exclusion during LLM decoding. COVE is a supplementary learned-executor and catalog-selection approach; its system-level results do not establish improved unrestricted LLM generation.
 
 ## Reproducibility
 
