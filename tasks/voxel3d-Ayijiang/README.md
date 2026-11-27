@@ -19,7 +19,7 @@ JSON summaries: [`reported-results/`](reported-results/). Write-up: [`docs/final
 ## Layout
 
 ```
-cpsg/
+voxel3d-Ayijiang/         # Ayijiang contribution (GitHub: 1741493419ayj-oss)
 ├── upstream/3d/          # vendored official HypoSpace 3D code + dataset
 ├── src/methods/cpsg.py   # height prompts, parse, SupportProj, decode
 ├── scripts/
