@@ -1,0 +1,85 @@
+Loaded complete dataset with 78 observation sets
+Variables: x, y
+Operators: AND, NOT, OR
+Max depth: 2
+Loaded complete dataset with 78 observation sets
+Variables: x, y
+Operators: AND, NOT, OR
+Max depth: 2
+Loaded complete dataset with 78 observation sets
+Variables: x, y
+Operators: AND, NOT, OR
+Max depth: 2
+Loaded complete dataset with 0 observation sets
+Variables: x, y, z
+Operators: AND, NOT, OR
+Max depth: 2
+ALL_CHECKS_PASSED: 720 scored question-runs; 54 batches
+[
+  {
+    "split": "internal_test",
+    "policy": "fixed_repeat",
+    "order": "native",
+    "budget": 108,
+    "unspent": 0,
+    "seconds": 0.005637666000000152,
+    "termination": "budget_reached",
+    "questions": 18,
+    "emitted": 108,
+    "unique_valid": 64,
+    "repeated_outputs": 44,
+    "precision_emitted": 1.0,
+    "uniqueness_emitted": 0.5925925925925926,
+    "unique_valid_per_budget": 0.5925925925925926,
+    "macro_recovery": 0.654320987654321,
+    "recovery_defined_questions": 18,
+    "empty_solution_questions": 0,
+    "solver_checks": 4,
+    "predicate_checks": 1000,
+    "construction_steps": 48
+  },
+  {
+    "split": "internal_test",
+    "policy": "fixed_stop",
+    "order": "native",
+    "budget": 108,
+    "unspent": 44,
+    "seconds": 0.00586141699999998,
+    "termination": "per_case_caps_reached",
+    "questions": 18,
+    "emitted": 64,
+    "unique_valid": 64,
+    "repeated_outputs": 0,
+    "precision_emitted": 1.0,
+    "uniqueness_emitted": 1.0,
+    "unique_valid_per_budget": 0.5925925925925926,
+    "macro_recovery": 0.654320987654321,
+    "recovery_defined_questions": 18,
+    "empty_solution_questions": 0,
+    "solver_checks": 4,
+    "predicate_checks": 1000,
+    "construction_steps": 48
+  },
+  {
+    "split": "internal_test",
+    "policy": "shared_round_robin",
+    "order": "native",
+    "budget": 108,
+    "unspent": 0,
+    "seconds": 0.00582483300000014,
+    "termination": "budget_reached",
+    "questions": 18,
+    "emitted": 108,
+    "unique_valid": 108,
+    "repeated_outputs": 0,
+    "precision_emitted": 1.0,
+    "uniqueness_emitted": 1.0,
+    "unique_valid_per_budget": 1.0,
+    "macro_recovery": 0.7448559670781892,
+    "recovery_defined_questions": 18,
+    "empty_solution_questions": 0,
+    "solver_checks": 4,
+    "predicate_checks": 1000,
+    "construction_steps": 92
+  }
+]

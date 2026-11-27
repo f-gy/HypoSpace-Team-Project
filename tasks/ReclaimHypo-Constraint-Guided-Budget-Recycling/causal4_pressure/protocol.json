@@ -1,0 +1,10 @@
+{
+  "orders_fixed_before_scoring": true,
+  "candidate_count": 543,
+  "gold_count_each": 8,
+  "topK": 6,
+  "maximum_coverage": 0.75,
+  "uniform_expected_coverage": 0.011049723756906077,
+  "model_policy": "existing fixed atomic branch, because4 observed constraints; no stress tuning",
+  "notes": "only3 cases; exact full intervention observations but multiple DAG mechanisms via redundant edges; new4-node domain relative to3-node training"
+}

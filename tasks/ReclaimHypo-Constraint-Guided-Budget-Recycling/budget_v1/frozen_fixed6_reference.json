@@ -1,0 +1,322 @@
+[
+  {
+    "split": "dev",
+    "id": "boolean:fe61cf48545bcd51",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "dev",
+    "id": "boolean:844dc1a973212869",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "dev",
+    "id": "boolean:b0d723ee8d20a7dd",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "dev",
+    "id": "boolean:20991ccb31fe3d8d",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "dev",
+    "id": "boolean:da8efc7f779ff820",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "dev",
+    "id": "boolean:71d2614ad4d6fff6",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "dev",
+    "id": "boolean:94796fc609d3e5c7",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "dev",
+    "id": "boolean:4c5a88107b08b9fe",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.16666666666666666,
+    "recovery": 1.0
+  },
+  {
+    "split": "dev",
+    "id": "causal:452deea91fce66bb",
+    "task": "causal",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "dev",
+    "id": "causal:a4f90dd79d787c51",
+    "task": "causal",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "dev",
+    "id": "causal:0d7b30aa44ae4e29",
+    "task": "causal",
+    "validity": 1.0,
+    "uniqueness": 0.16666666666666666,
+    "recovery": 1.0
+  },
+  {
+    "split": "dev",
+    "id": "voxel:237aeaad9a445be7",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "dev",
+    "id": "voxel:ae38b4fd787bc7cf",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "dev",
+    "id": "voxel:6fc3c04ca4d7eb52",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "dev",
+    "id": "voxel:9c551274f245fba6",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "dev",
+    "id": "voxel:e84d9b4e9eac3777",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "dev",
+    "id": "voxel:6800c933aa63bbfc",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "dev",
+    "id": "voxel:50f4f4bb3f92d30f",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "dev",
+    "id": "voxel:cd88b01f6fcf2264",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "internal_test",
+    "id": "boolean:8a0eff9982eb462d",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "internal_test",
+    "id": "boolean:54ed1c35a1cd7774",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.16666666666666666,
+    "recovery": 1.0
+  },
+  {
+    "split": "internal_test",
+    "id": "boolean:53973acf7a862a58",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "internal_test",
+    "id": "boolean:aed544826299bec3",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.16666666666666666,
+    "recovery": 1.0
+  },
+  {
+    "split": "internal_test",
+    "id": "boolean:8907d953a4b35145",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "internal_test",
+    "id": "boolean:07121b97597ad557",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.3333333333333333,
+    "recovery": 1.0
+  },
+  {
+    "split": "internal_test",
+    "id": "boolean:9664043540de848b",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.16666666666666666,
+    "recovery": 1.0
+  },
+  {
+    "split": "internal_test",
+    "id": "boolean:fe7683594fcfa882",
+    "task": "boolean",
+    "validity": 1.0,
+    "uniqueness": 0.5,
+    "recovery": 1.0
+  },
+  {
+    "split": "internal_test",
+    "id": "causal:22721bd9a535f447",
+    "task": "causal",
+    "validity": 1.0,
+    "uniqueness": 0.16666666666666666,
+    "recovery": 1.0
+  },
+  {
+    "split": "internal_test",
+    "id": "causal:fbe8aced1d6891d5",
+    "task": "causal",
+    "validity": 1.0,
+    "uniqueness": 0.16666666666666666,
+    "recovery": 1.0
+  },
+  {
+    "split": "internal_test",
+    "id": "voxel:b781eb8acac612d9",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "internal_test",
+    "id": "voxel:7a2e8f4ec99afc6c",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "internal_test",
+    "id": "voxel:9d9584be68f7583e",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "internal_test",
+    "id": "voxel:fead02b86d4addc5",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "internal_test",
+    "id": "voxel:2ae32016c8f720f8",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "internal_test",
+    "id": "voxel:3036d9fc26edac4e",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "internal_test",
+    "id": "voxel:4ee4ede3f5ba7e7c",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "internal_test",
+    "id": "voxel:542f6e089420d028",
+    "task": "voxel",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.2222222222222222
+  },
+  {
+    "split": "causal4_pressure",
+    "id": "causal4:0",
+    "task": "causal",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.75
+  },
+  {
+    "split": "causal4_pressure",
+    "id": "causal4:1",
+    "task": "causal",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.75
+  },
+  {
+    "split": "causal4_pressure",
+    "id": "causal4:2",
+    "task": "causal",
+    "validity": 1.0,
+    "uniqueness": 1.0,
+    "recovery": 0.75
+  }
+]

@@ -1,0 +1,17 @@
+test_all_spaces_exhausted_leave_budget_unspent (test_scheduler.SchedulerTests) ... ok
+test_fixed_repeat_and_stop_have_same_unique_coverage (test_scheduler.SchedulerTests) ... ok
+test_identical_answers_in_different_questions_are_not_duplicates (test_scheduler.SchedulerTests) ... ok
+test_no_false_exhaustion_exactly_at_budget_boundary (test_scheduler.SchedulerTests) ... ok
+test_rejects_answer_fields_and_duplicate_ids (test_scheduler.SchedulerTests) ... ok
+test_rejects_invalid_budget_and_conflicting_fixed_total (test_scheduler.SchedulerTests) ... ok
+test_round_robin_gives_first_pass_before_second (test_scheduler.SchedulerTests) ... ok
+test_shared_budget_reclaims_small_space_slots (test_scheduler.SchedulerTests) ... ok
+test_timeout_is_not_exhaustion_and_adds_no_repeats (test_scheduler.SchedulerTests) ... ok
+test_two_node_dags_are_distinct_mechanisms (test_scheduler.SchedulerTests) ... ok
+test_unsatisfiable_problem_releases_all_its_slots (test_scheduler.SchedulerTests) ... ok
+test_zero_budget_never_pulls_or_claims_exhaustion (test_scheduler.SchedulerTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.092s
+
+OK

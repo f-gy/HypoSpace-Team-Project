@@ -1,0 +1,1 @@
+{"metadata": {"variables": ["x", "y", "z"], "operators": ["AND", "OR", "NOT"], "max_depth": 2, "mechanistic_opts": {"apply_commutativity": true, "apply_idempotence_and_or": true, "flatten_associativity": true}}, "datasets_by_n_observations": {}}

@@ -1,0 +1,6 @@
+Prepared query-only inputs: {'dev': 19, 'internal_test': 18, 'causal4_pressure': 3}
+fixed_repeat emitted= 108 unique_valid= 64 uniqueness= 0.5925925925925926 recovery= 0.654320987654321
+fixed_stop emitted= 64 unique_valid= 64 uniqueness= 1.0 recovery= 0.654320987654321
+shared_round_robin emitted= 108 unique_valid= 108 uniqueness= 1.0 recovery= 0.7448559670781892
+VERIFIED: 17 new tests + 9 frozen tests; 54 batches; 720 scored question-runs.
+Results: /Users/fgggy/Documents/Codex/2026-11-25/develop-a-novel-ml-method-to/outputs/OrbitHypo_shared_budget/final_results

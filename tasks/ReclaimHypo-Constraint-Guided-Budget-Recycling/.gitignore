@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.superpowers/
+reproduction_*/
+!reproduction_publication_check/
+.DS_Store

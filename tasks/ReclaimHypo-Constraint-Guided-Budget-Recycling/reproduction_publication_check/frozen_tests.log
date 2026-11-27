@@ -1,0 +1,14 @@
+test_bad_budget_rejected (test_backend.BackendTests) ... ok
+test_boolean_contradiction_is_unsat (test_backend.BackendTests) ... ok
+test_causal_enumerates_all_3node_dags (test_backend.BackendTests) ... ok
+test_causal_respects_intervention (test_backend.BackendTests) ... ok
+test_exhausted_space_fills_only_proven_repeats (test_backend.BackendTests) ... ok
+test_voxel_unique_budget (test_backend.BackendTests) ... ok
+test_keeps_valid_and_repairs_invalid (test_hybrid.HybridTests) ... ok
+test_query_gold_is_rejected (test_hybrid.HybridTests) ... ok
+test_small_space_repeats_are_disclosed (test_hybrid.HybridTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.069s
+
+OK

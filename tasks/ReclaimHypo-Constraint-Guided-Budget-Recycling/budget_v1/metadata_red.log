@@ -1,0 +1,30 @@
+test_preparation_ignores_appledouble_metadata_as_source_code (test_metrics.MetricTests) ... FAIL
+
+======================================================================
+FAIL: test_preparation_ignores_appledouble_metadata_as_source_code (test_metrics.MetricTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/fgggy/Documents/Codex/2026-11-25/develop-a-novel-ml-method-to/outputs/OrbitHypo_shared_budget/budget_v1/test_metrics.py", line 44, in test_preparation_ignores_appledouble_metadata_as_source_code
+    self.assertNotIn('code/._metadata_probe.py', protocol['code_sha256'])
+AssertionError: 'code/._metadata_probe.py' unexpectedly found in {'budget_v1/evaluate.py': '2e0f668fd1ee243b4233218ca8664a4822deab997b18fed4ebe76014a71c92f9', 'budget_v1/prepare.py': '3392eaefc4d9bd8bd3bcd2bd9e6e13464469439c2330e077b0aa3703bd599d26', 'budget_v1/run_inference.py': '1b702a214c70e712f350bb2c4f988f3d441d3dfac16c30e4985be60dc9fce2c7', 'budget_v1/scheduler.py': '08c6416fb93ff05c06fa5cd33daa9445e6006c04f460eff68894cdb0a5505d2c', 'budget_v1/test_metrics.py': 'e2921f3f762533e439b8fed6d86bc0cd59395f2d15fc593ff45489bd989e5918', 'budget_v1/test_scheduler.py': 'e4dbc963c654b0441add3471bd5dea66a77baa5331d6a96189d70313f83f140a', 'certified_generation_v1/evaluate.py': '24e50f1e737033a08097f707cf246aafe2958519006f8f98bc838740fe12a7b0', 'certified_generation_v1/exact_backend.py': 'a67cb017addb31d1ef5891d27a03bf108baf2362bf05383aa1d251a607def326', 'certified_generation_v1/test_backend.py': '01e681fce0da9add558b70c5d8354c5bce5c609485448dfd9052bef8ee8d3bea', 'certified_generation_v1/test_hybrid.py': '95e1e3062e8a4b7b577c7b7790ccbd699b29554eb2ec81721fcf3225ac7b5701', 'code/._metadata_probe.py': 'daea66da65771df98542fd73cd7d61af3e3f66160f1895c31c6fc55a95ee98d2', 'code/boolean_benchmark.py': '6c22bb40d3b3f96873e66790fa059dc41818482eec681a11d0aa819d5d39c3e4', 'code/boolean_dataset.py': '8d86ab251f0c2f2ffccbee043f8636e4b5db94871cbebb7cd342b35b7a1f867d', 'code/eval_generate.py': '07225b5ee8f3a82fe82e40e6a264065fefb967b6ce25abefd89bada1a2c1f342', 'code/eval_score.py': '792e220e03f154c0d7ce77b84c219557905ccf36653d5d45ec93687c696d1797', 'code/extract.py': '2bc551cf0ab59c6f16da8dc2411f002a779d5791e877c43e1be5a637ccfb4f94', 'code/generate.py': 'faa488981fd4f7e6c09f3fc3dd907de1b62e60e3bfb848d79ed48eba29d8298b', 'code/hypospace_validator.py': '60b22ea2dff9138a872a1574e5226b384cc0547ce68183bc3ce42597e8a87c39', 'code/overlap_audit.py': '0d89f5852822ea55fa42fa740174ae7add8ec8f4995d8981d24cf676df259c07', 'code/score_likelihood.py': '3d6c0cbc6412b83f8debb485ae5345cad4df1ab2e52179da4c6bd069cafa88f0', 'code/sgve_core.py': 'bddd104a35becccc817fa2bf27191b1ef58513bcf7d4906ecf5c8f5c137efed7', 'code/test_split.py': '918628efc66b160b89312a97895743efcacdd3b9d3c33c8c377f776f57605858', 'code/train.py': '2a610d85c90e806b302a479322516d32f3a19fafb4c0d2d2eee68662f1def553', 'code/validate.py': 'dd8f2d9bd01de5416e93690f6222f8578c8fddbbf7fcf5a0873b25fd82196579', 'vendor/HypoSpace/3d/generate_3d_dataset_complete.py': '54e71d081e6fbfd77e4e289c1fc94c045c09e5559a20bb1dc8f8da1129dc22ef', 'vendor/HypoSpace/causal/generate_causal_dataset.py': '0f202a90b5fad7d216f363d273f2a4629e36d2b90fab801ffe4fd5889731f1b2', 'vendor/HypoSpace/causal/modules/models.py': '264903a319d69b48b3f29fb8905d3d9002b6974d9ed985d923c9e6b36bcd0e71'}
+
+----------------------------------------------------------------------
+Ran 1 test in 0.034s
+
+FAILED (failures=1)
+Loaded complete dataset with 78 observation sets
+Variables: x, y
+Operators: AND, NOT, OR
+Max depth: 2
+Loaded complete dataset with 78 observation sets
+Variables: x, y
+Operators: AND, NOT, OR
+Max depth: 2
+Loaded complete dataset with 78 observation sets
+Variables: x, y
+Operators: AND, NOT, OR
+Max depth: 2
+Loaded complete dataset with 0 observation sets
+Variables: x, y, z
+Operators: AND, OR, NOT
+Max depth: 2

@@ -23,6 +23,8 @@ The [Boolean contribution from 徐晗笑 (Xiao-ada)](tasks/boolean/Xiao-ada/READ
 
 ## Reproducibility
 
+[ReclaimHypo: Constraint-Guided Budget Recycling](tasks/ReclaimHypo-Constraint-Guided-Budget-Recycling/README.md) provides a unified constraint-backed scheduler for causal, voxel and Boolean tasks. Its internal experiment recycles output slots across tasks; results are system-level improvements under a shared-budget protocol, not an official fixed-per-question score or evidence of improved LLM weights.
+
 Document model versions, data splits, seeds, prompts, verification rules, budgets and commands. Distinguish development results from final tests.
 
 ## Upstream

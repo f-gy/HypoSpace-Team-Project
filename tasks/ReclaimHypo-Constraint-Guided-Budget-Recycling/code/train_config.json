@@ -1,0 +1,40 @@
+{
+  "train_ids": "balanced 128 prompts; 581 verified targets",
+  "model": "Qwen2.5-7B-Instruct",
+  "training_seed": [
+    1337,
+    31415
+  ],
+  "steps": 40,
+  "accumulation": 4,
+  "batch_size": 1,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "lr_schedule": "constant",
+  "max_grad_norm": 1.0,
+  "precision": "bfloat16",
+  "gradient_checkpointing": true,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.0,
+  "lora_target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "eval_dev_ids": "all 36 balanced development tasks",
+  "eval_sampling_seeds": [
+    101,
+    202,
+    303
+  ],
+  "eval_candidates_per_item": 10,
+  "eval_temperature": 0.7,
+  "eval_top_p": 1.0,
+  "eval_top_k": 20,
+  "eval_repetition_penalty": 1.05,
+  "eval_max_new_tokens": 32,
+  "num_training_seeds": 1,
+  "checkpoint_selection": "last step, no development-based selection",
+  "comparison": "same model, row order, steps, optimizer, LoRA initialization; loss uses example weight only for weighted arm"
+}
