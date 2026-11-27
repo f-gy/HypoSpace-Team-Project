@@ -1,0 +1,177 @@
+{
+  "runtime_total_sec": 1362.3260721010156,
+  "design": {
+    "protocol": "official_Benchmark3D.evaluate_single_observation_set",
+    "metrics": {
+      "Validity": "valid_rate",
+      "Uniqueness": "novelty_rate",
+      "Recovery": "recovery_rate"
+    },
+    "n_obs": 50,
+    "obs_ids": [
+      "g3_h3_b3_038",
+      "g3_h3_b2_030",
+      "g3_h3_b3_006",
+      "g3_h3_b3_039",
+      "g3_h3_b1_007",
+      "g3_h3_b2_001",
+      "g3_h3_b3_061",
+      "g3_h3_b3_024",
+      "g3_h3_b2_004",
+      "g3_h3_b3_002",
+      "g3_h3_b3_030",
+      "g3_h3_b1_008",
+      "g3_h3_b3_072",
+      "g3_h3_b3_020",
+      "g3_h3_b2_019",
+      "g3_h3_b1_005",
+      "g3_h3_b2_003",
+      "g3_h3_b3_011",
+      "g3_h3_b3_009",
+      "g3_h3_b1_009",
+      "g3_h3_b2_022",
+      "g3_h3_b3_068",
+      "g3_h3_b3_026",
+      "g3_h3_b3_010",
+      "g3_h3_b3_073",
+      "g3_h3_b3_028",
+      "g3_h3_b2_007",
+      "g3_h3_b2_020",
+      "g3_h3_b3_036",
+      "g3_h3_b3_056",
+      "g3_h3_b3_074",
+      "g3_h3_b3_060",
+      "g3_h3_b3_029",
+      "g3_h3_b3_054",
+      "g3_h3_b3_082",
+      "g3_h3_b3_080",
+      "g3_h3_b3_057",
+      "g3_h3_b1_006",
+      "g3_h3_b3_027",
+      "g3_h3_b2_009",
+      "g3_h3_b2_029",
+      "g3_h3_b3_066",
+      "g3_h3_b2_010",
+      "g3_h3_b3_025",
+      "g3_h3_b3_058",
+      "g3_h3_b3_052",
+      "g3_h3_b2_031",
+      "g3_h3_b3_046",
+      "g3_h3_b2_015",
+      "g3_h3_b2_005"
+    ],
+    "n_queries": 3,
+    "max_retries": 1,
+    "temperature": 0.3,
+    "seeds": [
+      7,
+      17,
+      27
+    ],
+    "methods": [
+      "official_prompt",
+      "cpsg_supportproj"
+    ],
+    "note": "Metrics computed only by official evaluate_single_observation_set. CPSG adapter returns Structure text after SupportProj; empty string on failure. BAE not included (not an LLM query in official loop).",
+    "pilot": false
+  },
+  "summaries_by_seed": {
+    "7": {
+      "official_prompt": {
+        "n_obs": 50,
+        "valid_rate": 0.006666666666666666,
+        "novelty_rate": 0.9666666666666666,
+        "recovery_rate": 0.0007407407407407407,
+        "parse_success_rate": 1.0,
+        "total_tokens": 140750
+      },
+      "cpsg_supportproj": {
+        "n_obs": 50,
+        "valid_rate": 0.7999999999999998,
+        "novelty_rate": 0.34666666666666657,
+        "recovery_rate": 0.08148148148148149,
+        "parse_success_rate": 0.7999999999999998,
+        "total_tokens": 60552
+      }
+    },
+    "17": {
+      "official_prompt": {
+        "n_obs": 50,
+        "valid_rate": 0.006666666666666666,
+        "novelty_rate": 0.96,
+        "recovery_rate": 0.0007407407407407407,
+        "parse_success_rate": 1.0,
+        "total_tokens": 140764
+      },
+      "cpsg_supportproj": {
+        "n_obs": 50,
+        "valid_rate": 0.8133333333333332,
+        "novelty_rate": 0.3733333333333333,
+        "recovery_rate": 0.09185185185185184,
+        "parse_success_rate": 0.8133333333333332,
+        "total_tokens": 60552
+      }
+    },
+    "27": {
+      "official_prompt": {
+        "n_obs": 50,
+        "valid_rate": 0.006666666666666666,
+        "novelty_rate": 0.9466666666666665,
+        "recovery_rate": 0.0007407407407407407,
+        "parse_success_rate": 1.0,
+        "total_tokens": 140933
+      },
+      "cpsg_supportproj": {
+        "n_obs": 50,
+        "valid_rate": 0.8066666666666665,
+        "novelty_rate": 0.34666666666666657,
+        "recovery_rate": 0.08148148148148149,
+        "parse_success_rate": 0.8066666666666665,
+        "total_tokens": 60552
+      }
+    }
+  },
+  "across_seed": {
+    "official_prompt": {
+      "valid_rate": {
+        "mean": 0.006666666666666665,
+        "std": 8.673617379884035e-19
+      },
+      "novelty_rate": {
+        "mean": 0.9577777777777777,
+        "std": 0.008314794192830995
+      },
+      "recovery_rate": {
+        "mean": 0.0007407407407407407,
+        "std": 0.0
+      },
+      "parse_success_rate": {
+        "mean": 1.0,
+        "std": 0.0
+      }
+    },
+    "cpsg_supportproj": {
+      "valid_rate": {
+        "mean": 0.8066666666666665,
+        "std": 0.005443310539518209
+      },
+      "novelty_rate": {
+        "mean": 0.35555555555555546,
+        "std": 0.012570787221094207
+      },
+      "recovery_rate": {
+        "mean": 0.08493827160493828,
+        "std": 0.004888639474869948
+      },
+      "parse_success_rate": {
+        "mean": 0.8066666666666665,
+        "std": 0.005443310539518209
+      }
+    }
+  },
+  "metric_names": {
+    "Validity": "valid_rate (official)",
+    "Uniqueness": "novelty_rate (official)",
+    "Recovery": "recovery_rate (official)"
+  }
+}

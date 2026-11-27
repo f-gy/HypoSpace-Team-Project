@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+results/
+logs/
+*.log
+model_cache/
+huggingface/
+.DS_Store

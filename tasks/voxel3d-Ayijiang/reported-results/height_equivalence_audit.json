@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-11-26T09:01:17.556748+00:00",
+  "dataset": "/opt/data/private/HypoSpace_Project/external/_HypoSpace/3d/datasets/3d_grid3_h3_b3.json",
+  "metadata": {
+    "grid_size": 3,
+    "max_blocks": 3,
+    "max_height": 3,
+    "n_observation_sets": 129,
+    "generated_at": "2026-11-24T16:50:54.896854"
+  },
+  "definitions": {
+    "h3": "max_height=3: each occupied (row,col) pillar may have height in {1,2,3}",
+    "b3": "max_blocks=3: top-view occupied cells count is in {1,2,3} (not total voxels)",
+    "grid3": "grid_size=3: 3x3 top-view",
+    "height_representation": "heights[r,c] >= 1 iff observation[r,c]==1; structure fills layers 0..h-1 continuously"
+  },
+  "answers": {
+    "1_lossless_height_representation": true,
+    "2_gravity_means_continuous_bottom_up_stack": true,
+    "3_h3_b3_meanings": {
+      "h3": "max_height = 3",
+      "b3": "max_blocks = 3 (top-view occupancy count 1..3)"
+    },
+    "4_other_constraints": {
+      "top_view_must_match": true,
+      "gravity_support": true,
+      "max_height": 3,
+      "max_blocks_on_top_view": 3,
+      "total_voxel_budget": "none beyond sum of pillar heights (each pillar <= max_height)",
+      "connectivity_across_columns": false
+    },
+    "5_legal_structures_not_representable_as_heights": false,
+    "6_height_space_covers_all_official_GT": true
+  },
+  "counts": {
+    "n_observation_sets": 129,
+    "n_gt_structures": 2619,
+    "n_roundtrip_hash_ok": 2619,
+    "n_validator_ok_after_rebuild": 2619,
+    "n_height_convert_fail": 0,
+    "n_hash_mismatch": 0,
+    "n_validator_fail": 0,
+    "n_obs_support_mismatch": 0,
+    "n_height_out_of_range": 0,
+    "obs_exact_set_coverage_ok": 129,
+    "obs_exact_set_coverage_fail": 0,
+    "height_space_missing_hashes": 0,
+    "height_space_extra_hashes": 0,
+    "block_count_hist": {
+      "1": 9,
+      "2": 36,
+      "3": 84
+    },
+    "gt_max_pillar_height_hist": {
+      "1": 129,
+      "2": 705,
+      "3": 1785
+    },
+    "gt_total_voxels_hist": {
+      "1": 9,
+      "2": 45,
+      "3": 165,
+      "4": 360,
+      "5": 576,
+      "6": 624,
+      "7": 504,
+      "8": 252,
+      "9": 84
+    }
+  },
+  "representation_equivalent": true,
+  "cpsg_go_nogo": "GO",
+  "examples": {
+    "convert_fail": [],
+    "hash_mismatch": [],
+    "validator_fail": [],
+    "coverage_fail": []
+  },
+  "theoretical_note": "Official dataset generator enumerate_all_structures_by_heights already defines the GT hypothesis space as pillar-height assignments. Gravity validator requires continuous bottom-up support per column, which is exactly the height-map semantics. Therefore height maps are not a restriction of the official space; they are the official space."
+}

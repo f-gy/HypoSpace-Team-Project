@@ -1,18 +1,63 @@
-# Ayijiang: 3D voxel reconstruction
+# CPSG for HypoSpace 3D Voxel Reconstruction
 
-This contribution studies **Constraint-Preserving Structured Generation (CPSG)** for gravity-constrained HypoSpace voxel reconstruction. The final packaged method combines column-height generation with support projection, range-feedback retry, and duplicate control.
+Constraint-Preserving Structured Generation (CPSG) for the HypoSpace **3D voxel** task.
 
-The original [voxel3d_for_github_tasks.zip](voxel3d_for_github_tasks.zip) is retained **byte-for-byte unchanged**. It has not been extracted into the repository.
+Instead of free-form Layer text, the model predicts per-column pillar heights on Observation-occupied cells; a program converts heights to official `Structure3D`. Optional **SupportProj**, one **range-feedback retry** (no silent height fill), and **anti-dup** protect Validity / Uniqueness on the official evaluator.
 
-## Inside the package
+## Official metrics (main result)
 
-The archive contains `tasks/voxel3d/cpsg/` with:
+Same 50 observations, seeds `7/17/27`, `n_queries=3`, local Qwen2.5-7B-Instruct. Scores from unmodified `Benchmark3D.evaluate_single_observation_set`.
 
-- `README.md` and `REPRODUCIBILITY.md`: method, reported metrics, environment, and run commands.
-- `src/methods/cpsg.py`: structured prompts, parsing, support projection, and decoding.
-- `scripts/`: official evaluation and representation-equivalence audit.
-- `configs/obs_pool_50.json`: fixed observation pool.
-- `reported-results/` and `docs/`: saved summaries, audits, and final reports.
-- `upstream/3d/`: packaged upstream task code and dataset, with attribution.
+| Method | Validity | Uniqueness | Recovery |
+| --- | ---: | ---: | ---: |
+| Official Layer prompt | 0.7% | 95.8% | 0.07% |
+| CPSG + SupportProj | 80.7% | 35.6% | 8.5% |
+| **CPSG + SupportProj + RangeRetry + AntiDup** | **93.6%** | **76.9%** | **19.7%** |
 
-The original paths inside the ZIP are intentionally preserved, so its own reproduction instructions continue to describe the packaged layout. See the README inside the archive for the 50-observation, three-seed comparison and full metric definitions.
+JSON summaries: [`reported-results/`](reported-results/). Write-up: [`docs/final_project_summary.md`](docs/final_project_summary.md).
+
+## Layout
+
+```
+cpsg/
+├── upstream/3d/          # vendored official HypoSpace 3D code + dataset
+├── src/methods/cpsg.py   # height prompts, parse, SupportProj, decode
+├── scripts/
+│   ├── run_official_eval.py
+│   └── audit_height_equivalence.py
+├── configs/obs_pool_50.json
+├── reported-results/
+├── docs/
+└── requirements.txt
+```
+
+Upstream origin: [CTT-Pavilion/_HypoSpace](https://github.com/CTT-Pavilion/_HypoSpace) (3D domain only; MIT).
+
+## Quick start (GPU)
+
+```bash
+cd tasks/voxel3d-Ayijiang
+python -m venv .venv
+source .venv/bin/activate
+pip install torch --index-url https://download.pytorch.org/whl/cu128   # match your CUDA
+pip install -r requirements.txt
+
+# Point to local Qwen2.5-7B-Instruct (or set MODEL_CACHE_ROOT)
+export QWEN_MODEL_PATH=/path/to/Qwen2.5-7B-Instruct
+
+# Representation equivalence audit (CPU OK)
+python scripts/audit_height_equivalence.py
+
+# Pilot official eval
+python scripts/run_official_eval.py --pilot --methods cpsg_supportproj_retry \
+  --out-dir results/pilot
+
+# Full official eval (50 obs × 3 seeds)
+python scripts/run_official_eval.py --methods cpsg_supportproj_retry \
+  --n-obs 50 --n-queries 3 --seeds 7,17,27 \
+  --out-dir results/official_v90
+```
+
+Methods: `official_prompt`, `cpsg_supportproj`, `cpsg_supportproj_retry`.
+
+See [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md).

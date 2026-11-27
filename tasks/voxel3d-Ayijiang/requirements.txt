@@ -1,0 +1,12 @@
+# Install on a CUDA GPU machine. Match torch/CUDA to your driver.
+numpy>=1.24
+pyyaml>=6.0
+scipy>=1.10
+requests>=2.31
+tqdm>=4.66
+transformers>=4.40
+accelerate>=0.27
+# Example CUDA 12.8 torch:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+# Official upstream LLM clients (only needed if calling remote APIs):
+# openai anthropic

@@ -1,0 +1,157 @@
+{
+  "runtime_total_sec": 252.16298899799585,
+  "design": {
+    "protocol": "official_Benchmark3D.evaluate_single_observation_set",
+    "metrics": {
+      "Validity": "valid_rate",
+      "Uniqueness": "novelty_rate",
+      "Recovery": "recovery_rate"
+    },
+    "n_obs": 50,
+    "obs_ids": [
+      "g3_h3_b3_038",
+      "g3_h3_b2_030",
+      "g3_h3_b3_006",
+      "g3_h3_b3_039",
+      "g3_h3_b1_007",
+      "g3_h3_b2_001",
+      "g3_h3_b3_061",
+      "g3_h3_b3_024",
+      "g3_h3_b2_004",
+      "g3_h3_b3_002",
+      "g3_h3_b3_030",
+      "g3_h3_b1_008",
+      "g3_h3_b3_072",
+      "g3_h3_b3_020",
+      "g3_h3_b2_019",
+      "g3_h3_b1_005",
+      "g3_h3_b2_003",
+      "g3_h3_b3_011",
+      "g3_h3_b3_009",
+      "g3_h3_b1_009",
+      "g3_h3_b2_022",
+      "g3_h3_b3_068",
+      "g3_h3_b3_026",
+      "g3_h3_b3_010",
+      "g3_h3_b3_073",
+      "g3_h3_b3_028",
+      "g3_h3_b2_007",
+      "g3_h3_b2_020",
+      "g3_h3_b3_036",
+      "g3_h3_b3_056",
+      "g3_h3_b3_074",
+      "g3_h3_b3_060",
+      "g3_h3_b3_029",
+      "g3_h3_b3_054",
+      "g3_h3_b3_082",
+      "g3_h3_b3_080",
+      "g3_h3_b3_057",
+      "g3_h3_b1_006",
+      "g3_h3_b3_027",
+      "g3_h3_b2_009",
+      "g3_h3_b2_029",
+      "g3_h3_b3_066",
+      "g3_h3_b2_010",
+      "g3_h3_b3_025",
+      "g3_h3_b3_058",
+      "g3_h3_b3_052",
+      "g3_h3_b2_031",
+      "g3_h3_b3_046",
+      "g3_h3_b2_015",
+      "g3_h3_b2_005"
+    ],
+    "n_queries": 3,
+    "max_retries": 1,
+    "temperature": 0.3,
+    "seeds": [
+      7,
+      17,
+      27
+    ],
+    "methods": [
+      "cpsg_supportproj_retry"
+    ],
+    "goal": "Push Validity toward >=90% while not dropping U/R vs cpsg_supportproj baseline (~35.6% / ~8.5%)",
+    "note": "Metrics computed only by official evaluate_single_observation_set. cpsg_supportproj_retry: SupportProj + one range-feedback LLM retry (no silent fill) + optional anti-dup regen (keep first valid if anti-dup fails). BAE not included.",
+    "pilot": false,
+    "no_drop_gates": {
+      "uniqueness_min": 0.356,
+      "recovery_min": 0.085
+    },
+    "validity_target": 0.9
+  },
+  "summaries_by_seed": {
+    "7": {
+      "cpsg_supportproj_retry": {
+        "n_obs": 50,
+        "valid_rate": 0.9266666666666665,
+        "novelty_rate": 0.74,
+        "recovery_rate": 0.19629629629629627,
+        "parse_success_rate": 0.9266666666666665,
+        "total_tokens": 101917
+      }
+    },
+    "17": {
+      "cpsg_supportproj_retry": {
+        "n_obs": 50,
+        "valid_rate": 0.94,
+        "novelty_rate": 0.78,
+        "recovery_rate": 0.1948148148148148,
+        "parse_success_rate": 0.94,
+        "total_tokens": 101597
+      }
+    },
+    "27": {
+      "cpsg_supportproj_retry": {
+        "n_obs": 50,
+        "valid_rate": 0.94,
+        "novelty_rate": 0.7866666666666666,
+        "recovery_rate": 0.19851851851851848,
+        "parse_success_rate": 0.94,
+        "total_tokens": 102062
+      }
+    }
+  },
+  "across_seed": {
+    "cpsg_supportproj_retry": {
+      "valid_rate": {
+        "mean": 0.9355555555555556,
+        "std": 0.00628539361054713
+      },
+      "novelty_rate": {
+        "mean": 0.7688888888888888,
+        "std": 0.02060804110110156
+      },
+      "recovery_rate": {
+        "mean": 0.19654320987654317,
+        "std": 0.001522077531597269
+      },
+      "parse_success_rate": {
+        "mean": 0.9355555555555556,
+        "std": 0.00628539361054713
+      }
+    }
+  },
+  "gates": {
+    "cpsg_supportproj_retry": {
+      "validity_ge_90": true,
+      "uniqueness_no_drop": true,
+      "recovery_no_drop": true,
+      "vs_prior_cpsg_supportproj": {
+        "valid_rate": 0.8066666666666665,
+        "novelty_rate": 0.35555555555555546,
+        "recovery_rate": 0.08493827160493828
+      },
+      "delta": {
+        "valid_rate": 0.12888888888888905,
+        "novelty_rate": 0.4133333333333334,
+        "recovery_rate": 0.11160493827160489
+      }
+    }
+  },
+  "metric_names": {
+    "Validity": "valid_rate (official)",
+    "Uniqueness": "novelty_rate (official)",
+    "Recovery": "recovery_rate (official)"
+  }
+}
