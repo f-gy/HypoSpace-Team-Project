@@ -1,0 +1,601 @@
+{
+  "settings": {
+    "n": 27,
+    "nodes": 5,
+    "generation_budget": 32,
+    "seed": 514271,
+    "model": "Qwen3-4B-Instruct-2507",
+    "common_first_generation": true,
+    "temperature": 0.7,
+    "max_new_tokens": 64,
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "prior_pilot_questions_reused": true
+  },
+  "aggregate": {
+    "qwen_direct": {
+      "validity": 0.015046296296296295,
+      "uniqueness": 0.07291666666666667,
+      "recovery": 0.03879595035032387,
+      "distinct_valid": 0.48148148148148145,
+      "input_tokens": 10543.925925925925,
+      "output_tokens": 411.7037037037037
+    },
+    "learned_followup_with_continued_repair": {
+      "validity": 0.2673611111111111,
+      "uniqueness": 0.3055555555555556,
+      "recovery": 0.13646765051958715,
+      "distinct_valid": 2.3703703703703702,
+      "input_tokens": 12969.185185185184,
+      "output_tokens": 794.6296296296297
+    }
+  },
+  "paired_improvement": {
+    "validity": {
+      "delta": 0.2523148148148148,
+      "bootstrap_95": [
+        0.1423611111111111,
+        0.3726851851851852
+      ]
+    },
+    "uniqueness": {
+      "delta": 0.2326388888888889,
+      "bootstrap_95": [
+        0.16550925925925927,
+        0.30324074074074076
+      ]
+    },
+    "recovery": {
+      "delta": 0.09767170016926327,
+      "bootstrap_95": [
+        0.04825479846282938,
+        0.1573998783531285
+      ]
+    }
+  },
+  "per_question": {
+    "qwen_direct": {
+      "n3_012": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.03125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 320
+      },
+      "n3_101": {
+        "recovery": 0.02127659574468085,
+        "validity": 0.09375,
+        "uniqueness": 0.1875,
+        "distinct_valid": 3,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 11144,
+        "output_tokens": 424
+      },
+      "n3_111": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.03125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 448
+      },
+      "n3_002": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.03125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 320
+      },
+      "n3_028": {
+        "recovery": 0.010101010101010102,
+        "validity": 0.03125,
+        "uniqueness": 0.0625,
+        "distinct_valid": 1,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10896,
+        "output_tokens": 452
+      },
+      "n3_139": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.03125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 192
+      },
+      "n3_029": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.03125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 448
+      },
+      "n3_131": {
+        "recovery": 0.0625,
+        "validity": 0.03125,
+        "uniqueness": 0.0625,
+        "distinct_valid": 1,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10524,
+        "output_tokens": 316
+      },
+      "n3_091": {
+        "recovery": 0.2,
+        "validity": 0.03125,
+        "uniqueness": 0.125,
+        "distinct_valid": 1,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10600,
+        "output_tokens": 424
+      },
+      "n3_108": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.0625,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 320
+      },
+      "n3_039": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.09375,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 400
+      },
+      "n3_104": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.03125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 448
+      },
+      "n3_071": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 448
+      },
+      "n3_110": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.0625,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 448
+      },
+      "n3_119": {
+        "recovery": 0.13333333333333333,
+        "validity": 0.0625,
+        "uniqueness": 0.09375,
+        "distinct_valid": 2,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 11068,
+        "output_tokens": 444
+      },
+      "n3_098": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.03125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 320
+      },
+      "n3_136": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.03125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 448
+      },
+      "n3_121": {
+        "recovery": 0.18181818181818182,
+        "validity": 0.0625,
+        "uniqueness": 0.15625,
+        "distinct_valid": 2,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 11210,
+        "output_tokens": 452
+      },
+      "n3_004": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.0625,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 448
+      },
+      "n3_065": {
+        "recovery": 0.038461538461538464,
+        "validity": 0.03125,
+        "uniqueness": 0.0625,
+        "distinct_valid": 1,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10648,
+        "output_tokens": 444
+      },
+      "n3_019": {
+        "recovery": 0.06666666666666667,
+        "validity": 0.03125,
+        "uniqueness": 0.0625,
+        "distinct_valid": 1,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10648,
+        "output_tokens": 444
+      },
+      "n3_001": {
+        "recovery": 0.3333333333333333,
+        "validity": 0.03125,
+        "uniqueness": 0.125,
+        "distinct_valid": 1,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10748,
+        "output_tokens": 448
+      },
+      "n3_100": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.03125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 448
+      },
+      "n3_099": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.03125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 320
+      },
+      "n3_109": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.1875,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 504
+      },
+      "n3_138": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.03125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 448
+      },
+      "n3_017": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.09375,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 10400,
+        "output_tokens": 540
+      }
+    },
+    "learned_followup_with_continued_repair": {
+      "n3_012": {
+        "recovery": 0.011299435028248588,
+        "validity": 0.125,
+        "uniqueness": 0.46875,
+        "distinct_valid": 2,
+        "followups": 30,
+        "compliant": 20,
+        "input_tokens": 12064,
+        "output_tokens": 355
+      },
+      "n3_101": {
+        "recovery": 0.0425531914893617,
+        "validity": 0.28125,
+        "uniqueness": 0.375,
+        "distinct_valid": 6,
+        "followups": 31,
+        "compliant": 19,
+        "input_tokens": 13120,
+        "output_tokens": 1090
+      },
+      "n3_111": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.21875,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 13247,
+        "output_tokens": 424
+      },
+      "n3_002": {
+        "recovery": 0.03076923076923077,
+        "validity": 0.15625,
+        "uniqueness": 0.46875,
+        "distinct_valid": 2,
+        "followups": 30,
+        "compliant": 19,
+        "input_tokens": 12510,
+        "output_tokens": 690
+      },
+      "n3_028": {
+        "recovery": 0.06060606060606061,
+        "validity": 0.875,
+        "uniqueness": 0.28125,
+        "distinct_valid": 6,
+        "followups": 31,
+        "compliant": 22,
+        "input_tokens": 13315,
+        "output_tokens": 1216
+      },
+      "n3_139": {
+        "recovery": 0.0975609756097561,
+        "validity": 0.3125,
+        "uniqueness": 0.40625,
+        "distinct_valid": 4,
+        "followups": 30,
+        "compliant": 24,
+        "input_tokens": 13082,
+        "output_tokens": 987
+      },
+      "n3_029": {
+        "recovery": 0.12121212121212122,
+        "validity": 0.21875,
+        "uniqueness": 0.46875,
+        "distinct_valid": 4,
+        "followups": 30,
+        "compliant": 22,
+        "input_tokens": 13048,
+        "output_tokens": 1267
+      },
+      "n3_131": {
+        "recovery": 0.1875,
+        "validity": 0.09375,
+        "uniqueness": 0.625,
+        "distinct_valid": 3,
+        "followups": 31,
+        "compliant": 29,
+        "input_tokens": 12226,
+        "output_tokens": 836
+      },
+      "n3_091": {
+        "recovery": 0.2,
+        "validity": 0.03125,
+        "uniqueness": 0.25,
+        "distinct_valid": 1,
+        "followups": 30,
+        "compliant": 23,
+        "input_tokens": 12011,
+        "output_tokens": 790
+      },
+      "n3_108": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.15625,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 13121,
+        "output_tokens": 340
+      },
+      "n3_039": {
+        "recovery": 0.04918032786885246,
+        "validity": 0.3125,
+        "uniqueness": 0.75,
+        "distinct_valid": 6,
+        "followups": 25,
+        "compliant": 17,
+        "input_tokens": 13468,
+        "output_tokens": 846
+      },
+      "n3_104": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.03125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 13283,
+        "output_tokens": 448
+      },
+      "n3_071": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.3125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 13253,
+        "output_tokens": 428
+      },
+      "n3_110": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.125,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 13337,
+        "output_tokens": 488
+      },
+      "n3_119": {
+        "recovery": 0.3333333333333333,
+        "validity": 1.0,
+        "uniqueness": 0.15625,
+        "distinct_valid": 5,
+        "followups": 31,
+        "compliant": 26,
+        "input_tokens": 12696,
+        "output_tokens": 1163
+      },
+      "n3_098": {
+        "recovery": 0.6,
+        "validity": 0.65625,
+        "uniqueness": 0.34375,
+        "distinct_valid": 3,
+        "followups": 30,
+        "compliant": 26,
+        "input_tokens": 12592,
+        "output_tokens": 1440
+      },
+      "n3_136": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.09375,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 13223,
+        "output_tokens": 408
+      },
+      "n3_121": {
+        "recovery": 0.2727272727272727,
+        "validity": 0.28125,
+        "uniqueness": 0.46875,
+        "distinct_valid": 3,
+        "followups": 29,
+        "compliant": 23,
+        "input_tokens": 12678,
+        "output_tokens": 904
+      },
+      "n3_004": {
+        "recovery": 0.1875,
+        "validity": 0.375,
+        "uniqueness": 0.40625,
+        "distinct_valid": 3,
+        "followups": 30,
+        "compliant": 25,
+        "input_tokens": 12756,
+        "output_tokens": 654
+      },
+      "n3_065": {
+        "recovery": 0.11538461538461539,
+        "validity": 0.96875,
+        "uniqueness": 0.125,
+        "distinct_valid": 3,
+        "followups": 31,
+        "compliant": 22,
+        "input_tokens": 12055,
+        "output_tokens": 1644
+      },
+      "n3_019": {
+        "recovery": 0.3333333333333333,
+        "validity": 0.6875,
+        "uniqueness": 0.21875,
+        "distinct_valid": 5,
+        "followups": 31,
+        "compliant": 25,
+        "input_tokens": 12992,
+        "output_tokens": 1265
+      },
+      "n3_001": {
+        "recovery": 0.6666666666666666,
+        "validity": 0.1875,
+        "uniqueness": 0.4375,
+        "distinct_valid": 2,
+        "followups": 26,
+        "compliant": 23,
+        "input_tokens": 12702,
+        "output_tokens": 942
+      },
+      "n3_100": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.0625,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 13361,
+        "output_tokens": 500
+      },
+      "n3_099": {
+        "recovery": 0.375,
+        "validity": 0.65625,
+        "uniqueness": 0.53125,
+        "distinct_valid": 6,
+        "followups": 29,
+        "compliant": 23,
+        "input_tokens": 13903,
+        "output_tokens": 794
+      },
+      "n3_109": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.1875,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 13463,
+        "output_tokens": 572
+      },
+      "n3_138": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.0625,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 13373,
+        "output_tokens": 512
+      },
+      "n3_017": {
+        "recovery": 0.0,
+        "validity": 0.0,
+        "uniqueness": 0.21875,
+        "distinct_valid": 0,
+        "followups": 0,
+        "compliant": 0,
+        "input_tokens": 13289,
+        "output_tokens": 452
+      }
+    }
+  }
+}
