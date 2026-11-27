@@ -6,12 +6,12 @@ Each member explored their own optimization direction and contributed the method
 
 ## Team and contributions
 
-| Member | GitHub | Focus | Selected approach | Start here |
-| --- | --- | --- | --- | --- |
-| Xuhanxiao | — | Boolean hypothesis generation | **BACE**: budget-aware canonical exclusion during LLM decoding. **COVE** is included as a supplementary learned-executor approach. | [Contribution overview](tasks/boolean-Xuhanxiao/README.md) |
-| Tianxuer | — | Causal graph inference | **Learned follow-up selection with continued repair**: learn which edge constraint to ask about next, then repair invalid follow-up graphs. | [Method and reproduction](tasks/casual-Tianxuer/README.md) |
-| Ayijiang | [1741493419ayj-oss](https://github.com/1741493419ayj-oss) | Gravity-constrained 3D voxel reconstruction | **CPSG**: pillar-height structured generation + SupportProj + range-feedback retry + anti-dup. Official HypoSpace metrics (50 obs, seeds 7/17/27): **V 93.6% / U 76.9% / R 19.7%** (vs Layer baseline V 0.7% / R 0.07%). | [CPSG package](tasks/voxel3d-Ayijiang/README.md) |
-| Fengguanying | — | All three task types | **ReclaimHypo**: constraint-guided generation with mechanism deduplication and shared output-budget recycling across tasks. | [Method and results](tasks/ReclaimHypo-Fengguanying/README.md) |
+| Member | Focus | Selected approach | Start here |
+| --- | --- | --- | --- |
+| Xuhanxiao | Boolean hypothesis generation | **BACE**: budget-aware canonical exclusion during LLM decoding. **COVE** is included as a supplementary learned-executor approach. | [Contribution overview](tasks/boolean-Xuhanxiao/README.md) |
+| Tianxuer | Causal graph inference | **Learned follow-up selection with continued repair**: learn which edge constraint to ask about next, then repair invalid follow-up graphs. | [Method and reproduction](tasks/casual-Tianxuer/README.md) |
+| Ayijiang | Gravity-constrained 3D voxel reconstruction | **CPSG**: pillar-height structured generation + SupportProj + range-feedback retry + anti-dup. Official HypoSpace metrics (50 obs, seeds 7/17/27): **V 93.6% / U 76.9% / R 19.7%** (vs Layer baseline V 0.7% / R 0.07%). | [CPSG package](tasks/voxel3d-Ayijiang/README.md) |
+| Fengguanying | All three task types | **ReclaimHypo**: constraint-guided generation with mechanism deduplication and shared output-budget recycling across tasks. | [Method and results](tasks/ReclaimHypo-Fengguanying/README.md) |
 
 ## Repository structure
 
