@@ -1,0 +1,67 @@
+{
+  "original_source_files_unchanged": true,
+  "studies": {
+    "canonical_decode_v2/validation": {
+      "outputs_rescored": 576,
+      "episodes": 36,
+      "metrics_match": true,
+      "counts": {
+        "new_model_calls": 480,
+        "new_model_tokens": 259845,
+        "uniform_draws": 96
+      }
+    },
+    "contrastive_decode_v3": {
+      "outputs_rescored": 192,
+      "episodes": 12,
+      "metrics_match": true,
+      "counts": {
+        "new_model_calls": 192,
+        "new_model_tokens": 202008
+      }
+    },
+    "target_decode_v4/validation": {
+      "outputs_rescored": 480,
+      "episodes": 30,
+      "metrics_match": true,
+      "counts": {
+        "replayed_model_calls": 178,
+        "replayed_model_tokens": 96638,
+        "new_model_calls": 206,
+        "new_model_tokens": 111582,
+        "uniform_draws": 96
+      }
+    },
+    "canonical_preference_v5/validation": {
+      "outputs_rescored": 480,
+      "episodes": 30,
+      "metrics_match": true,
+      "counts": {
+        "new_model_calls": 280,
+        "new_model_tokens": 151915,
+        "replayed_model_calls": 104,
+        "replayed_model_tokens": 56379,
+        "uniform_draws": 96
+      }
+    },
+    "canonical_preference_v5/test": {
+      "outputs_rescored": 6240,
+      "episodes": 390,
+      "metrics_match": true,
+      "counts": {
+        "new_model_calls": 3376,
+        "new_model_tokens": 1817053,
+        "replayed_model_calls": 1616,
+        "replayed_model_tokens": 870504,
+        "uniform_draws": 1248
+      }
+    }
+  },
+  "training": {
+    "training_tasks": 16,
+    "preference_pairs_checked": 143,
+    "all_labels_train_only_and_correct": true
+  },
+  "adapter_hashes_match": true,
+  "pass": true
+}

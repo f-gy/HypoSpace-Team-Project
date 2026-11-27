@@ -1,0 +1,218 @@
+{
+  "budget": 16,
+  "support_classes": 33,
+  "scope": "Exact finite grammar used by v2; all support-valid classes are reference classes. Not a universal theorem about arbitrary unseen strings or other benchmark settings.",
+  "mean_RR_ceiling_at_16": 0.9827731092436974,
+  "macro_NR_upper_bound_at_macro_VR_0_9": 0.6673076923076923,
+  "inequality": "NR <= min(1, K_valid_support / N + 1 - VR): distinct valid <= K_valid_support; distinct invalid <= number invalid. Average the uncapped inequality to constrain macro metrics.",
+  "details": [
+    {
+      "task": "529e001f10ce8f35",
+      "reference_size": 6,
+      "support_valid_classes": 6,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.375,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.475
+    },
+    {
+      "task": "d2bab89d4e62c767",
+      "reference_size": 17,
+      "support_valid_classes": 17,
+      "RR_ceiling_at_16": 0.9411764705882353,
+      "NR_ceiling_if_VR_is_1": 1.0,
+      "NR_ceiling_if_VR_is_at_least_0_9": 1
+    },
+    {
+      "task": "4ae35d977a5b3a7f",
+      "reference_size": 5,
+      "support_valid_classes": 5,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.3125,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.4125
+    },
+    {
+      "task": "33ba982524498e44",
+      "reference_size": 8,
+      "support_valid_classes": 8,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.5,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.6
+    },
+    {
+      "task": "ccb74e75ae7fe6f8",
+      "reference_size": 6,
+      "support_valid_classes": 6,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.375,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.475
+    },
+    {
+      "task": "cfb68019d93cb40b",
+      "reference_size": 6,
+      "support_valid_classes": 6,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.375,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.475
+    },
+    {
+      "task": "3376193cc0b23f84",
+      "reference_size": 9,
+      "support_valid_classes": 9,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.5625,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.6625
+    },
+    {
+      "task": "05ace31b5594de25",
+      "reference_size": 8,
+      "support_valid_classes": 8,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.5,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.6
+    },
+    {
+      "task": "5a17b622676fbafd",
+      "reference_size": 8,
+      "support_valid_classes": 8,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.5,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.6
+    },
+    {
+      "task": "cf672e2a816c26f7",
+      "reference_size": 6,
+      "support_valid_classes": 6,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.375,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.475
+    },
+    {
+      "task": "0460f9d0a8255d57",
+      "reference_size": 6,
+      "support_valid_classes": 6,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.375,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.475
+    },
+    {
+      "task": "96e90180d0d7e7c1",
+      "reference_size": 17,
+      "support_valid_classes": 16,
+      "RR_ceiling_at_16": 0.9411764705882353,
+      "NR_ceiling_if_VR_is_1": 1.0,
+      "NR_ceiling_if_VR_is_at_least_0_9": 1
+    },
+    {
+      "task": "4193d5a0e928436f",
+      "reference_size": 14,
+      "support_valid_classes": 13,
+      "RR_ceiling_at_16": 0.9285714285714286,
+      "NR_ceiling_if_VR_is_1": 0.8125,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.9125
+    },
+    {
+      "task": "eb5c49b8875cb38d",
+      "reference_size": 17,
+      "support_valid_classes": 16,
+      "RR_ceiling_at_16": 0.9411764705882353,
+      "NR_ceiling_if_VR_is_1": 1.0,
+      "NR_ceiling_if_VR_is_at_least_0_9": 1
+    },
+    {
+      "task": "366130c4ee65403b",
+      "reference_size": 6,
+      "support_valid_classes": 6,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.375,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.475
+    },
+    {
+      "task": "41afe33958a0f175",
+      "reference_size": 20,
+      "support_valid_classes": 20,
+      "RR_ceiling_at_16": 0.8,
+      "NR_ceiling_if_VR_is_1": 1.0,
+      "NR_ceiling_if_VR_is_at_least_0_9": 1
+    },
+    {
+      "task": "4e203c42afda39ea",
+      "reference_size": 6,
+      "support_valid_classes": 6,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.375,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.475
+    },
+    {
+      "task": "78e9bb81fdfa58e9",
+      "reference_size": 6,
+      "support_valid_classes": 6,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.375,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.475
+    },
+    {
+      "task": "901883305471e27f",
+      "reference_size": 12,
+      "support_valid_classes": 12,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.75,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.85
+    },
+    {
+      "task": "bb95a672f4564a67",
+      "reference_size": 6,
+      "support_valid_classes": 6,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.375,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.475
+    },
+    {
+      "task": "bc56fbefe7c38a2a",
+      "reference_size": 5,
+      "support_valid_classes": 5,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.3125,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.4125
+    },
+    {
+      "task": "309cb870390c832b",
+      "reference_size": 9,
+      "support_valid_classes": 9,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.5625,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.6625
+    },
+    {
+      "task": "53d0f06e5b9f9cf5",
+      "reference_size": 12,
+      "support_valid_classes": 12,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.75,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.85
+    },
+    {
+      "task": "2f44f7747e67ffb6",
+      "reference_size": 8,
+      "support_valid_classes": 8,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.5,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.6
+    },
+    {
+      "task": "af3d6162e50915b5",
+      "reference_size": 8,
+      "support_valid_classes": 8,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.5,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.6
+    },
+    {
+      "task": "b6e6f6b6a9c5ed13",
+      "reference_size": 8,
+      "support_valid_classes": 8,
+      "RR_ceiling_at_16": 1.0,
+      "NR_ceiling_if_VR_is_1": 0.5,
+      "NR_ceiling_if_VR_is_at_least_0_9": 0.6
+    }
+  ]
+}

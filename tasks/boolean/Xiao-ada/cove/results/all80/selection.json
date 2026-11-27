@@ -1,0 +1,12 @@
+{
+  "primary_method": "cove_llm_4306",
+  "primary_protocol": "adaptive_1x",
+  "selection": "Fixed seed4306 and beta10 specified before validation; all other controls and seeds retained",
+  "validation_metrics": {
+    "VR": 0.9537037037037037,
+    "NR": 1.0,
+    "RR": 0.9537037037037037
+  },
+  "all_three_above_80_on_validation": true,
+  "no_test_metrics_inspected": true
+}

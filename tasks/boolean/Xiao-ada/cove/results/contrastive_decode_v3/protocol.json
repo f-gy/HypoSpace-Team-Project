@@ -1,0 +1,61 @@
+{
+  "version": "observation_contrastive_canonical_v3",
+  "validation_scales": [
+    2.0,
+    4.0
+  ],
+  "validation_seed": 101,
+  "budget": 16,
+  "temperature": 1.0,
+  "max_output_tokens": 128,
+  "proposal_boundary": "No reference keys or observation validator in proposal; prior prompt deletes observations, all other rules identical",
+  "model_forward_streams_per_generated_answer": 2,
+  "selection_rule": "Maximize validation RR among fixed scales with NR > .8 and VR at least v1 canonical validation VR minus .02. If neither passes, retain original method and report failed pilots.",
+  "test_status": "Previously seen v1 observation test sets; follow-up evidence only",
+  "support": {
+    "strings": 300,
+    "classes": 33,
+    "alias_counts": {
+      "('AND', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))": 2,
+      "('AND', (('NOT', ('VAR', 'x')), ('OR', (('VAR', 'x'), ('VAR', 'y')))))": 4,
+      "('AND', (('NOT', ('VAR', 'x')), ('VAR', 'x')))": 6,
+      "('AND', (('NOT', ('VAR', 'x')), ('VAR', 'x'), ('VAR', 'y')))": 4,
+      "('AND', (('NOT', ('VAR', 'x')), ('VAR', 'y')))": 6,
+      "('AND', (('NOT', ('VAR', 'y')), ('OR', (('VAR', 'x'), ('VAR', 'y')))))": 4,
+      "('AND', (('NOT', ('VAR', 'y')), ('VAR', 'x')))": 6,
+      "('AND', (('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))": 4,
+      "('AND', (('NOT', ('VAR', 'y')), ('VAR', 'y')))": 6,
+      "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x')))": 12,
+      "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x'), ('VAR', 'y')))": 8,
+      "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'y')))": 12,
+      "('AND', (('VAR', 'x'), ('VAR', 'y')))": 50,
+      "('NOT', ('AND', (('VAR', 'x'), ('VAR', 'y'))))": 2,
+      "('NOT', ('NOT', ('VAR', 'x')))": 1,
+      "('NOT', ('NOT', ('VAR', 'y')))": 1,
+      "('NOT', ('VAR', 'x'))": 5,
+      "('NOT', ('VAR', 'y'))": 5,
+      "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x'))))": 4,
+      "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'y'))))": 4,
+      "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x')))": 12,
+      "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x'), ('VAR', 'y')))": 8,
+      "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'y')))": 12,
+      "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))": 2,
+      "('OR', (('NOT', ('VAR', 'x')), ('VAR', 'x')))": 6,
+      "('OR', (('NOT', ('VAR', 'x')), ('VAR', 'x'), ('VAR', 'y')))": 4,
+      "('OR', (('NOT', ('VAR', 'x')), ('VAR', 'y')))": 6,
+      "('OR', (('NOT', ('VAR', 'y')), ('VAR', 'x')))": 6,
+      "('OR', (('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))": 4,
+      "('OR', (('NOT', ('VAR', 'y')), ('VAR', 'y')))": 6,
+      "('OR', (('VAR', 'x'), ('VAR', 'y')))": 50,
+      "('VAR', 'x')": 19,
+      "('VAR', 'y')": 19
+    },
+    "uses_observations": false,
+    "uses_reference_keys": false,
+    "scope": "finite syntactic support, not the complete language of all spellings"
+  },
+  "sources": {
+    "canonical_decode.py": "63ba3424c0bfda86d6788fbf56967c54aaf8858f5ff46aca6c5af2e4d7fcc824",
+    "contrastive_decode.py": "84c81a292792496d387e46937c6566dd1c7cd97dc016381ad33af68e01f86e1f"
+  }
+}

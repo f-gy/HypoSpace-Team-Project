@@ -1,0 +1,14 @@
+{
+  "budgets": {
+    "warmup": 80,
+    "continuation": 120
+  },
+  "trainable_parameters": 311296,
+  "frozen_tensors_unchanged": true,
+  "adapter_changed": true,
+  "training_tasks": 16,
+  "nonempty_classes": 143,
+  "empty_classes": 6,
+  "runtime": "mlx-lm 0.32.2 / Apple M5",
+  "peak_memory_gb": 2.123700344
+}

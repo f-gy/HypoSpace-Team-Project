@@ -1,0 +1,63 @@
+{
+  "status": "planned_before_any_real_llm_test_generation",
+  "split_seed": 4300,
+  "source": "Pinned Boolean extended depth-2 task generator; existing training and validation IDs retained",
+  "eligible_tasks": 48,
+  "splits": {
+    "train": [
+      "f427ae1368a9ace0",
+      "795475f220082197",
+      "7d1eeb3efb43a526",
+      "031bf2437b8c4fad",
+      "72832228484609cf",
+      "d50367af8a878038",
+      "3d6511e6558fa796",
+      "b1b48777fd8ba827",
+      "a46b551e501700e7",
+      "a8ff40ee4488550c",
+      "4405aec39ba683ca",
+      "3b1e497b20fbea1b",
+      "4675d1be2394c6d7",
+      "da97f239c8b2c00d",
+      "cf88edc0ec282769",
+      "42ba50fe4dfba2e3"
+    ],
+    "validation": [
+      "58afbe555602c1b3",
+      "ad53dfd61538637a",
+      "f25ac6d673e4a101",
+      "c0ebd18dfefc1425",
+      "b80ea1ea0723d497",
+      "e581cfb9a2e7da47"
+    ],
+    "test": [
+      "529e001f10ce8f35",
+      "d2bab89d4e62c767",
+      "4ae35d977a5b3a7f",
+      "33ba982524498e44",
+      "ccb74e75ae7fe6f8",
+      "cfb68019d93cb40b",
+      "3376193cc0b23f84",
+      "05ace31b5594de25",
+      "5a17b622676fbafd",
+      "cf672e2a816c26f7",
+      "0460f9d0a8255d57",
+      "96e90180d0d7e7c1",
+      "4193d5a0e928436f",
+      "eb5c49b8875cb38d",
+      "366130c4ee65403b",
+      "41afe33958a0f175",
+      "4e203c42afda39ea",
+      "78e9bb81fdfa58e9",
+      "901883305471e27f",
+      "bb95a672f4564a67",
+      "bc56fbefe7c38a2a",
+      "309cb870390c832b",
+      "53d0f06e5b9f9cf5",
+      "2f44f7747e67ffb6",
+      "af3d6162e50915b5",
+      "b6e6f6b6a9c5ed13"
+    ]
+  },
+  "note": "Twenty unused tasks appended to the six untouched original test tasks. Only the training split may supply optimization labels."
+}

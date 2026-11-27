@@ -1,0 +1,780 @@
+[
+  {
+    "key": "('AND', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))",
+    "aliases": [
+      "Expression: NOT x  AND  NOT y",
+      "Expression: (NOT x  AND  NOT y)"
+    ],
+    "tree": [
+      "AND",
+      [
+        "NOT",
+        [
+          "VAR",
+          "x"
+        ]
+      ],
+      [
+        "NOT",
+        [
+          "VAR",
+          "y"
+        ]
+      ]
+    ],
+    "tree_expression": "(NOT (x) AND NOT (y))"
+  },
+  {
+    "key": "('AND', (('NOT', ('VAR', 'x')), ('OR', (('VAR', 'x'), ('VAR', 'y')))))",
+    "aliases": [
+      "Expression: NOT x  AND  (x  OR  y)",
+      "Expression: (NOT x  AND  (x  OR  y))"
+    ],
+    "tree": [
+      "AND",
+      [
+        "OR",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "NOT",
+        [
+          "VAR",
+          "x"
+        ]
+      ]
+    ],
+    "tree_expression": "((x OR y) AND NOT (x))"
+  },
+  {
+    "key": "('AND', (('NOT', ('VAR', 'x')), ('VAR', 'x')))",
+    "aliases": [
+      "Expression: x  AND  NOT x",
+      "Expression: (x  AND  NOT x)"
+    ],
+    "tree": [
+      "AND",
+      [
+        "NOT",
+        [
+          "VAR",
+          "x"
+        ]
+      ],
+      [
+        "VAR",
+        "x"
+      ]
+    ],
+    "tree_expression": "(NOT (x) AND x)"
+  },
+  {
+    "key": "('AND', (('NOT', ('VAR', 'x')), ('VAR', 'x'), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: x  AND  y  AND  NOT x",
+      "Expression: (x  AND  y  AND  NOT x)"
+    ],
+    "tree": [
+      "AND",
+      [
+        "AND",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "NOT",
+        [
+          "VAR",
+          "x"
+        ]
+      ]
+    ],
+    "tree_expression": "((x AND y) AND NOT (x))"
+  },
+  {
+    "key": "('AND', (('NOT', ('VAR', 'x')), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: y  AND  NOT x",
+      "Expression: (y  AND  NOT x)"
+    ],
+    "tree": [
+      "AND",
+      [
+        "NOT",
+        [
+          "VAR",
+          "x"
+        ]
+      ],
+      [
+        "VAR",
+        "y"
+      ]
+    ],
+    "tree_expression": "(NOT (x) AND y)"
+  },
+  {
+    "key": "('AND', (('NOT', ('VAR', 'y')), ('OR', (('VAR', 'x'), ('VAR', 'y')))))",
+    "aliases": [
+      "Expression: NOT y  AND  (x  OR  y)",
+      "Expression: (NOT y  AND  (x  OR  y))"
+    ],
+    "tree": [
+      "AND",
+      [
+        "OR",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "NOT",
+        [
+          "VAR",
+          "y"
+        ]
+      ]
+    ],
+    "tree_expression": "((x OR y) AND NOT (y))"
+  },
+  {
+    "key": "('AND', (('NOT', ('VAR', 'y')), ('VAR', 'x')))",
+    "aliases": [
+      "Expression: x  AND  NOT y",
+      "Expression: (x  AND  NOT y)"
+    ],
+    "tree": [
+      "AND",
+      [
+        "NOT",
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "VAR",
+        "x"
+      ]
+    ],
+    "tree_expression": "(NOT (y) AND x)"
+  },
+  {
+    "key": "('AND', (('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: x  AND  y  AND  NOT y",
+      "Expression: (x  AND  y  AND  NOT y)"
+    ],
+    "tree": [
+      "AND",
+      [
+        "AND",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "NOT",
+        [
+          "VAR",
+          "y"
+        ]
+      ]
+    ],
+    "tree_expression": "((x AND y) AND NOT (y))"
+  },
+  {
+    "key": "('AND', (('NOT', ('VAR', 'y')), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: y  AND  NOT y",
+      "Expression: (y  AND  NOT y)"
+    ],
+    "tree": [
+      "AND",
+      [
+        "NOT",
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "VAR",
+        "y"
+      ]
+    ],
+    "tree_expression": "(NOT (y) AND y)"
+  },
+  {
+    "key": "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x')))",
+    "aliases": [
+      "Expression: x  AND  (x  OR  y)",
+      "Expression: (x  AND  (x  OR  y))"
+    ],
+    "tree": [
+      "AND",
+      [
+        "OR",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "VAR",
+        "x"
+      ]
+    ],
+    "tree_expression": "((x OR y) AND x)"
+  },
+  {
+    "key": "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x'), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: x  AND  y  AND  (x  OR  y)",
+      "Expression: (x  AND  y  AND  (x  OR  y))"
+    ],
+    "tree": [
+      "AND",
+      [
+        "AND",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "OR",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ]
+    ],
+    "tree_expression": "((x AND y) AND (x OR y))"
+  },
+  {
+    "key": "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: y  AND  (x  OR  y)",
+      "Expression: (y  AND  (x  OR  y))"
+    ],
+    "tree": [
+      "AND",
+      [
+        "OR",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "VAR",
+        "y"
+      ]
+    ],
+    "tree_expression": "((x OR y) AND y)"
+  },
+  {
+    "key": "('AND', (('VAR', 'x'), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: x  AND  y",
+      "Expression: (x  AND  y)"
+    ],
+    "tree": [
+      "AND",
+      [
+        "VAR",
+        "x"
+      ],
+      [
+        "VAR",
+        "y"
+      ]
+    ],
+    "tree_expression": "(x AND y)"
+  },
+  {
+    "key": "('NOT', ('AND', (('VAR', 'x'), ('VAR', 'y'))))",
+    "aliases": [
+      "Expression: NOT (x  AND  y)",
+      "Expression: (NOT (x  AND  y))"
+    ],
+    "tree": [
+      "NOT",
+      [
+        "AND",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ]
+    ],
+    "tree_expression": "NOT ((x AND y))"
+  },
+  {
+    "key": "('NOT', ('NOT', ('VAR', 'x')))",
+    "aliases": [
+      "Expression: NOT (NOT x)",
+      "Expression: (NOT (NOT x))"
+    ],
+    "tree": [
+      "NOT",
+      [
+        "NOT",
+        [
+          "VAR",
+          "x"
+        ]
+      ]
+    ],
+    "tree_expression": "NOT (NOT (x))"
+  },
+  {
+    "key": "('NOT', ('NOT', ('VAR', 'y')))",
+    "aliases": [
+      "Expression: NOT (NOT y)",
+      "Expression: (NOT (NOT y))"
+    ],
+    "tree": [
+      "NOT",
+      [
+        "NOT",
+        [
+          "VAR",
+          "y"
+        ]
+      ]
+    ],
+    "tree_expression": "NOT (NOT (y))"
+  },
+  {
+    "key": "('NOT', ('VAR', 'x'))",
+    "aliases": [
+      "Expression: NOT x",
+      "Expression: (NOT x)"
+    ],
+    "tree": [
+      "NOT",
+      [
+        "VAR",
+        "x"
+      ]
+    ],
+    "tree_expression": "NOT (x)"
+  },
+  {
+    "key": "('NOT', ('VAR', 'y'))",
+    "aliases": [
+      "Expression: NOT y",
+      "Expression: (NOT y)"
+    ],
+    "tree": [
+      "NOT",
+      [
+        "VAR",
+        "y"
+      ]
+    ],
+    "tree_expression": "NOT (y)"
+  },
+  {
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x'))))",
+    "aliases": [
+      "Expression: NOT x  OR  (x  AND  y)",
+      "Expression: (NOT x  OR  (x  AND  y))"
+    ],
+    "tree": [
+      "OR",
+      [
+        "AND",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "NOT",
+        [
+          "VAR",
+          "x"
+        ]
+      ]
+    ],
+    "tree_expression": "((x AND y) OR NOT (x))"
+  },
+  {
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'y'))))",
+    "aliases": [
+      "Expression: NOT y  OR  (x  AND  y)",
+      "Expression: (NOT y  OR  (x  AND  y))"
+    ],
+    "tree": [
+      "OR",
+      [
+        "AND",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "NOT",
+        [
+          "VAR",
+          "y"
+        ]
+      ]
+    ],
+    "tree_expression": "((x AND y) OR NOT (y))"
+  },
+  {
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x')))",
+    "aliases": [
+      "Expression: x  OR  (x  AND  y)",
+      "Expression: (x  OR  (x  AND  y))"
+    ],
+    "tree": [
+      "OR",
+      [
+        "AND",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "VAR",
+        "x"
+      ]
+    ],
+    "tree_expression": "((x AND y) OR x)"
+  },
+  {
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x'), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: x  OR  y  OR  (x  AND  y)",
+      "Expression: (x  OR  y  OR  (x  AND  y))"
+    ],
+    "tree": [
+      "OR",
+      [
+        "AND",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "OR",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ]
+    ],
+    "tree_expression": "((x AND y) OR (x OR y))"
+  },
+  {
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: y  OR  (x  AND  y)",
+      "Expression: (y  OR  (x  AND  y))"
+    ],
+    "tree": [
+      "OR",
+      [
+        "AND",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "VAR",
+        "y"
+      ]
+    ],
+    "tree_expression": "((x AND y) OR y)"
+  },
+  {
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))",
+    "aliases": [
+      "Expression: NOT x  OR  NOT y",
+      "Expression: (NOT x  OR  NOT y)"
+    ],
+    "tree": [
+      "OR",
+      [
+        "NOT",
+        [
+          "VAR",
+          "x"
+        ]
+      ],
+      [
+        "NOT",
+        [
+          "VAR",
+          "y"
+        ]
+      ]
+    ],
+    "tree_expression": "(NOT (x) OR NOT (y))"
+  },
+  {
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('VAR', 'x')))",
+    "aliases": [
+      "Expression: x  OR  NOT x",
+      "Expression: (x  OR  NOT x)"
+    ],
+    "tree": [
+      "OR",
+      [
+        "NOT",
+        [
+          "VAR",
+          "x"
+        ]
+      ],
+      [
+        "VAR",
+        "x"
+      ]
+    ],
+    "tree_expression": "(NOT (x) OR x)"
+  },
+  {
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('VAR', 'x'), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: x  OR  y  OR  NOT x",
+      "Expression: (x  OR  y  OR  NOT x)"
+    ],
+    "tree": [
+      "OR",
+      [
+        "OR",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "NOT",
+        [
+          "VAR",
+          "x"
+        ]
+      ]
+    ],
+    "tree_expression": "((x OR y) OR NOT (x))"
+  },
+  {
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: y  OR  NOT x",
+      "Expression: (y  OR  NOT x)"
+    ],
+    "tree": [
+      "OR",
+      [
+        "NOT",
+        [
+          "VAR",
+          "x"
+        ]
+      ],
+      [
+        "VAR",
+        "y"
+      ]
+    ],
+    "tree_expression": "(NOT (x) OR y)"
+  },
+  {
+    "key": "('OR', (('NOT', ('VAR', 'y')), ('VAR', 'x')))",
+    "aliases": [
+      "Expression: x  OR  NOT y",
+      "Expression: (x  OR  NOT y)"
+    ],
+    "tree": [
+      "OR",
+      [
+        "NOT",
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "VAR",
+        "x"
+      ]
+    ],
+    "tree_expression": "(NOT (y) OR x)"
+  },
+  {
+    "key": "('OR', (('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: x  OR  y  OR  NOT y",
+      "Expression: (x  OR  y  OR  NOT y)"
+    ],
+    "tree": [
+      "OR",
+      [
+        "OR",
+        [
+          "VAR",
+          "x"
+        ],
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "NOT",
+        [
+          "VAR",
+          "y"
+        ]
+      ]
+    ],
+    "tree_expression": "((x OR y) OR NOT (y))"
+  },
+  {
+    "key": "('OR', (('NOT', ('VAR', 'y')), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: y  OR  NOT y",
+      "Expression: (y  OR  NOT y)"
+    ],
+    "tree": [
+      "OR",
+      [
+        "NOT",
+        [
+          "VAR",
+          "y"
+        ]
+      ],
+      [
+        "VAR",
+        "y"
+      ]
+    ],
+    "tree_expression": "(NOT (y) OR y)"
+  },
+  {
+    "key": "('OR', (('VAR', 'x'), ('VAR', 'y')))",
+    "aliases": [
+      "Expression: x  OR  y",
+      "Expression: (x  OR  y)"
+    ],
+    "tree": [
+      "OR",
+      [
+        "VAR",
+        "x"
+      ],
+      [
+        "VAR",
+        "y"
+      ]
+    ],
+    "tree_expression": "(x OR y)"
+  },
+  {
+    "key": "('VAR', 'x')",
+    "aliases": [
+      "Expression: x",
+      "Expression: (x)"
+    ],
+    "tree": [
+      "VAR",
+      "x"
+    ],
+    "tree_expression": "x"
+  },
+  {
+    "key": "('VAR', 'y')",
+    "aliases": [
+      "Expression: y",
+      "Expression: (y)"
+    ],
+    "tree": [
+      "VAR",
+      "y"
+    ],
+    "tree_expression": "y"
+  }
+]

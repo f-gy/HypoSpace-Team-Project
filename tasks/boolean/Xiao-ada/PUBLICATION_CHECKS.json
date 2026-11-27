@@ -1,0 +1,44 @@
+{
+  "scope": "tasks/boolean/Xiao-ada only",
+  "validation_type": "CPU evidence replay and package integrity; no new model inference or retraining",
+  "releases": {
+    "bace": {
+      "source_commit": "fdb968e659545626e3275679d965ae29e1c408a5",
+      "unchanged_original_files": 149,
+      "unchanged_result_files": 90,
+      "document_publication_edits": [
+        "NOTICE.md",
+        "artifacts/adapters/manifest.json"
+      ],
+      "adapter_tensors_unchanged": true,
+      "tests_run": 32,
+      "tests_skipped_mlx_only": 10,
+      "tests_failed": 0,
+      "evidence_verification_passed": true
+    },
+    "cove": {
+      "source_commit": "9215146dc4d1b23623cb6e175ef2138f206f432b",
+      "unchanged_original_files": 222,
+      "unchanged_result_files": 153,
+      "document_publication_edits": [
+        "NOTICE.md",
+        "artifacts/adapters/manifest.json"
+      ],
+      "adapter_tensors_unchanged": true,
+      "tests_run": 35,
+      "tests_skipped_mlx_only": 10,
+      "tests_failed": 0,
+      "evidence_verification_passed": true
+    }
+  },
+  "documentation_style": "Project methods, results and reproducibility; original benchmark task inputs preserved.",
+  "checks": {
+    "result_and_adapter_hashes": true,
+    "adapter_manifest_non_document_entries_unchanged": true,
+    "local_documentation_links_resolve": true,
+    "text_files_inspected": 362,
+    "compressed_files_inspected": 22,
+    "private_credential_patterns_found": 0,
+    "original_benchmark_inputs_and_outputs_retained": true
+  }
+}

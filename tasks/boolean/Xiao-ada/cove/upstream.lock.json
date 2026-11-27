@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/CTT-Pavilion/_HypoSpace",
+  "commit": "c69e9318577b34b5b896996571aefd4ba6053f58",
+  "files": {
+    "boolean/boolean_dataset.py": "0849027e40199a5f414cd77ab525c9057650b6f0f2f946ed4f1b1b50e6224a32",
+    "boolean/boolean_benchmark.py": "6c22bb40d3b3f96873e66790fa059dc41818482eec681a11d0aa819d5d39c3e4",
+    "boolean/modules/llm_interface.py": "be8c4ee5f0f889b82cfb739c76c11cccd0750dc7896a9569fbc2a2b551c092da",
+    "boolean/modules/models.py": "264903a319d69b48b3f29fb8905d3d9002b6974d9ed985d923c9e6b36bcd0e71",
+    "README.md": "30ec8861156b30151b9e06678f1a5684fd7e26d40cce6b259184b3afcc273f16"
+  }
+}

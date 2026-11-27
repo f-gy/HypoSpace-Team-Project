@@ -1,0 +1,26 @@
+[
+  {
+    "method": "base_iid",
+    "task": "f25ac6d673e4a101",
+    "seed": 101,
+    "step": 7,
+    "expression": "(NOT y) OR (NOT x) OR (x AND y)",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))"
+  },
+  {
+    "method": "base_iid",
+    "task": "f25ac6d673e4a101",
+    "seed": 101,
+    "step": 8,
+    "expression": "(NOT x) OR (NOT y) OR x AND y",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))"
+  },
+  {
+    "method": "base_iid",
+    "task": "c0ebd18dfefc1425",
+    "seed": 101,
+    "step": 5,
+    "expression": "(NOT x) OR (NOT y) OR x AND y",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))"
+  }
+]

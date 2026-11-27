@@ -1,0 +1,185 @@
+{
+  "base_iid": {
+    "model_identity": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+    "model_provenance": {
+      "repo_id": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "weights_file": "model.safetensors",
+      "weights_sha256": "0979f33d1bc58afcf696d13f57977644e7b11a6f0eec3e631d8e9463d18c0717",
+      "weights_bytes": 868628559,
+      "original_model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "runtime": "mlx-lm==0.32.2",
+      "notes": "Public third-party 4-bit conversion. A small-model screening run; not equivalent to the paper's model settings."
+    },
+    "temperature": 1.0,
+    "max_output_tokens": 128,
+    "top_p": 1.0,
+    "top_k": 0,
+    "min_p": 0.0,
+    "send_seed": true,
+    "adapter_training": {
+      "budgets": {
+        "warmup": 80,
+        "continuation": 120
+      },
+      "trainable_parameters": 311296,
+      "frozen_tensors_unchanged": true,
+      "adapter_changed": true,
+      "training_tasks": 16,
+      "nonempty_classes": 143,
+      "empty_classes": 6,
+      "runtime": "mlx-lm 0.32.2 / Apple M5",
+      "peak_memory_gb": 2.123700344
+    },
+    "engine": "direct mlx_lm.stream_generate",
+    "split_manifest_sha256": "b880980b9dd4ab09a7237a112f0aebbda83e67e36576078f7daf53dbcc497b9c",
+    "method": "base_iid"
+  },
+  "balanced_sft_iid": {
+    "model_identity": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+    "model_provenance": {
+      "repo_id": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "weights_file": "model.safetensors",
+      "weights_sha256": "0979f33d1bc58afcf696d13f57977644e7b11a6f0eec3e631d8e9463d18c0717",
+      "weights_bytes": 868628559,
+      "original_model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "runtime": "mlx-lm==0.32.2",
+      "notes": "Public third-party 4-bit conversion. A small-model screening run; not equivalent to the paper's model settings."
+    },
+    "temperature": 1.0,
+    "max_output_tokens": 128,
+    "top_p": 1.0,
+    "top_k": 0,
+    "min_p": 0.0,
+    "send_seed": true,
+    "adapter_training": {
+      "budgets": {
+        "warmup": 80,
+        "continuation": 120
+      },
+      "trainable_parameters": 311296,
+      "frozen_tensors_unchanged": true,
+      "adapter_changed": true,
+      "training_tasks": 16,
+      "nonempty_classes": 143,
+      "empty_classes": 6,
+      "runtime": "mlx-lm 0.32.2 / Apple M5",
+      "peak_memory_gb": 2.123700344
+    },
+    "engine": "direct mlx_lm.stream_generate",
+    "split_manifest_sha256": "b880980b9dd4ab09a7237a112f0aebbda83e67e36576078f7daf53dbcc497b9c",
+    "method": "balanced_sft_iid",
+    "adapter_sha256": "cd37fc2b3f2112601093fe5d39e47da937400eed5d8e6c21548696206397c413"
+  },
+  "canonical_coverage_iid": {
+    "model_identity": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+    "model_provenance": {
+      "repo_id": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "weights_file": "model.safetensors",
+      "weights_sha256": "0979f33d1bc58afcf696d13f57977644e7b11a6f0eec3e631d8e9463d18c0717",
+      "weights_bytes": 868628559,
+      "original_model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "runtime": "mlx-lm==0.32.2",
+      "notes": "Public third-party 4-bit conversion. A small-model screening run; not equivalent to the paper's model settings."
+    },
+    "temperature": 1.0,
+    "max_output_tokens": 128,
+    "top_p": 1.0,
+    "top_k": 0,
+    "min_p": 0.0,
+    "send_seed": true,
+    "adapter_training": {
+      "budgets": {
+        "warmup": 80,
+        "continuation": 120
+      },
+      "trainable_parameters": 311296,
+      "frozen_tensors_unchanged": true,
+      "adapter_changed": true,
+      "training_tasks": 16,
+      "nonempty_classes": 143,
+      "empty_classes": 6,
+      "runtime": "mlx-lm 0.32.2 / Apple M5",
+      "peak_memory_gb": 2.123700344
+    },
+    "engine": "direct mlx_lm.stream_generate",
+    "split_manifest_sha256": "b880980b9dd4ab09a7237a112f0aebbda83e67e36576078f7daf53dbcc497b9c",
+    "method": "canonical_coverage_iid",
+    "adapter_sha256": "78264d860250b2679ad2adf6ad6b92d7ecbf38e72811ad3773826fc8f3eda81c"
+  },
+  "string_coverage_iid": {
+    "model_identity": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+    "model_provenance": {
+      "repo_id": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "weights_file": "model.safetensors",
+      "weights_sha256": "0979f33d1bc58afcf696d13f57977644e7b11a6f0eec3e631d8e9463d18c0717",
+      "weights_bytes": 868628559,
+      "original_model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "runtime": "mlx-lm==0.32.2",
+      "notes": "Public third-party 4-bit conversion. A small-model screening run; not equivalent to the paper's model settings."
+    },
+    "temperature": 1.0,
+    "max_output_tokens": 128,
+    "top_p": 1.0,
+    "top_k": 0,
+    "min_p": 0.0,
+    "send_seed": true,
+    "adapter_training": {
+      "budgets": {
+        "warmup": 80,
+        "continuation": 120
+      },
+      "trainable_parameters": 311296,
+      "frozen_tensors_unchanged": true,
+      "adapter_changed": true,
+      "training_tasks": 16,
+      "nonempty_classes": 143,
+      "empty_classes": 6,
+      "runtime": "mlx-lm 0.32.2 / Apple M5",
+      "peak_memory_gb": 2.123700344
+    },
+    "engine": "direct mlx_lm.stream_generate",
+    "split_manifest_sha256": "b880980b9dd4ab09a7237a112f0aebbda83e67e36576078f7daf53dbcc497b9c",
+    "method": "string_coverage_iid",
+    "adapter_sha256": "ce6561ad392145c88bc6a6864257bcd4e794e11c0308fc449fa252de1d9c8228"
+  },
+  "base_memory": {
+    "model_identity": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+    "model_provenance": {
+      "repo_id": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+      "revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+      "weights_file": "model.safetensors",
+      "weights_sha256": "0979f33d1bc58afcf696d13f57977644e7b11a6f0eec3e631d8e9463d18c0717",
+      "weights_bytes": 868628559,
+      "original_model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "runtime": "mlx-lm==0.32.2",
+      "notes": "Public third-party 4-bit conversion. A small-model screening run; not equivalent to the paper's model settings."
+    },
+    "temperature": 1.0,
+    "max_output_tokens": 128,
+    "top_p": 1.0,
+    "top_k": 0,
+    "min_p": 0.0,
+    "send_seed": true,
+    "adapter_training": {
+      "budgets": {
+        "warmup": 80,
+        "continuation": 120
+      },
+      "trainable_parameters": 311296,
+      "frozen_tensors_unchanged": true,
+      "adapter_changed": true,
+      "training_tasks": 16,
+      "nonempty_classes": 143,
+      "empty_classes": 6,
+      "runtime": "mlx-lm 0.32.2 / Apple M5",
+      "peak_memory_gb": 2.123700344
+    },
+    "engine": "direct mlx_lm.stream_generate",
+    "split_manifest_sha256": "b880980b9dd4ab09a7237a112f0aebbda83e67e36576078f7daf53dbcc497b9c",
+    "method": "base_memory"
+  }
+}

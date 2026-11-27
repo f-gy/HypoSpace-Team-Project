@@ -1,0 +1,5765 @@
+{
+  "note": "Post-hoc description; not a preregistered primary outcome. Operator counts on official mechanistic keys. Empty strata excluded.",
+  "episodes": [
+    {
+      "method": "base_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.21428571428571427
+    },
+    {
+      "method": "base_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.35714285714285715
+    },
+    {
+      "method": "base_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.2857142857142857
+    },
+    {
+      "method": "base_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "base_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.75
+    },
+    {
+      "method": "base_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "base_iid",
+      "task": "33ba982524498e44",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.25
+    },
+    {
+      "method": "base_iid",
+      "task": "33ba982524498e44",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "33ba982524498e44",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.125
+    },
+    {
+      "method": "base_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "base_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "base_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.42857142857142855
+    },
+    {
+      "method": "base_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.2857142857142857
+    },
+    {
+      "method": "base_iid",
+      "task": "05ace31b5594de25",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "05ace31b5594de25",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "05ace31b5594de25",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "05ace31b5594de25",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "05ace31b5594de25",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "05ace31b5594de25",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.3076923076923077
+    },
+    {
+      "method": "base_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.15384615384615385
+    },
+    {
+      "method": "base_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.3076923076923077
+    },
+    {
+      "method": "base_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.45454545454545453
+    },
+    {
+      "method": "base_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.5454545454545454
+    },
+    {
+      "method": "base_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.36363636363636365
+    },
+    {
+      "method": "base_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.23076923076923078
+    },
+    {
+      "method": "base_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.23076923076923078
+    },
+    {
+      "method": "base_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.07692307692307693
+    },
+    {
+      "method": "base_iid",
+      "task": "366130c4ee65403b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_iid",
+      "task": "366130c4ee65403b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_iid",
+      "task": "366130c4ee65403b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_iid",
+      "task": "41afe33958a0f175",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "base_iid",
+      "task": "41afe33958a0f175",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "41afe33958a0f175",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "base_iid",
+      "task": "41afe33958a0f175",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.125
+    },
+    {
+      "method": "base_iid",
+      "task": "41afe33958a0f175",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "base_iid",
+      "task": "41afe33958a0f175",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.125
+    },
+    {
+      "method": "base_iid",
+      "task": "4e203c42afda39ea",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "base_iid",
+      "task": "4e203c42afda39ea",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "base_iid",
+      "task": "4e203c42afda39ea",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_iid",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_iid",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_iid",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "901883305471e27f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "901883305471e27f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.1
+    },
+    {
+      "method": "base_iid",
+      "task": "901883305471e27f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "901883305471e27f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "901883305471e27f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_iid",
+      "task": "901883305471e27f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.1
+    },
+    {
+      "method": "base_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "base_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "base_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "base_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "base_iid",
+      "task": "309cb870390c832b",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "309cb870390c832b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "309cb870390c832b",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "309cb870390c832b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "309cb870390c832b",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "309cb870390c832b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.1
+    },
+    {
+      "method": "base_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.2
+    },
+    {
+      "method": "base_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.1
+    },
+    {
+      "method": "base_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "base_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "base_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "base_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "base_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.35714285714285715
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.35714285714285715
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.35714285714285715
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.75
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "33ba982524498e44",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.25
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "33ba982524498e44",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.25
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "33ba982524498e44",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.25
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.8
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.4
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.6
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.42857142857142855
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.42857142857142855
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.5714285714285714
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "05ace31b5594de25",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "05ace31b5594de25",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "05ace31b5594de25",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "05ace31b5594de25",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "05ace31b5594de25",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "05ace31b5594de25",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.75
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.46153846153846156
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.3076923076923077
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.46153846153846156
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.36363636363636365
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.6363636363636364
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.5454545454545454
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.3076923076923077
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.3076923076923077
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.46153846153846156
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "366130c4ee65403b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "366130c4ee65403b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "366130c4ee65403b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "41afe33958a0f175",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "41afe33958a0f175",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.375
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "41afe33958a0f175",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "41afe33958a0f175",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.25
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "41afe33958a0f175",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "41afe33958a0f175",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.3125
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4e203c42afda39ea",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4e203c42afda39ea",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "4e203c42afda39ea",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "901883305471e27f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "901883305471e27f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.2
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "901883305471e27f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "901883305471e27f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.2
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "901883305471e27f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "901883305471e27f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.3
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "309cb870390c832b",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "309cb870390c832b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "309cb870390c832b",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "309cb870390c832b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "309cb870390c832b",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "309cb870390c832b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.2857142857142857
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.6
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.2857142857142857
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.8333333333333334
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.35714285714285715
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.42857142857142855
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "33ba982524498e44",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.125
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "33ba982524498e44",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.125
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "33ba982524498e44",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.125
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.75
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.4
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.6
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.4
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.5714285714285714
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.7142857142857143
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "05ace31b5594de25",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "05ace31b5594de25",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "05ace31b5594de25",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "05ace31b5594de25",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "05ace31b5594de25",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "05ace31b5594de25",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.75
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.38461538461538464
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.38461538461538464
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.3076923076923077
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.45454545454545453
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.5454545454545454
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.8181818181818182
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.3076923076923077
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.23076923076923078
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.5384615384615384
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "366130c4ee65403b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "366130c4ee65403b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "366130c4ee65403b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "41afe33958a0f175",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "41afe33958a0f175",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.3125
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "41afe33958a0f175",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "41afe33958a0f175",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.375
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "41afe33958a0f175",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "41afe33958a0f175",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.3125
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4e203c42afda39ea",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4e203c42afda39ea",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "4e203c42afda39ea",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.8333333333333334
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "901883305471e27f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "901883305471e27f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.3
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "901883305471e27f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "901883305471e27f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.2
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "901883305471e27f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "901883305471e27f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.3
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.4
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.4
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.75
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "309cb870390c832b",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "309cb870390c832b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "309cb870390c832b",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "309cb870390c832b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.2857142857142857
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "309cb870390c832b",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "309cb870390c832b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.2857142857142857
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.3
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.2857142857142857
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.8333333333333334
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.75
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "529e001f10ce8f35",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.42857142857142855
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "d2bab89d4e62c767",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "33ba982524498e44",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.375
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "33ba982524498e44",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.375
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "33ba982524498e44",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.375
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.8
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.8
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "cfb68019d93cb40b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.6
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.2857142857142857
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.5714285714285714
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "3376193cc0b23f84",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.2857142857142857
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "05ace31b5594de25",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "05ace31b5594de25",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "05ace31b5594de25",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "05ace31b5594de25",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "05ace31b5594de25",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "05ace31b5594de25",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 1.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "5a17b622676fbafd",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "cf672e2a816c26f7",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "0460f9d0a8255d57",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.46153846153846156
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.23076923076923078
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "96e90180d0d7e7c1",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.38461538461538464
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.6363636363636364
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.45454545454545453
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4193d5a0e928436f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.5454545454545454
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.38461538461538464
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.3076923076923077
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "eb5c49b8875cb38d",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.38461538461538464
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "366130c4ee65403b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "366130c4ee65403b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "366130c4ee65403b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "41afe33958a0f175",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "41afe33958a0f175",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.4375
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "41afe33958a0f175",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "41afe33958a0f175",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.375
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "41afe33958a0f175",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "41afe33958a0f175",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.25
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4e203c42afda39ea",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4e203c42afda39ea",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "4e203c42afda39ea",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "901883305471e27f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "901883305471e27f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.4
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "901883305471e27f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "901883305471e27f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.2
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "901883305471e27f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "901883305471e27f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "bb95a672f4564a67",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "309cb870390c832b",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "309cb870390c832b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "309cb870390c832b",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "309cb870390c832b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "309cb870390c832b",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "309cb870390c832b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.6
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.4
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.42857142857142855
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.2857142857142857
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "2f44f7747e67ffb6",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.7142857142857143
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 1.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.8333333333333334
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "af3d6162e50915b5",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.6666666666666666
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 1.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "529e001f10ce8f35",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "529e001f10ce8f35",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "529e001f10ce8f35",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "529e001f10ce8f35",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "529e001f10ce8f35",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "529e001f10ce8f35",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "d2bab89d4e62c767",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "d2bab89d4e62c767",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.07142857142857142
+    },
+    {
+      "method": "base_memory",
+      "task": "d2bab89d4e62c767",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "d2bab89d4e62c767",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.21428571428571427
+    },
+    {
+      "method": "base_memory",
+      "task": "d2bab89d4e62c767",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "base_memory",
+      "task": "d2bab89d4e62c767",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 14,
+      "RR": 0.21428571428571427
+    },
+    {
+      "method": "base_memory",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "base_memory",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "4ae35d977a5b3a7f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "base_memory",
+      "task": "33ba982524498e44",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "33ba982524498e44",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.125
+    },
+    {
+      "method": "base_memory",
+      "task": "33ba982524498e44",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.125
+    },
+    {
+      "method": "base_memory",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "cfb68019d93cb40b",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "cfb68019d93cb40b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "cfb68019d93cb40b",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "cfb68019d93cb40b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "cfb68019d93cb40b",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "base_memory",
+      "task": "cfb68019d93cb40b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "3376193cc0b23f84",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "3376193cc0b23f84",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "base_memory",
+      "task": "3376193cc0b23f84",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "3376193cc0b23f84",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "3376193cc0b23f84",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "3376193cc0b23f84",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.2857142857142857
+    },
+    {
+      "method": "base_memory",
+      "task": "05ace31b5594de25",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "05ace31b5594de25",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "05ace31b5594de25",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "05ace31b5594de25",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "05ace31b5594de25",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "05ace31b5594de25",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "5a17b622676fbafd",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "5a17b622676fbafd",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "5a17b622676fbafd",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "5a17b622676fbafd",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "5a17b622676fbafd",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "5a17b622676fbafd",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "cf672e2a816c26f7",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "cf672e2a816c26f7",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "cf672e2a816c26f7",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "cf672e2a816c26f7",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "cf672e2a816c26f7",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "cf672e2a816c26f7",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "0460f9d0a8255d57",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "0460f9d0a8255d57",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "0460f9d0a8255d57",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "0460f9d0a8255d57",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "0460f9d0a8255d57",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "0460f9d0a8255d57",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "96e90180d0d7e7c1",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "base_memory",
+      "task": "96e90180d0d7e7c1",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.07692307692307693
+    },
+    {
+      "method": "base_memory",
+      "task": "96e90180d0d7e7c1",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "96e90180d0d7e7c1",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.07692307692307693
+    },
+    {
+      "method": "base_memory",
+      "task": "96e90180d0d7e7c1",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "96e90180d0d7e7c1",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.3076923076923077
+    },
+    {
+      "method": "base_memory",
+      "task": "4193d5a0e928436f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "4193d5a0e928436f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.2727272727272727
+    },
+    {
+      "method": "base_memory",
+      "task": "4193d5a0e928436f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "4193d5a0e928436f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.09090909090909091
+    },
+    {
+      "method": "base_memory",
+      "task": "4193d5a0e928436f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 3,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "4193d5a0e928436f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 11,
+      "RR": 0.18181818181818182
+    },
+    {
+      "method": "base_memory",
+      "task": "eb5c49b8875cb38d",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "eb5c49b8875cb38d",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.07692307692307693
+    },
+    {
+      "method": "base_memory",
+      "task": "eb5c49b8875cb38d",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "eb5c49b8875cb38d",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.07692307692307693
+    },
+    {
+      "method": "base_memory",
+      "task": "eb5c49b8875cb38d",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "eb5c49b8875cb38d",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 13,
+      "RR": 0.07692307692307693
+    },
+    {
+      "method": "base_memory",
+      "task": "366130c4ee65403b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "366130c4ee65403b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_memory",
+      "task": "366130c4ee65403b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_memory",
+      "task": "41afe33958a0f175",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "41afe33958a0f175",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.0625
+    },
+    {
+      "method": "base_memory",
+      "task": "41afe33958a0f175",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "41afe33958a0f175",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.125
+    },
+    {
+      "method": "base_memory",
+      "task": "41afe33958a0f175",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "41afe33958a0f175",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 16,
+      "RR": 0.0625
+    },
+    {
+      "method": "base_memory",
+      "task": "4e203c42afda39ea",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "4e203c42afda39ea",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "4e203c42afda39ea",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_memory",
+      "task": "78e9bb81fdfa58e9",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_memory",
+      "task": "901883305471e27f",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "901883305471e27f",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.1
+    },
+    {
+      "method": "base_memory",
+      "task": "901883305471e27f",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "901883305471e27f",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.1
+    },
+    {
+      "method": "base_memory",
+      "task": "901883305471e27f",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "901883305471e27f",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.1
+    },
+    {
+      "method": "base_memory",
+      "task": "bb95a672f4564a67",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "bb95a672f4564a67",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "base_memory",
+      "task": "bb95a672f4564a67",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "bb95a672f4564a67",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "base_memory",
+      "task": "bb95a672f4564a67",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "bb95a672f4564a67",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "base_memory",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "bc56fbefe7c38a2a",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 4,
+      "RR": 0.25
+    },
+    {
+      "method": "base_memory",
+      "task": "309cb870390c832b",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "309cb870390c832b",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "base_memory",
+      "task": "309cb870390c832b",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "309cb870390c832b",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "309cb870390c832b",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "309cb870390c832b",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.2
+    },
+    {
+      "method": "base_memory",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.3
+    },
+    {
+      "method": "base_memory",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.1
+    },
+    {
+      "method": "base_memory",
+      "task": "2f44f7747e67ffb6",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "base_memory",
+      "task": "2f44f7747e67ffb6",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "base_memory",
+      "task": "2f44f7747e67ffb6",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "2f44f7747e67ffb6",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "2f44f7747e67ffb6",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "base_memory",
+      "task": "2f44f7747e67ffb6",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "base_memory",
+      "task": "af3d6162e50915b5",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "af3d6162e50915b5",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_memory",
+      "task": "af3d6162e50915b5",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "af3d6162e50915b5",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "af3d6162e50915b5",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "af3d6162e50915b5",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 17,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 17,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    },
+    {
+      "method": "base_memory",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 29,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 29,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 43,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 43,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.16666666666666666
+    }
+  ]
+}

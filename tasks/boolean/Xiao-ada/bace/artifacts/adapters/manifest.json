@@ -1,0 +1,11 @@
+{
+  "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "README.md": "230eef7d6ae7338cd3c1093330ab8d4e847fc0a4d2a7d936bc29354f799b2ae2",
+  "BASE_MODEL_LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+  "balanced_sft/adapters.safetensors": "cd37fc2b3f2112601093fe5d39e47da937400eed5d8e6c21548696206397c413",
+  "balanced_sft/adapter_config.json": "6ab0defb89d92b640c5b151e9e1dda2d7d9c5f2264f0870ba5fc0ea4f0b902cb",
+  "canonical_coverage/adapters.safetensors": "78264d860250b2679ad2adf6ad6b92d7ecbf38e72811ad3773826fc8f3eda81c",
+  "canonical_coverage/adapter_config.json": "6ab0defb89d92b640c5b151e9e1dda2d7d9c5f2264f0870ba5fc0ea4f0b902cb",
+  "string_coverage/adapters.safetensors": "ce6561ad392145c88bc6a6864257bcd4e794e11c0308fc449fa252de1d9c8228",
+  "string_coverage/adapter_config.json": "6ab0defb89d92b640c5b151e9e1dda2d7d9c5f2264f0870ba5fc0ea4f0b902cb"
+}

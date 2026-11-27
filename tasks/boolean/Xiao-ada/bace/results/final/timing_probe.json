@@ -1,0 +1,10 @@
+{
+  "updates": 20,
+  "mean_update_seconds": 2.8780395553447304,
+  "projected_440_update_seconds": 1266.3374043516815,
+  "selected_budgets": {
+    "warmup": 80,
+    "continuation": 120
+  },
+  "reason": "Resource-only timing decision before adapter validation or final tests."
+}

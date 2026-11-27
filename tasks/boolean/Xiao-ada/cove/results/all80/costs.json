@@ -1,0 +1,30 @@
+{
+  "validation": {
+    "tasks_scored": 6,
+    "candidate_scoring_seconds": 14.129690500441939,
+    "candidate_sequences": 396,
+    "candidate_forward_batches": 54,
+    "unique_prefix_token_positions": 3186,
+    "candidate_token_positions": 4602,
+    "logical_conditioned_tokens": 215274,
+    "scores_reused_across_inference_seeds_and_catalog_controls": true
+  },
+  "test": {
+    "tasks_scored": 26,
+    "candidate_scoring_seconds": 54.457733834628016,
+    "candidate_sequences": 1716,
+    "candidate_forward_batches": 234,
+    "unique_prefix_token_positions": 13698,
+    "candidate_token_positions": 19942,
+    "logical_conditioned_tokens": 925726,
+    "scores_reused_across_inference_seeds_and_catalog_controls": true
+  },
+  "executor_training_seconds": 37.20779662532732,
+  "executor_parameters_per_run": 179,
+  "iid_extra_calls": 42,
+  "outputs_per_test_method": {
+    "adaptive_1x": 717,
+    "fixed16": 1248
+  },
+  "interpretation": "66 teacher-forced sequence scores and one shared prompt prefill per task; 9 batched candidate forwards. These are additional inference computation, not N free autoregressive attempts. Output-budget matched, not equal FLOPs. Saved logit scoring is shared across seeds. Published outputs include replay and deterministic selection."
+}

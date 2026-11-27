@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "raw_outputs_rescored": 480,
+  "all_scoring_and_prefix_replay_checks_passed": true,
+  "counts": {
+    "new_model_calls": 280,
+    "new_model_tokens": 151915,
+    "replayed_model_calls": 104,
+    "replayed_model_tokens": 56379,
+    "uniform_draws": 96
+  }
+}

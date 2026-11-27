@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "raw_outputs_rescored": 480,
+  "same_prompt_replay_and_scoring_checked": true,
+  "reference_labels_in_proposal": false,
+  "counts": {
+    "replayed_model_calls": 178,
+    "replayed_model_tokens": 96638,
+    "new_model_calls": 206,
+    "new_model_tokens": 111582,
+    "uniform_draws": 96
+  }
+}

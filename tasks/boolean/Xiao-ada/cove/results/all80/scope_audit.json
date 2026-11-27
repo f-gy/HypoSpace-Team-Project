@@ -1,0 +1,53 @@
+{
+  "catalog_classes": 33,
+  "all_reference_classes": 34,
+  "missing_catalog_keys": [
+    "('NOR', (('VAR', 'x'), ('VAR', 'y')))"
+  ],
+  "adaptive_incomplete_tasks": [
+    {
+      "protocol": "adaptive_1x",
+      "method": "cove_llm_4306",
+      "task": "96e90180d0d7e7c1",
+      "seed": 17,
+      "budget": 17,
+      "VR": 0.9411764705882353,
+      "NR": 1.0,
+      "RR": 0.9411764705882353,
+      "reference_size": 17,
+      "recovered": 16,
+      "outside_reference": 0
+    },
+    {
+      "protocol": "adaptive_1x",
+      "method": "cove_llm_4306",
+      "task": "4193d5a0e928436f",
+      "seed": 17,
+      "budget": 14,
+      "VR": 0.9285714285714286,
+      "NR": 1.0,
+      "RR": 0.9285714285714286,
+      "reference_size": 14,
+      "recovered": 13,
+      "outside_reference": 0
+    },
+    {
+      "protocol": "adaptive_1x",
+      "method": "cove_llm_4306",
+      "task": "eb5c49b8875cb38d",
+      "seed": 17,
+      "budget": 17,
+      "VR": 0.9411764705882353,
+      "NR": 1.0,
+      "RR": 0.9411764705882353,
+      "reference_size": 17,
+      "recovered": 16,
+      "outside_reference": 0
+    }
+  ],
+  "budget_range": [
+    5,
+    20
+  ],
+  "interpretation": "One upstream reference class lacks a validator-compatible training alias; keep full reference denominator. At N=K, unique in-reference valid selection implies VR=RR. Three headline metrics therefore are not three independent empirical gains."
+}

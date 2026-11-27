@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "variables": [
+      "x",
+      "y"
+    ],
+    "operators": [
+      "AND",
+      "NOT",
+      "OR"
+    ],
+    "max_depth": 2,
+    "mechanistic_opts": {
+      "apply_commutativity": true,
+      "apply_idempotence_and_or": true,
+      "flatten_associativity": true
+    }
+  },
+  "splits": {
+    "train": [
+      "f427ae1368a9ace0",
+      "795475f220082197",
+      "7d1eeb3efb43a526",
+      "031bf2437b8c4fad",
+      "72832228484609cf",
+      "d50367af8a878038",
+      "3d6511e6558fa796",
+      "b1b48777fd8ba827",
+      "a46b551e501700e7",
+      "a8ff40ee4488550c",
+      "4405aec39ba683ca",
+      "3b1e497b20fbea1b",
+      "4675d1be2394c6d7",
+      "da97f239c8b2c00d",
+      "cf88edc0ec282769",
+      "42ba50fe4dfba2e3"
+    ],
+    "validation": [
+      "58afbe555602c1b3",
+      "ad53dfd61538637a",
+      "f25ac6d673e4a101",
+      "c0ebd18dfefc1425",
+      "b80ea1ea0723d497",
+      "e581cfb9a2e7da47"
+    ],
+    "test": [
+      "529e001f10ce8f35",
+      "d2bab89d4e62c767",
+      "4ae35d977a5b3a7f",
+      "33ba982524498e44",
+      "ccb74e75ae7fe6f8",
+      "cfb68019d93cb40b"
+    ]
+  },
+  "eligible_tasks": 48,
+  "audit": {
+    "reference_size": 34,
+    "reference_formulas_rejected_by_validator": 1,
+    "rejected_examples": [
+      "NOT (x  OR  y)"
+    ],
+    "note": "Reference set is unchanged. Inspect mismatches before interpreting absolute RR."
+  }
+}

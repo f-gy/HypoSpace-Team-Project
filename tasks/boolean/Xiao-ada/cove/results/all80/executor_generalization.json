@@ -1,0 +1,35 @@
+{
+  "scope": "Auxiliary learned-executor generalization probe, NOT HypoSpace LLM benchmark metrics",
+  "training_max_depth": 2,
+  "training_variables": [
+    "x",
+    "y"
+  ],
+  "probe_max_depth": 6,
+  "probe_variables": [
+    "x",
+    "y",
+    "z"
+  ],
+  "probe_programs": 1024,
+  "input_assignments_per_program": 8,
+  "generation_seed": 4310,
+  "no_probe_gradients_or_tuning": true,
+  "runs": [
+    {
+      "seed": 4306,
+      "output_accuracy": 1.0,
+      "complete_program_truth_table_accuracy": 1.0
+    },
+    {
+      "seed": 4307,
+      "output_accuracy": 1.0,
+      "complete_program_truth_table_accuracy": 1.0
+    },
+    {
+      "seed": 4308,
+      "output_accuracy": 1.0,
+      "complete_program_truth_table_accuracy": 1.0
+    }
+  ]
+}

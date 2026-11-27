@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-11-24T19:57:31.217673+00:00",
+  "source_sha256": {
+    "explorer/backend.py": "ce0da0721d31ce82b858f10845005f7ed5929fc67e300768692961e5b50be428",
+    "explorer/tasks.py": "c041d42f8ea971a382562b495a01faac65ad06552a4ad81772c48b95d13d9b92",
+    "explorer/baseline.py": "55767c5db6e77c32ffc6b0a3dd15839cd8d77e758de94f79842da772fecfd922",
+    "explorer/policy.py": "c4b721cf60eb9d121ecbbcf49a7a86702c4adc40b63dbe373fa6f6b0832bb184",
+    "explorer/__init__.py": "1e5d3534aec6df3e344f702735c43ee592b1d3cb40fdc0edadbcb8c49bced50b",
+    "explorer/experiment.py": "ffb4a6cee67ac401283c6c04833a2c9286fc6a1e95881967949fa50bb9770770",
+    "explorer/upstream.py": "2453c92ea19fb657f53f80dde238a75a9ae823b59c1670168a5eec0decd9ad4f",
+    "explorer/coverage_lora.py": "7c40ce8f00d3ad16e5b77ba310e372b7867d90c33dd172820098e666afe21b66",
+    "explorer/__main__.py": "6851d56eb2524a8fa6828492775dcd37486957a6bc698d617858b66d9aef01b2",
+    "explorer/report.py": "0725d042bd7dc659c9caefe9aa434d2c74508e912394ea4416c083dda6583148",
+    "upstream.lock.json": "dd251bfb6330339818e95c5581e8931b20986936e5f2db6179dff69d77ce951b",
+    "model.local_mlx.lock.json": "55043dad6dd22c3f2e5f00e97eaa83740db9122a691a92e69807144e9b7fe63b",
+    "results/coverage_plan/plan.json": "aa82ddfc2ba1f2a8ed72d993655782b7b7dbdda579b16092def1734ae080ed19",
+    "results/coverage_plan/split_manifest.json": "b880980b9dd4ab09a7237a112f0aebbda83e67e36576078f7daf53dbcc497b9c"
+  },
+  "training_data_sha256": "8ef927f2b5b31baa4265fc247f787e463ecec1b4eab53a204d019af17063fea8",
+  "hardware": "Apple M5",
+  "memory_bytes": 25769803776
+}

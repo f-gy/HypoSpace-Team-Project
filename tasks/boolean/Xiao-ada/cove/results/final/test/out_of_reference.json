@@ -1,0 +1,194 @@
+[
+  {
+    "method": "base_iid",
+    "task": "33ba982524498e44",
+    "seed": 17,
+    "step": 3,
+    "expression": "(NOT x) OR (NOT y) OR (x AND y)",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))"
+  },
+  {
+    "method": "base_iid",
+    "task": "33ba982524498e44",
+    "seed": 17,
+    "step": 6,
+    "expression": "(NOT x) OR (NOT y) OR (x AND y)",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))"
+  },
+  {
+    "method": "base_iid",
+    "task": "33ba982524498e44",
+    "seed": 17,
+    "step": 12,
+    "expression": "(NOT y) OR (NOT x) OR x AND y",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))"
+  },
+  {
+    "method": "base_iid",
+    "task": "33ba982524498e44",
+    "seed": 29,
+    "step": 4,
+    "expression": "(NOT x) OR (x AND y) OR (y)",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_iid",
+    "task": "33ba982524498e44",
+    "seed": 29,
+    "step": 13,
+    "expression": "(NOT x) OR (NOT y) OR x OR y",
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_iid",
+    "task": "33ba982524498e44",
+    "seed": 43,
+    "step": 6,
+    "expression": "(NOT x) OR (NOT y) OR (x AND y)",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))"
+  },
+  {
+    "method": "base_iid",
+    "task": "33ba982524498e44",
+    "seed": 43,
+    "step": 9,
+    "expression": "(NOT x) OR y OR NOT y",
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y')), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_iid",
+    "task": "5a17b622676fbafd",
+    "seed": 43,
+    "step": 5,
+    "expression": "(NOT y) AND (x OR y) AND x",
+    "key": "('AND', (('NOT', ('VAR', 'y')), ('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x')))"
+  },
+  {
+    "method": "base_iid",
+    "task": "4193d5a0e928436f",
+    "seed": 17,
+    "step": 9,
+    "expression": "(NOT x) OR (NOT y) OR (x AND y)",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))"
+  },
+  {
+    "method": "base_iid",
+    "task": "366130c4ee65403b",
+    "seed": 17,
+    "step": 8,
+    "expression": "NOT x OR y OR NOT y OR x OR x AND y",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_iid",
+    "task": "366130c4ee65403b",
+    "seed": 43,
+    "step": 4,
+    "expression": "(NOT x) OR y OR x OR NOT y",
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_iid",
+    "task": "366130c4ee65403b",
+    "seed": 43,
+    "step": 16,
+    "expression": "(NOT x) OR (NOT y) OR x OR y",
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_iid",
+    "task": "4e203c42afda39ea",
+    "seed": 29,
+    "step": 16,
+    "expression": "(NOT x) OR y OR NOT y",
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y')), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_iid",
+    "task": "4e203c42afda39ea",
+    "seed": 43,
+    "step": 10,
+    "expression": "NOT x OR y OR NOT y OR NOT x",
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y')), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_iid",
+    "task": "78e9bb81fdfa58e9",
+    "seed": 29,
+    "step": 2,
+    "expression": "(NOT x) AND (NOT y) AND x AND y",
+    "key": "('AND', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_iid",
+    "task": "2f44f7747e67ffb6",
+    "seed": 17,
+    "step": 11,
+    "expression": "NOT x OR y OR NOT y OR x",
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))"
+  },
+  {
+    "method": "string_coverage_iid",
+    "task": "d2bab89d4e62c767",
+    "seed": 43,
+    "step": 7,
+    "expression": "NOT x  OR  y  OR  (x  AND  y)",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_memory",
+    "task": "4193d5a0e928436f",
+    "seed": 17,
+    "step": 4,
+    "expression": "(NOT x) OR (x AND y) OR NOT y",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))"
+  },
+  {
+    "method": "base_memory",
+    "task": "4193d5a0e928436f",
+    "seed": 17,
+    "step": 8,
+    "expression": "(NOT x) OR (x AND y) OR y",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_memory",
+    "task": "eb5c49b8875cb38d",
+    "seed": 43,
+    "step": 15,
+    "expression": "(x OR y) AND (x AND NOT y)",
+    "key": "('AND', (('NOT', ('VAR', 'y')), ('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x')))"
+  },
+  {
+    "method": "base_memory",
+    "task": "366130c4ee65403b",
+    "seed": 43,
+    "step": 9,
+    "expression": "NOT x OR NOT y OR x OR y",
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_memory",
+    "task": "366130c4ee65403b",
+    "seed": 43,
+    "step": 13,
+    "expression": "NOT x OR y OR NOT y",
+    "key": "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y')), ('VAR', 'y')))"
+  },
+  {
+    "method": "base_memory",
+    "task": "901883305471e27f",
+    "seed": 17,
+    "step": 8,
+    "expression": "(x AND y) OR (x OR NOT x)",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('VAR', 'x')))"
+  },
+  {
+    "method": "base_memory",
+    "task": "af3d6162e50915b5",
+    "seed": 29,
+    "step": 3,
+    "expression": "x AND y OR NOT x OR y",
+    "key": "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x')), ('VAR', 'y')))"
+  }
+]

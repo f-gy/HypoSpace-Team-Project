@@ -1,0 +1,16 @@
+{
+  "cpu_rescoring": {
+    "validation_outputs": 480,
+    "test_outputs": 6240,
+    "VR_NR_RR_match": true
+  },
+  "fresh_tree_without_private_cache": true,
+  "pretraining_source_manifest_all_hashes_match": true,
+  "protocol_and_loss_tests_passed": 16,
+  "plots_visually_reviewed": [
+    "coverage.png",
+    "metrics.png",
+    "paired_differences.png"
+  ],
+  "no_API_credentials_required": true
+}

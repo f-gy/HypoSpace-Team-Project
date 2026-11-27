@@ -1,0 +1,539 @@
+{
+  "split": "test",
+  "tasks": 26,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "attempts_per_episode": 16,
+  "metrics": {
+    "coverage_continuation_iid": {
+      "VR": 0.39903846153846156,
+      "NR": 0.6442307692307693,
+      "RR": 0.410172616054969,
+      "seconds": 3.8947010864861884,
+      "tokens": 8621.358974358975,
+      "outside_reference": 0.0,
+      "intervention_calls": 0.0
+    },
+    "canonical_preference_iid": {
+      "VR": 0.39663461538461536,
+      "NR": 0.5985576923076923,
+      "RR": 0.375188836218248,
+      "seconds": 3.926980651831493,
+      "tokens": 8619.564102564103,
+      "outside_reference": 0.0,
+      "intervention_calls": 0.0
+    },
+    "coverage_continuation_bace": {
+      "VR": 0.36378205128205127,
+      "NR": 0.8149038461538461,
+      "RR": 0.5033685268979387,
+      "seconds": 3.672437041717319,
+      "tokens": 8607.97435897436,
+      "outside_reference": 0.0,
+      "intervention_calls": 5.256410256410256
+    },
+    "canonical_preference_bace": {
+      "VR": 0.36217948717948717,
+      "NR": 0.8125,
+      "RR": 0.489557147645383,
+      "seconds": 3.7427898064279597,
+      "tokens": 8606.961538461539,
+      "outside_reference": 0.0,
+      "intervention_calls": 6.0256410256410255
+    },
+    "uniform_bace": {
+      "VR": 0.28926282051282054,
+      "NR": 0.8389423076923077,
+      "RR": 0.400306746630276,
+      "seconds": 0.0005210311605762213,
+      "tokens": 0.0,
+      "outside_reference": 0.0,
+      "intervention_calls": 1.9487179487179487
+    },
+    "base_iid": {
+      "VR": 0.1530448717948718,
+      "NR": 0.358974358974359,
+      "RR": 0.13667492638080875,
+      "seconds": 9.639722514849824,
+      "tokens": 8630.628205128205,
+      "outside_reference": 0.16666666666666666,
+      "intervention_calls": 0.0
+    },
+    "balanced_sft_iid": {
+      "VR": 0.3060897435897436,
+      "NR": 0.6850961538461539,
+      "RR": 0.3686130862601451,
+      "seconds": 9.331471383649236,
+      "tokens": 8615.23076923077,
+      "outside_reference": 0.0,
+      "intervention_calls": 0.0
+    },
+    "canonical_coverage_iid": {
+      "VR": 0.3373397435897436,
+      "NR": 0.6434294871794872,
+      "RR": 0.37755422681893275,
+      "seconds": 9.625565520386235,
+      "tokens": 8630.26923076923,
+      "outside_reference": 0.0,
+      "intervention_calls": 0.0
+    },
+    "string_coverage_iid": {
+      "VR": 0.3782051282051282,
+      "NR": 0.5953525641025641,
+      "RR": 0.3761123680241327,
+      "seconds": 9.849515345472938,
+      "tokens": 8644.192307692309,
+      "outside_reference": 0.01282051282051282,
+      "intervention_calls": 0.0
+    }
+  },
+  "comparisons": {
+    "canonical_preference_iid": {
+      "coverage_continuation_iid": {
+        "VR": {
+          "difference": -0.00240384615384616,
+          "task_bootstrap_95_interval": [
+            -0.021634615384615394,
+            0.018429487179487163
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": -0.04567307692307691,
+          "task_bootstrap_95_interval": [
+            -0.06492387820512821,
+            -0.026442307692307702
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": -0.03498377983672101,
+          "task_bootstrap_95_interval": [
+            -0.06036554472216237,
+            -0.011684689901601665
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "coverage_continuation_bace": {
+        "VR": {
+          "difference": 0.0328525641025641,
+          "task_bootstrap_95_interval": [
+            -0.012019230769230773,
+            0.08173076923076922
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": -0.21634615384615385,
+          "task_bootstrap_95_interval": [
+            -0.24599358974358976,
+            -0.18669871794871792
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": -0.12817969067969065,
+          "task_bootstrap_95_interval": [
+            -0.16277910202542553,
+            -0.09404899566664271
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "canonical_preference_bace": {
+        "VR": {
+          "difference": 0.03445512820512821,
+          "task_bootstrap_95_interval": [
+            -0.008814102564102562,
+            0.08012820512820513
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": -0.21394230769230768,
+          "task_bootstrap_95_interval": [
+            -0.24519230769230765,
+            -0.18269230769230768
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": -0.11436831142713497,
+          "task_bootstrap_95_interval": [
+            -0.16097112242332828,
+            -0.06910803317053317
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "uniform_bace": {
+        "VR": {
+          "difference": 0.10737179487179487,
+          "task_bootstrap_95_interval": [
+            0.026442307692307678,
+            0.19150641025641024
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": -0.2403846153846154,
+          "task_bootstrap_95_interval": [
+            -0.27323717948717946,
+            -0.2075320512820513
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": -0.025117910412028047,
+          "task_bootstrap_95_interval": [
+            -0.09046454906749023,
+            0.039867477974095566
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "base_iid": {
+        "VR": {
+          "difference": 0.24358974358974358,
+          "task_bootstrap_95_interval": [
+            0.16105769230769226,
+            0.3325320512820512
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": 0.23958333333333334,
+          "task_bootstrap_95_interval": [
+            0.20432692307692307,
+            0.2764423076923077
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": 0.2385139098374393,
+          "task_bootstrap_95_interval": [
+            0.17308923035025975,
+            0.3108016486509133
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "balanced_sft_iid": {
+        "VR": {
+          "difference": 0.09054487179487179,
+          "task_bootstrap_95_interval": [
+            0.04326923076923077,
+            0.14182692307692307
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": -0.08653846153846154,
+          "task_bootstrap_95_interval": [
+            -0.12179487179487175,
+            -0.05208333333333333
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": 0.006575749958102912,
+          "task_bootstrap_95_interval": [
+            -0.017209338863750628,
+            0.032365510306686794
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "canonical_coverage_iid": {
+        "VR": {
+          "difference": 0.05929487179487179,
+          "task_bootstrap_95_interval": [
+            0.00961538461538462,
+            0.1105769230769231
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": -0.044871794871794865,
+          "task_bootstrap_95_interval": [
+            -0.07291666666666667,
+            -0.016826923076923076
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": -0.0023653906006847096,
+          "task_bootstrap_95_interval": [
+            -0.041146843352725705,
+            0.038061204182527696
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "string_coverage_iid": {
+        "VR": {
+          "difference": 0.018429487179487176,
+          "task_bootstrap_95_interval": [
+            -0.032051282051282055,
+            0.07051282051282051
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": 0.0032051282051282085,
+          "task_bootstrap_95_interval": [
+            -0.024038461538461547,
+            0.02884615384615384
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": -0.0009235318058847359,
+          "task_bootstrap_95_interval": [
+            -0.039276474478680365,
+            0.037043598422274907
+          ],
+          "paired_tasks": 26
+        }
+      }
+    },
+    "canonical_preference_bace": {
+      "coverage_continuation_iid": {
+        "VR": {
+          "difference": -0.03685897435897437,
+          "task_bootstrap_95_interval": [
+            -0.07852564102564104,
+            0.005608974358974341
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": 0.16826923076923078,
+          "task_bootstrap_95_interval": [
+            0.13141025641025642,
+            0.20512820512820512
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": 0.07938453159041395,
+          "task_bootstrap_95_interval": [
+            0.02515910423998659,
+            0.13724468954248367
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "canonical_preference_iid": {
+        "VR": {
+          "difference": -0.03445512820512821,
+          "task_bootstrap_95_interval": [
+            -0.08012820512820513,
+            0.008814102564102562
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": 0.21394230769230768,
+          "task_bootstrap_95_interval": [
+            0.18269230769230768,
+            0.24519230769230765
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": 0.11436831142713497,
+          "task_bootstrap_95_interval": [
+            0.06910803317053316,
+            0.16097112242332826
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "coverage_continuation_bace": {
+        "VR": {
+          "difference": -0.0016025641025641075,
+          "task_bootstrap_95_interval": [
+            -0.021634615384615384,
+            0.02003205128205127
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": -0.0024038461538461583,
+          "task_bootstrap_95_interval": [
+            -0.004807692307692317,
+            0.0
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": -0.013811379252555711,
+          "task_bootstrap_95_interval": [
+            -0.05177627995642701,
+            0.02425899740237976
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "uniform_bace": {
+        "VR": {
+          "difference": 0.07291666666666666,
+          "task_bootstrap_95_interval": [
+            0.022435897435897443,
+            0.12580128205128205
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": -0.026442307692307692,
+          "task_bootstrap_95_interval": [
+            -0.03685897435897435,
+            -0.01682692307692308
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": 0.0892504010151069,
+          "task_bootstrap_95_interval": [
+            0.035685010115157165,
+            0.14467148932222454
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "base_iid": {
+        "VR": {
+          "difference": 0.2091346153846154,
+          "task_bootstrap_95_interval": [
+            0.1450320512820513,
+            0.27804487179487175
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": 0.4535256410256411,
+          "task_bootstrap_95_interval": [
+            0.43349358974358976,
+            0.4735576923076923
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": 0.35288222126457425,
+          "task_bootstrap_95_interval": [
+            0.2814555426871603,
+            0.4250809362206421
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "balanced_sft_iid": {
+        "VR": {
+          "difference": 0.0560897435897436,
+          "task_bootstrap_95_interval": [
+            0.027243589743589744,
+            0.08413461538461539
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": 0.12740384615384615,
+          "task_bootstrap_95_interval": [
+            0.10737179487179488,
+            0.15224358974358976
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": 0.12094406138523787,
+          "task_bootstrap_95_interval": [
+            0.07489011737173502,
+            0.16695993889008587
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "canonical_coverage_iid": {
+        "VR": {
+          "difference": 0.024839743589743588,
+          "task_bootstrap_95_interval": [
+            -0.006410256410256409,
+            0.05610977564102536
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": 0.16907051282051283,
+          "task_bootstrap_95_interval": [
+            0.1466346153846154,
+            0.19230769230769226
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": 0.11200292082645026,
+          "task_bootstrap_95_interval": [
+            0.06418111368479014,
+            0.1599046167612344
+          ],
+          "paired_tasks": 26
+        }
+      },
+      "string_coverage_iid": {
+        "VR": {
+          "difference": -0.01602564102564103,
+          "task_bootstrap_95_interval": [
+            -0.060897435897435896,
+            0.025641025641025637
+          ],
+          "paired_tasks": 26
+        },
+        "NR": {
+          "difference": 0.21714743589743588,
+          "task_bootstrap_95_interval": [
+            0.18669871794871792,
+            0.24839743589743588
+          ],
+          "paired_tasks": 26
+        },
+        "RR": {
+          "difference": 0.11344477962125023,
+          "task_bootstrap_95_interval": [
+            0.05351092466901292,
+            0.1733956552706552
+          ],
+          "paired_tasks": 26
+        }
+      }
+    }
+  },
+  "counts": {
+    "new_model_calls": 3376,
+    "new_model_tokens": 1817053,
+    "replayed_model_calls": 1616,
+    "replayed_model_tokens": 870504,
+    "uniform_draws": 1248
+  },
+  "raw_outputs_rescored": 6240,
+  "eligible_on_this_split_under_numeric_rule": [
+    "coverage_continuation_bace",
+    "canonical_preference_bace"
+  ],
+  "selected_under_rule": "coverage_continuation_bace",
+  "reference_guides": {
+    "VR": 0.9,
+    "NR": 0.8,
+    "RR": 0.8
+  },
+  "reference_guides_met_by_preference_bace": {
+    "VR": false,
+    "NR": true,
+    "RR": false
+  },
+  "limits": "Exploratory follow-up on v1 test observations; fixed final updates; one training seed; task bootstrap intervals not multiplicity-adjusted. A selection rule is evaluated on validation, never used to hide other test arms."
+}

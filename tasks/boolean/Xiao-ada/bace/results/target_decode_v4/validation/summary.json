@@ -1,0 +1,327 @@
+{
+  "split": "validation",
+  "tasks": 6,
+  "seeds": [
+    101
+  ],
+  "queries_per_episode": 16,
+  "metrics": {
+    "cc_target_class": {
+      "VR": 0.3229166666666667,
+      "NR": 0.8125,
+      "RR": 0.4537037037037037,
+      "seconds": 11.730772708930695,
+      "tokens": 8676.166666666666,
+      "outside_reference": 0.0,
+      "intervention_calls": 8.333333333333334
+    },
+    "cc_target_string": {
+      "VR": 0.34375,
+      "NR": 0.7083333333333334,
+      "RR": 0.40740740740740744,
+      "seconds": 11.580212701888135,
+      "tokens": 8676.666666666666,
+      "outside_reference": 0.0,
+      "intervention_calls": 8.333333333333334
+    },
+    "sft_target_class": {
+      "VR": 0.2604166666666667,
+      "NR": 0.8125,
+      "RR": 0.449074074074074,
+      "seconds": 11.357663596359393,
+      "tokens": 8674.333333333334,
+      "outside_reference": 0.0,
+      "intervention_calls": 6.666666666666667
+    },
+    "base_target_class": {
+      "VR": 0.20833333333333334,
+      "NR": 0.8125,
+      "RR": 0.32870370370370366,
+      "seconds": 11.943580728489906,
+      "tokens": 8676.166666666666,
+      "outside_reference": 0.16666666666666666,
+      "intervention_calls": 11.0
+    },
+    "uniform_target_class": {
+      "VR": 0.2604166666666667,
+      "NR": 0.8125,
+      "RR": 0.4351851851851852,
+      "seconds": 0.0008005700850238403,
+      "tokens": 0.0,
+      "outside_reference": 0.0,
+      "intervention_calls": 1.8333333333333333
+    },
+    "base_iid": {
+      "VR": 0.17708333333333334,
+      "NR": 0.375,
+      "RR": 0.12962962962962962,
+      "seconds": 10.372486665767306,
+      "tokens": 8697.0,
+      "outside_reference": 0.3333333333333333,
+      "intervention_calls": 0.0
+    },
+    "balanced_sft_iid": {
+      "VR": 0.25,
+      "NR": 0.6145833333333334,
+      "RR": 0.36574074074074076,
+      "seconds": 10.367041013436392,
+      "tokens": 8687.5,
+      "outside_reference": 0.0,
+      "intervention_calls": 0.0
+    },
+    "canonical_coverage_iid": {
+      "VR": 0.3854166666666667,
+      "NR": 0.5729166666666666,
+      "RR": 0.4444444444444444,
+      "seconds": 10.648547424158702,
+      "tokens": 8703.833333333334,
+      "outside_reference": 0.0,
+      "intervention_calls": 0.0
+    },
+    "string_coverage_iid": {
+      "VR": 0.40625,
+      "NR": 0.5416666666666666,
+      "RR": 0.46759259259259256,
+      "seconds": 10.590521535525719,
+      "tokens": 8713.166666666666,
+      "outside_reference": 0.0,
+      "intervention_calls": 0.0
+    }
+  },
+  "counts": {
+    "replayed_model_calls": 178,
+    "replayed_model_tokens": 96638,
+    "new_model_calls": 206,
+    "new_model_tokens": 111582,
+    "uniform_draws": 96
+  },
+  "raw_outputs_rescored": 480,
+  "cc_target_class_vs": {
+    "cc_target_string": {
+      "VR": {
+        "difference": -0.020833333333333332,
+        "task_bootstrap_95_interval": [
+          -0.052083333333333336,
+          0.020833333333333332
+        ],
+        "paired_tasks": 6
+      },
+      "NR": {
+        "difference": 0.10416666666666667,
+        "task_bootstrap_95_interval": [
+          0.052083333333333336,
+          0.14583333333333334
+        ],
+        "paired_tasks": 6
+      },
+      "RR": {
+        "difference": 0.04629629629629628,
+        "task_bootstrap_95_interval": [
+          0.0,
+          0.10185185185185185
+        ],
+        "paired_tasks": 6
+      }
+    },
+    "sft_target_class": {
+      "VR": {
+        "difference": 0.0625,
+        "task_bootstrap_95_interval": [
+          0.020833333333333332,
+          0.11458333333333333
+        ],
+        "paired_tasks": 6
+      },
+      "NR": {
+        "difference": 0.0,
+        "task_bootstrap_95_interval": [
+          0.0,
+          0.0
+        ],
+        "paired_tasks": 6
+      },
+      "RR": {
+        "difference": 0.004629629629629627,
+        "task_bootstrap_95_interval": [
+          -0.07407407407407407,
+          0.08333333333333333
+        ],
+        "paired_tasks": 6
+      }
+    },
+    "base_target_class": {
+      "VR": {
+        "difference": 0.11458333333333333,
+        "task_bootstrap_95_interval": [
+          -0.041666666666666664,
+          0.2708333333333333
+        ],
+        "paired_tasks": 6
+      },
+      "NR": {
+        "difference": 0.0,
+        "task_bootstrap_95_interval": [
+          0.0,
+          0.0
+        ],
+        "paired_tasks": 6
+      },
+      "RR": {
+        "difference": 0.125,
+        "task_bootstrap_95_interval": [
+          -0.02777777777777779,
+          0.2916666666666667
+        ],
+        "paired_tasks": 6
+      }
+    },
+    "uniform_target_class": {
+      "VR": {
+        "difference": 0.0625,
+        "task_bootstrap_95_interval": [
+          -0.041666666666666664,
+          0.1875
+        ],
+        "paired_tasks": 6
+      },
+      "NR": {
+        "difference": 0.0,
+        "task_bootstrap_95_interval": [
+          0.0,
+          0.0
+        ],
+        "paired_tasks": 6
+      },
+      "RR": {
+        "difference": 0.018518518518518517,
+        "task_bootstrap_95_interval": [
+          -0.11111111111111112,
+          0.14814814814814817
+        ],
+        "paired_tasks": 6
+      }
+    },
+    "base_iid": {
+      "VR": {
+        "difference": 0.14583333333333334,
+        "task_bootstrap_95_interval": [
+          0.0,
+          0.3125
+        ],
+        "paired_tasks": 6
+      },
+      "NR": {
+        "difference": 0.4375,
+        "task_bootstrap_95_interval": [
+          0.375,
+          0.4895833333333333
+        ],
+        "paired_tasks": 6
+      },
+      "RR": {
+        "difference": 0.32407407407407407,
+        "task_bootstrap_95_interval": [
+          0.17592592592592593,
+          0.46296296296296297
+        ],
+        "paired_tasks": 6
+      }
+    },
+    "balanced_sft_iid": {
+      "VR": {
+        "difference": 0.07291666666666667,
+        "task_bootstrap_95_interval": [
+          -0.020833333333333332,
+          0.16666666666666666
+        ],
+        "paired_tasks": 6
+      },
+      "NR": {
+        "difference": 0.19791666666666666,
+        "task_bootstrap_95_interval": [
+          0.16666666666666666,
+          0.22916666666666666
+        ],
+        "paired_tasks": 6
+      },
+      "RR": {
+        "difference": 0.08796296296296295,
+        "task_bootstrap_95_interval": [
+          -0.018518518518518535,
+          0.18981481481481485
+        ],
+        "paired_tasks": 6
+      }
+    },
+    "canonical_coverage_iid": {
+      "VR": {
+        "difference": -0.0625,
+        "task_bootstrap_95_interval": [
+          -0.17708333333333334,
+          0.041666666666666664
+        ],
+        "paired_tasks": 6
+      },
+      "NR": {
+        "difference": 0.23958333333333334,
+        "task_bootstrap_95_interval": [
+          0.15625,
+          0.3020833333333333
+        ],
+        "paired_tasks": 6
+      },
+      "RR": {
+        "difference": 0.009259259259259273,
+        "task_bootstrap_95_interval": [
+          -0.13888888888888887,
+          0.13888888888888892
+        ],
+        "paired_tasks": 6
+      }
+    },
+    "string_coverage_iid": {
+      "VR": {
+        "difference": -0.08333333333333333,
+        "task_bootstrap_95_interval": [
+          -0.14583333333333334,
+          -0.020833333333333332
+        ],
+        "paired_tasks": 6
+      },
+      "NR": {
+        "difference": 0.2708333333333333,
+        "task_bootstrap_95_interval": [
+          0.16666666666666666,
+          0.3854166666666667
+        ],
+        "paired_tasks": 6
+      },
+      "RR": {
+        "difference": -0.013888888888888895,
+        "task_bootstrap_95_interval": [
+          -0.09259259259259257,
+          0.06481481481481478
+        ],
+        "paired_tasks": 6
+      }
+    }
+  },
+  "change_from_original_canonical": {
+    "VR": -0.0625,
+    "NR": 0.23958333333333337,
+    "RR": 0.0092592592592593
+  },
+  "validity_guard_passed": false,
+  "good_score_guides": {
+    "VR": 0.9,
+    "NR": 0.8,
+    "RR": 0.8
+  },
+  "good_score_guides_met": {
+    "VR": false,
+    "NR": true,
+    "RR": false
+  },
+  "inference_note": "Same prompts, checkpoints, sampler, seeds, scoring and 16 counted attempts as v1. Reused IID prefixes are counted in logical calls/tokens/time; no hidden rejected draws.",
+  "uncertainty_note": "Exploratory follow-up on previously reported test observations. One training seed. Task bootstrap averages three inference seeds; intervals are not multiplicity-adjusted."
+}

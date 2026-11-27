@@ -1,0 +1,10 @@
+{
+  "repo_id": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+  "revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+  "weights_file": "model.safetensors",
+  "weights_sha256": "0979f33d1bc58afcf696d13f57977644e7b11a6f0eec3e631d8e9463d18c0717",
+  "weights_bytes": 868628559,
+  "original_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "runtime": "mlx-lm==0.32.2",
+  "notes": "Public third-party 4-bit conversion. A small-model screening run; not equivalent to the paper's model settings."
+}

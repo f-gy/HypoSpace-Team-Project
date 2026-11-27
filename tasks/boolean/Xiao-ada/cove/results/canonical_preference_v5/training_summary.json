@@ -1,0 +1,20 @@
+{
+  "arms": {
+    "coverage_continuation": {
+      "updates": 80,
+      "sequence_tokens": 688698,
+      "seconds": 868.1153396209702,
+      "adapter_sha256": "3a50c5fa491aca041fbda7499de53700b4dac6841be7bae090147be823d818ac"
+    },
+    "canonical_preference": {
+      "updates": 80,
+      "sequence_tokens": 688698,
+      "seconds": 872.484104547184,
+      "adapter_sha256": "098a76c13e0fc85574a8cfdd10de29cbe476260deb5ac29a2e07e06cf883148a"
+    }
+  },
+  "base_weights_unchanged": true,
+  "new_trainable_parameters": 0,
+  "trainable_parameters": 311296,
+  "peak_memory_gb": 2.015638622
+}

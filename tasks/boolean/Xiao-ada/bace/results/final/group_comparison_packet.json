@@ -1,0 +1,253 @@
+{
+  "status": "Personal completed experiment, not a matched DCHG comparison",
+  "model": {
+    "repo_id": "mlx-community/Qwen2.5-1.5B-Instruct-4bit",
+    "revision": "8b403126fc14f14cfc99bb4cfa72ecbc129ea677",
+    "weights_file": "model.safetensors",
+    "weights_sha256": "0979f33d1bc58afcf696d13f57977644e7b11a6f0eec3e631d8e9463d18c0717",
+    "weights_bytes": 868628559,
+    "original_model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "runtime": "mlx-lm==0.32.2",
+    "notes": "Public third-party 4-bit conversion. A small-model screening run; not equivalent to the paper's model settings."
+  },
+  "splits": {
+    "train": [
+      "f427ae1368a9ace0",
+      "795475f220082197",
+      "7d1eeb3efb43a526",
+      "031bf2437b8c4fad",
+      "72832228484609cf",
+      "d50367af8a878038",
+      "3d6511e6558fa796",
+      "b1b48777fd8ba827",
+      "a46b551e501700e7",
+      "a8ff40ee4488550c",
+      "4405aec39ba683ca",
+      "3b1e497b20fbea1b",
+      "4675d1be2394c6d7",
+      "da97f239c8b2c00d",
+      "cf88edc0ec282769",
+      "42ba50fe4dfba2e3"
+    ],
+    "validation": [
+      "58afbe555602c1b3",
+      "ad53dfd61538637a",
+      "f25ac6d673e4a101",
+      "c0ebd18dfefc1425",
+      "b80ea1ea0723d497",
+      "e581cfb9a2e7da47"
+    ],
+    "test": [
+      "529e001f10ce8f35",
+      "d2bab89d4e62c767",
+      "4ae35d977a5b3a7f",
+      "33ba982524498e44",
+      "ccb74e75ae7fe6f8",
+      "cfb68019d93cb40b",
+      "3376193cc0b23f84",
+      "05ace31b5594de25",
+      "5a17b622676fbafd",
+      "cf672e2a816c26f7",
+      "0460f9d0a8255d57",
+      "96e90180d0d7e7c1",
+      "4193d5a0e928436f",
+      "eb5c49b8875cb38d",
+      "366130c4ee65403b",
+      "41afe33958a0f175",
+      "4e203c42afda39ea",
+      "78e9bb81fdfa58e9",
+      "901883305471e27f",
+      "bb95a672f4564a67",
+      "bc56fbefe7c38a2a",
+      "309cb870390c832b",
+      "53d0f06e5b9f9cf5",
+      "2f44f7747e67ffb6",
+      "af3d6162e50915b5",
+      "b6e6f6b6a9c5ed13"
+    ]
+  },
+  "test_inference_seeds": [
+    17,
+    29,
+    43
+  ],
+  "training_seed": 4300,
+  "extra_calls": {
+    "repair": 0,
+    "planner": 0
+  },
+  "budget_definition": "Every failed, invalid and duplicate generation counts. Token and offline-training costs are separate.",
+  "budget_metrics": {
+    "1": {
+      "base_iid": {
+        "VR": 0.11538461538461539,
+        "NR": 0.5256410256410257,
+        "RR": 0.01186765304412363
+      },
+      "balanced_sft_iid": {
+        "VR": 0.3333333333333333,
+        "NR": 0.9871794871794872,
+        "RR": 0.03393964423376188
+      },
+      "canonical_coverage_iid": {
+        "VR": 0.32051282051282054,
+        "NR": 0.9743589743589743,
+        "RR": 0.03324385309679428
+      },
+      "string_coverage_iid": {
+        "VR": 0.3333333333333333,
+        "NR": 0.9743589743589743,
+        "RR": 0.03352875338169456
+      },
+      "base_memory": {
+        "VR": 0.11538461538461539,
+        "NR": 0.5256410256410257,
+        "RR": 0.01186765304412363
+      }
+    },
+    "2": {
+      "base_iid": {
+        "VR": 0.14743589743589744,
+        "NR": 0.5384615384615384,
+        "RR": 0.030527125380066557
+      },
+      "balanced_sft_iid": {
+        "VR": 0.3333333333333333,
+        "NR": 0.9358974358974359,
+        "RR": 0.06917151475975004
+      },
+      "canonical_coverage_iid": {
+        "VR": 0.33974358974358976,
+        "NR": 0.9166666666666666,
+        "RR": 0.07488598003303885
+      },
+      "string_coverage_iid": {
+        "VR": 0.3333333333333333,
+        "NR": 0.9294871794871795,
+        "RR": 0.06764646029351912
+      },
+      "base_memory": {
+        "VR": 0.12179487179487179,
+        "NR": 0.46794871794871795,
+        "RR": 0.023554849290143405
+      }
+    },
+    "4": {
+      "base_iid": {
+        "VR": 0.15705128205128205,
+        "NR": 0.5384615384615384,
+        "RR": 0.0568878833584716
+      },
+      "balanced_sft_iid": {
+        "VR": 0.30128205128205127,
+        "NR": 0.875,
+        "RR": 0.11437070554717611
+      },
+      "canonical_coverage_iid": {
+        "VR": 0.32371794871794873,
+        "NR": 0.8397435897435898,
+        "RR": 0.118883023294788
+      },
+      "string_coverage_iid": {
+        "VR": 0.34615384615384615,
+        "NR": 0.8205128205128205,
+        "RR": 0.11793165984342455
+      },
+      "base_memory": {
+        "VR": 0.11858974358974358,
+        "NR": 0.41025641025641024,
+        "RR": 0.038187710981828625
+      }
+    },
+    "8": {
+      "base_iid": {
+        "VR": 0.15224358974358973,
+        "NR": 0.453525641025641,
+        "RR": 0.08831819052407287
+      },
+      "balanced_sft_iid": {
+        "VR": 0.30128205128205127,
+        "NR": 0.8189102564102564,
+        "RR": 0.2177284589049295
+      },
+      "canonical_coverage_iid": {
+        "VR": 0.3317307692307692,
+        "NR": 0.7676282051282052,
+        "RR": 0.22574098015274485
+      },
+      "string_coverage_iid": {
+        "VR": 0.3541666666666667,
+        "NR": 0.7291666666666666,
+        "RR": 0.2219687447628624
+      },
+      "base_memory": {
+        "VR": 0.11378205128205128,
+        "NR": 0.32371794871794873,
+        "RR": 0.05765340324163855
+      }
+    },
+    "10": {
+      "base_iid": {
+        "VR": 0.15512820512820516,
+        "NR": 0.4256410256410257,
+        "RR": 0.10152625152625153
+      },
+      "balanced_sft_iid": {
+        "VR": 0.30512820512820515,
+        "NR": 0.773076923076923,
+        "RR": 0.26066760037348274
+      },
+      "canonical_coverage_iid": {
+        "VR": 0.3243589743589744,
+        "NR": 0.7320512820512821,
+        "RR": 0.2755090497737557
+      },
+      "string_coverage_iid": {
+        "VR": 0.3666666666666667,
+        "NR": 0.6807692307692309,
+        "RR": 0.2663656060714884
+      },
+      "base_memory": {
+        "VR": 0.11410256410256411,
+        "NR": 0.29999999999999993,
+        "RR": 0.0698454595513419
+      }
+    },
+    "16": {
+      "base_iid": {
+        "VR": 0.1530448717948718,
+        "NR": 0.358974358974359,
+        "RR": 0.13667492638080875
+      },
+      "balanced_sft_iid": {
+        "VR": 0.3060897435897436,
+        "NR": 0.6850961538461539,
+        "RR": 0.3686130862601451
+      },
+      "canonical_coverage_iid": {
+        "VR": 0.3373397435897436,
+        "NR": 0.6434294871794872,
+        "RR": 0.37755422681893275
+      },
+      "string_coverage_iid": {
+        "VR": 0.3782051282051282,
+        "NR": 0.5953525641025641,
+        "RR": 0.3761123680241327
+      },
+      "base_memory": {
+        "VR": 0.13060897435897437,
+        "NR": 0.2620192307692308,
+        "RR": 0.10916888122770474
+      }
+    }
+  },
+  "required_from_teammate": [
+    "model and quantization",
+    "task observations or IDs",
+    "development/training sets",
+    "all inference settings",
+    "full generation and auxiliary-call accounting",
+    "raw outputs and scoring code"
+  ],
+  "notes": "Align a jointly unused test set before comparing; the teammate screenshot alone is insufficient."
+}

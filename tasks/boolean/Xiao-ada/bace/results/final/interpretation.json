@@ -1,0 +1,12 @@
+{
+  "base_RR_gain_pp": 24.0879300438124,
+  "vs_SFT_RR_gain_pp": 0.894114055878762,
+  "vs_SFT_RR_interval_pp": [
+    -1.9746350463262226,
+    3.7236631832220084
+  ],
+  "vs_SFT_VR_gain_pp": 3.125,
+  "interpretation": "结构类别覆盖的平均 RR 较高，但配对区间跨零，额外优势尚不确定。",
+  "string_ablation_interpretation": "结构类别合并的平均 RR 高于字符串覆盖，但区间跨零，模块贡献仍不确定。",
+  "practical_threshold_met": false
+}

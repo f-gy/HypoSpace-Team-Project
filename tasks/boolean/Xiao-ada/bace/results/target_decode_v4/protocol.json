@@ -1,0 +1,80 @@
+{
+  "version": "budget_aware_canonical_intervention_v4",
+  "budget": 16,
+  "target_distinct": 13,
+  "target_reason": "Smallest integer exceeding the README .80 guide at N=16; fixed before this pilot",
+  "methods": [
+    "cc_target_class",
+    "cc_target_string",
+    "sft_target_class",
+    "base_target_class",
+    "uniform_target_class"
+  ],
+  "seeds": {
+    "validation": [
+      101
+    ],
+    "test": [
+      17,
+      29,
+      43
+    ]
+  },
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_output_tokens": 128,
+  "support": {
+    "strings": 300,
+    "classes": 33,
+    "alias_counts": {
+      "('AND', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))": 2,
+      "('AND', (('NOT', ('VAR', 'x')), ('OR', (('VAR', 'x'), ('VAR', 'y')))))": 4,
+      "('AND', (('NOT', ('VAR', 'x')), ('VAR', 'x')))": 6,
+      "('AND', (('NOT', ('VAR', 'x')), ('VAR', 'x'), ('VAR', 'y')))": 4,
+      "('AND', (('NOT', ('VAR', 'x')), ('VAR', 'y')))": 6,
+      "('AND', (('NOT', ('VAR', 'y')), ('OR', (('VAR', 'x'), ('VAR', 'y')))))": 4,
+      "('AND', (('NOT', ('VAR', 'y')), ('VAR', 'x')))": 6,
+      "('AND', (('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))": 4,
+      "('AND', (('NOT', ('VAR', 'y')), ('VAR', 'y')))": 6,
+      "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x')))": 12,
+      "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x'), ('VAR', 'y')))": 8,
+      "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'y')))": 12,
+      "('AND', (('VAR', 'x'), ('VAR', 'y')))": 50,
+      "('NOT', ('AND', (('VAR', 'x'), ('VAR', 'y'))))": 2,
+      "('NOT', ('NOT', ('VAR', 'x')))": 1,
+      "('NOT', ('NOT', ('VAR', 'y')))": 1,
+      "('NOT', ('VAR', 'x'))": 5,
+      "('NOT', ('VAR', 'y'))": 5,
+      "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x'))))": 4,
+      "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'y'))))": 4,
+      "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x')))": 12,
+      "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x'), ('VAR', 'y')))": 8,
+      "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'y')))": 12,
+      "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))": 2,
+      "('OR', (('NOT', ('VAR', 'x')), ('VAR', 'x')))": 6,
+      "('OR', (('NOT', ('VAR', 'x')), ('VAR', 'x'), ('VAR', 'y')))": 4,
+      "('OR', (('NOT', ('VAR', 'x')), ('VAR', 'y')))": 6,
+      "('OR', (('NOT', ('VAR', 'y')), ('VAR', 'x')))": 6,
+      "('OR', (('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))": 4,
+      "('OR', (('NOT', ('VAR', 'y')), ('VAR', 'y')))": 6,
+      "('OR', (('VAR', 'x'), ('VAR', 'y')))": 50,
+      "('VAR', 'x')": 19,
+      "('VAR', 'y')": 19
+    },
+    "uses_observations": false,
+    "uses_reference_keys": false,
+    "scope": "finite syntactic support, not the complete language of all spellings"
+  },
+  "test_status": "Follow-up on previously published v1 test observations; not untouched confirmation",
+  "selection_rule": "Report all arms and VR/NR/RR. Treat a result with more than .02 absolute VR loss versus v1 canonical as a trade-off option, not a dominance improvement. Run full follow-up only if validation reaches NR>.8, increases RR versus v1 canonical, and loses at most .02 VR.",
+  "cache_replay": "Exact original IID prefix only, before any intervention, same prompt/checkpoint/request seed. Replayed calls count in the logical 16-call budget and token cost; physical new calls and reuse separately reported.",
+  "proposal_boundary": "Only syntax/canonical keys from grammar; no reference labels, observation checking, or repair in proposal",
+  "sources": {
+    "canonical_decode.py": "63ba3424c0bfda86d6788fbf56967c54aaf8858f5ff46aca6c5af2e4d7fcc824",
+    "target_decode.py": "60a17f1209590d6d7b4dd1bb16143b843d214b676b3b47a20b490044214d2f9c"
+  },
+  "adapters": {
+    "canonical_coverage": "78264d860250b2679ad2adf6ad6b92d7ecbf38e72811ad3773826fc8f3eda81c",
+    "balanced_sft": "cd37fc2b3f2112601093fe5d39e47da937400eed5d8e6c21548696206397c413"
+  }
+}

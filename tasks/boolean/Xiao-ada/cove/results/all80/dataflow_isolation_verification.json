@@ -1,0 +1,5 @@
+{
+  "validation_summary_bitwise_unchanged": true,
+  "summary_sha256": "7a3e925091391823ff3675bc2a1050d8f956e6a3dbf01c19212c04e243581315",
+  "change": "Exact symbolic-control values removed from the learned proposal function interface; no model or hyperparameter changes"
+}

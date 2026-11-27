@@ -1,0 +1,85 @@
+{
+  "status": "One implementation startup failure before the experimental run; retained, not a model-quality result",
+  "model_calls": 1,
+  "reason": "MLX prefetch called the trie processor one step beyond EOS; corrected to an absorbing EOS state",
+  "analysis_exclusion": "Every formal arm reruns all scheduled validation/test episodes after the engine fix. No answer-based selection.",
+  "old_protocol": {
+    "version": "canonical_decode_v2",
+    "methods": [
+      "cc_grammar_iid",
+      "cc_string_wor",
+      "cc_class_wor",
+      "sft_class_wor",
+      "base_class_wor",
+      "uniform_class_wor"
+    ],
+    "seeds": {
+      "validation": [
+        101
+      ],
+      "test": [
+        17,
+        29,
+        43
+      ]
+    },
+    "budget": 16,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "max_output_tokens": 128,
+    "split_sha256": "b880980b9dd4ab09a7237a112f0aebbda83e67e36576078f7daf53dbcc497b9c",
+    "model_lock_sha256": "55043dad6dd22c3f2e5f00e97eaa83740db9122a691a92e69807144e9b7fe63b",
+    "adapters": {
+      "canonical_coverage": "78264d860250b2679ad2adf6ad6b92d7ecbf38e72811ad3773826fc8f3eda81c",
+      "balanced_sft": "cd37fc2b3f2112601093fe5d39e47da937400eed5d8e6c21548696206397c413"
+    },
+    "support": {
+      "strings": 300,
+      "classes": 33,
+      "alias_counts": {
+        "('AND', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))": 2,
+        "('AND', (('NOT', ('VAR', 'x')), ('OR', (('VAR', 'x'), ('VAR', 'y')))))": 4,
+        "('AND', (('NOT', ('VAR', 'x')), ('VAR', 'x')))": 6,
+        "('AND', (('NOT', ('VAR', 'x')), ('VAR', 'x'), ('VAR', 'y')))": 4,
+        "('AND', (('NOT', ('VAR', 'x')), ('VAR', 'y')))": 6,
+        "('AND', (('NOT', ('VAR', 'y')), ('OR', (('VAR', 'x'), ('VAR', 'y')))))": 4,
+        "('AND', (('NOT', ('VAR', 'y')), ('VAR', 'x')))": 6,
+        "('AND', (('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))": 4,
+        "('AND', (('NOT', ('VAR', 'y')), ('VAR', 'y')))": 6,
+        "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x')))": 12,
+        "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x'), ('VAR', 'y')))": 8,
+        "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'y')))": 12,
+        "('AND', (('VAR', 'x'), ('VAR', 'y')))": 50,
+        "('NOT', ('AND', (('VAR', 'x'), ('VAR', 'y'))))": 2,
+        "('NOT', ('NOT', ('VAR', 'x')))": 1,
+        "('NOT', ('NOT', ('VAR', 'y')))": 1,
+        "('NOT', ('VAR', 'x'))": 5,
+        "('NOT', ('VAR', 'y'))": 5,
+        "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'x'))))": 4,
+        "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('NOT', ('VAR', 'y'))))": 4,
+        "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x')))": 12,
+        "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x'), ('VAR', 'y')))": 8,
+        "('OR', (('AND', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'y')))": 12,
+        "('OR', (('NOT', ('VAR', 'x')), ('NOT', ('VAR', 'y'))))": 2,
+        "('OR', (('NOT', ('VAR', 'x')), ('VAR', 'x')))": 6,
+        "('OR', (('NOT', ('VAR', 'x')), ('VAR', 'x'), ('VAR', 'y')))": 4,
+        "('OR', (('NOT', ('VAR', 'x')), ('VAR', 'y')))": 6,
+        "('OR', (('NOT', ('VAR', 'y')), ('VAR', 'x')))": 6,
+        "('OR', (('NOT', ('VAR', 'y')), ('VAR', 'x'), ('VAR', 'y')))": 4,
+        "('OR', (('NOT', ('VAR', 'y')), ('VAR', 'y')))": 6,
+        "('OR', (('VAR', 'x'), ('VAR', 'y')))": 50,
+        "('VAR', 'x')": 19,
+        "('VAR', 'y')": 19
+      },
+      "uses_observations": false,
+      "uses_reference_keys": false,
+      "scope": "finite syntactic support, not the complete language of all spellings"
+    },
+    "scoring": "Unchanged v1 evaluator including common fail-closed gate and full reference denominator",
+    "selection_rule": "Run every listed arm on validation, then freeze all arms for follow-up test. Prioritize NR; report VR/RR and uniform/class/string controls without selective omission.",
+    "test_status": "Follow-up on previously reported v1 test observations, not a new untouched test set",
+    "proposal_boundary": "Grammar and canonicalizer only; no test reference keys, observation filtering, repair, or rejected hidden generation attempts",
+    "uniform_cost": "Uniform samples use no LLM; zero model tokens. Shared grammar construction cost is reported separately.",
+    "theory": "Class exclusion guarantees distinct canonical keys until support exhaustion; this guarantee alone does not establish learned model quality or global algorithm novelty."
+  }
+}

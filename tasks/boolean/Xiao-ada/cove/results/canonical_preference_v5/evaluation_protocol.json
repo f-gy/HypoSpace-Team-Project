@@ -1,0 +1,57 @@
+{
+  "methods": [
+    "coverage_continuation_iid",
+    "canonical_preference_iid",
+    "coverage_continuation_bace",
+    "canonical_preference_bace",
+    "uniform_bace"
+  ],
+  "seeds": {
+    "validation": [
+      101
+    ],
+    "test": [
+      17,
+      29,
+      43
+    ]
+  },
+  "budget": 16,
+  "bace_target": 13,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "max_output_tokens": 128,
+  "training": {
+    "arms": {
+      "coverage_continuation": {
+        "updates": 80,
+        "sequence_tokens": 688698,
+        "seconds": 868.1153396209702,
+        "adapter_sha256": "3a50c5fa491aca041fbda7499de53700b4dac6841be7bae090147be823d818ac"
+      },
+      "canonical_preference": {
+        "updates": 80,
+        "sequence_tokens": 688698,
+        "seconds": 872.484104547184,
+        "adapter_sha256": "098a76c13e0fc85574a8cfdd10de29cbe476260deb5ac29a2e07e06cf883148a"
+      }
+    },
+    "base_weights_unchanged": true,
+    "new_trainable_parameters": 0,
+    "trainable_parameters": 311296,
+    "peak_memory_gb": 2.015638622
+  },
+  "analysis_plan_sha256": "fbb515b4c29b5bb86cb085e1a1b09d4e7fad848a0c19ce380414bf18ad5fd41e",
+  "sources": {
+    "preference_experiment.py": "3138c134b8cadb13a15f035ef143a6bd52b7c30f5283080e9609a1dfc587416c",
+    "canonical_decode.py": "63ba3424c0bfda86d6788fbf56967c54aaf8858f5ff46aca6c5af2e4d7fcc824",
+    "target_decode.py": "60a17f1209590d6d7b4dd1bb16143b843d214b676b3b47a20b490044214d2f9c",
+    "prompt_archive.py": "37e44ca21845197e8b5e123e9f5f244c1d1b7bf1135d52345831d558daf7ebf4",
+    "prefix_cache.py": "426a70dbe4c1187557eea87185280144f37ebc9dc94141b31060539b637153c9"
+  },
+  "test_status": "Exploratory follow-up on existing v1 held-out observation sets; not a new untouched test",
+  "selection_rule": "Publish both fixed final checkpoints and both inference modes. Prefer a candidate that raises validation NR above .8, increases RR and loses no more than .02 VR versus original canonical. If none passes, report the trade-off and retain v1 as main.",
+  "cache_policy": "Unchanged IID prefix of the same checkpoint is replayed from this v5 evaluation, counted in all logical costs. No v1 output is replayed under a v5 checkpoint.",
+  "kv_cache_policy": "Identical prompt-prefix KV states are reused per adapter/prompt; the last prompt token and every answer token are computed afresh. Actual-model seeded equivalence checked before validation. Logical prompt tokens remain fully counted; physical prefill work is logged separately.",
+  "fairness": "Byte-identical immutable v1 prompt text; identical sampler, seed generation, output cap, scoring and attempt budget. No ground-truth validity filtering during proposal."
+}

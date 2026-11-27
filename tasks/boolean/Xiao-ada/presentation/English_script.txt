@@ -1,0 +1,5 @@
+My method is BACE, or Budget-Aware Canonical Exclusion. A coverage-trained LoRA model proposes hypotheses from partial observations. Repeated structures waste attempts. With sixteen attempts, BACE targets thirteen distinct structural classes. It samples normally while slack remains, then masks seen classes when another repeat would make the target unreachable. The LLM generates, and every answer counts.
+
+I compared the same checkpoint with and without BACE on twenty-six Boolean tasks using three sampling seeds. Recovery rose from forty-one point zero two percent to fifty point three four percent. Recovery gained nine point three two points, with a bootstrap interval of about six to thirteen points. Validity fell by three point five three points. The LLM also outperformed uniform sampling. This supports decoding, while the training-loss benefit remains unproven.
+
+COVE improves final system outputs using a learned executor and a fixed hypothesis catalog. The executor-only control matches its scores, so these results do not demonstrate better LLM generation.

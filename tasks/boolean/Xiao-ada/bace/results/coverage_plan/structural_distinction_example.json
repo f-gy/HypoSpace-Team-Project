@@ -1,0 +1,40 @@
+{
+  "kind": "deterministic_benchmark_code_check_not_llm_performance",
+  "upstream_commit": "c69e9318577b34b5b896996571aefd4ba6053f58",
+  "observations": [
+    {
+      "inputs": {
+        "x": 0,
+        "y": 0
+      },
+      "output": 0
+    }
+  ],
+  "examples": [
+    {
+      "expression": "x",
+      "in_space": true,
+      "valid_for_example_observation": true,
+      "mechanistic_key": "('VAR', 'x')",
+      "truth_table_00_01_10_11": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "expression": "x AND (x OR y)",
+      "in_space": true,
+      "valid_for_example_observation": true,
+      "mechanistic_key": "('AND', (('OR', (('VAR', 'x'), ('VAR', 'y'))), ('VAR', 'x')))",
+      "truth_table_00_01_10_11": [
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  ],
+  "claim": "Identical full behavior may correspond to different official mechanistic hypotheses."
+}

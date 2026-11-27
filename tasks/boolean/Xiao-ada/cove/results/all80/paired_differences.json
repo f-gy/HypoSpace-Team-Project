@@ -1,0 +1,287 @@
+{
+  "resamples": 10000,
+  "seed": 4311,
+  "unit": "26 tasks; inference seeds averaged within task; descriptive exploratory intervals, no multiplicity-adjusted claim",
+  "comparisons": {
+    "adaptive_1x": {
+      "base_iid": {
+        "VR": {
+          "difference_percentage_points": 83.45462543991957,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            76.18328934137757,
+            89.72222222222221
+          ]
+        },
+        "NR": {
+          "difference_percentage_points": 54.55613014436543,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            50.8144586894587,
+            57.95105221575809
+          ]
+        },
+        "RR": {
+          "difference_percentage_points": 89.06225310637075,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            84.57299522373053,
+            93.15301344896933
+          ]
+        }
+      },
+      "frozen_iid": {
+        "VR": {
+          "difference_percentage_points": 60.794069764658,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            49.7870235701118,
+            71.4350819387584
+          ]
+        },
+        "NR": {
+          "difference_percentage_points": 23.37612822906941,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            18.319044177500057,
+            28.664992278962863
+          ]
+        },
+        "RR": {
+          "difference_percentage_points": 73.05088702147526,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            66.86864061864063,
+            79.18477145131556
+          ]
+        }
+      },
+      "llm_catalog_wor": {
+        "VR": {
+          "difference_percentage_points": 62.20405683640977,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            53.4076804867246,
+            70.8648609016256
+          ]
+        },
+        "NR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "RR": {
+          "difference_percentage_points": 62.20405683640977,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            53.4076804867246,
+            70.8648609016256
+          ]
+        }
+      },
+      "cove_only_4306": {
+        "VR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "NR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "RR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "uniform_wor": {
+        "VR": {
+          "difference_percentage_points": 70.9786863463334,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            64.61644326534032,
+            77.17060948310949
+          ]
+        },
+        "NR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "RR": {
+          "difference_percentage_points": 70.9786863463334,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            64.61644326534032,
+            77.17060948310949
+          ]
+        }
+      },
+      "symbolic_wor": {
+        "VR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "NR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "RR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "fixed16": {
+      "base_iid": {
+        "VR": {
+          "difference_percentage_points": 40.22435897435898,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            32.93269230769231,
+            47.756410256410255
+          ]
+        },
+        "NR": {
+          "difference_percentage_points": 64.1025641025641,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            62.099358974358985,
+            66.10576923076923
+          ]
+        },
+        "RR": {
+          "difference_percentage_points": 84.60981828628888,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            79.20414960856138,
+            89.56773414494002
+          ]
+        }
+      },
+      "frozen_iid": {
+        "VR": {
+          "difference_percentage_points": 15.624999999999996,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            8.731971153846155,
+            22.195512820512818
+          ]
+        },
+        "NR": {
+          "difference_percentage_points": 35.57692307692308,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            31.810897435897438,
+            39.342948717948715
+          ]
+        },
+        "RR": {
+          "difference_percentage_points": 57.26004931887285,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            50.868701967966665,
+            63.79311211664153
+          ]
+        }
+      },
+      "llm_catalog_wor": {
+        "VR": {
+          "difference_percentage_points": 20.67307692307692,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            16.346153846153843,
+            25.000000000000007
+          ]
+        },
+        "NR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "RR": {
+          "difference_percentage_points": 38.148806531159465,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            29.998308404558404,
+            46.63408044841868
+          ]
+        }
+      },
+      "cove_only_4306": {
+        "VR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "NR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "RR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "uniform_wor": {
+        "VR": {
+          "difference_percentage_points": 26.602564102564102,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            22.676282051282044,
+            31.009615384615387
+          ]
+        },
+        "NR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "RR": {
+          "difference_percentage_points": 48.15308602073308,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            44.37962663697958,
+            51.84279833728363
+          ]
+        }
+      },
+      "symbolic_wor": {
+        "VR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "NR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "RR": {
+          "difference_percentage_points": 0.0,
+          "task_paired_bootstrap_95_percent_interval_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

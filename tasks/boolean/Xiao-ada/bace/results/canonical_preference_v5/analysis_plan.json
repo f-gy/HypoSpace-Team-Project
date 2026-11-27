@@ -1,0 +1,21 @@
+{
+  "status": "specified before any v5 adapter validation or test outputs",
+  "primary_comparison": {
+    "target": "canonical_preference_bace",
+    "control": "coverage_continuation_bace"
+  },
+  "primary_outcome": "VR at 16 counted attempts",
+  "secondary_outcomes": [
+    "RR",
+    "NR"
+  ],
+  "reason": "The added observed-constraint preference loss should improve validity under the same uniqueness-control policy; BACE uniqueness alone is not evidence for the new loss.",
+  "uncertainty": "Paired task bootstrap with seed4300 and 10000 resamples, averaging inference seeds within each task; fixed 26 task clusters. One training seed.",
+  "test_seeds": [
+    17,
+    29,
+    43
+  ],
+  "adoption_rule": "Validation NR>.8, RR>v1 canonical RR, and VR>=v1 canonical VR-.02. Publish both arms and both policies regardless.",
+  "limits": "Exploratory follow-up: all 26 v1 observation test sets were already reported before method development. No claim of untouched confirmatory evidence or multiplicity-adjusted secondary comparisons."
+}

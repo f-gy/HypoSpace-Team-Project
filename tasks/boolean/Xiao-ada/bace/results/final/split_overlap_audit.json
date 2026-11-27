@@ -1,0 +1,7 @@
+{
+  "train_tasks": 16,
+  "unique_train_reference_sets": 16,
+  "validation_tasks_with_training_identical_reference_set": 0,
+  "test_tasks_with_training_identical_reference_set": 0,
+  "note": "Reference-family overlap audit only; no model outputs evaluated or test split changed. Main claim remains held-out observations, not unseen hypothesis families."
+}

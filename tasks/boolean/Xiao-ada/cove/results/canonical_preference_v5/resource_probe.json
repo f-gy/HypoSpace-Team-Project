@@ -1,0 +1,11 @@
+{
+  "reason": "Resource-only timing probe before new adapter validation/test; vocabulary projection unnecessarily covered masked prompt positions",
+  "completed_optimizer_updates": 14,
+  "seconds": 201.90031170798466,
+  "sequence_tokens": 119981,
+  "last_arm": "coverage_continuation",
+  "old_source_sha256": "8da8a03542f897d42bfd8a5e83f60dbddc5e8ae9c7cc0167ee68fb6cce0bfbf9",
+  "reference_data_retained": true,
+  "final_arms_restart_from_same_immutable_v1_checkpoint": true,
+  "new_loss_changes": "Mathematically equivalent response-only vocabulary projection; verify loss and gradient before restart"
+}

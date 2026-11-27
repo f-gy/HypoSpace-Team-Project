@@ -1,0 +1,6 @@
+{
+  "new_calls_this_invocation": 42,
+  "expected_total_extra_calls": 42,
+  "original_16_step_outputs_replayed_without_repair": true,
+  "all_new_outputs_retained": true
+}

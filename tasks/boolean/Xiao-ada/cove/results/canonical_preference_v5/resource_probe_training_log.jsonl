@@ -1,0 +1,14 @@
+{"arm": "coverage_continuation", "step": 1, "loss": -0.6801539361476898, "seconds": 11.819474207703024, "sequence_tokens_so_far": 8691, "peak_memory_gb": 2.91659608}
+{"arm": "coverage_continuation", "step": 2, "loss": -0.02575584501028061, "seconds": 12.236588667146862, "sequence_tokens_so_far": 17256, "peak_memory_gb": 2.91659608}
+{"arm": "coverage_continuation", "step": 3, "loss": 0.1793026626110077, "seconds": 19.521395625080913, "sequence_tokens_so_far": 25920, "peak_memory_gb": 2.920330688}
+{"arm": "coverage_continuation", "step": 4, "loss": 0.2236248478293419, "seconds": 15.163031165953726, "sequence_tokens_so_far": 34487, "peak_memory_gb": 2.920330688}
+{"arm": "coverage_continuation", "step": 5, "loss": 0.45202474296092987, "seconds": 14.309331917203963, "sequence_tokens_so_far": 42934, "peak_memory_gb": 2.920330688}
+{"arm": "coverage_continuation", "step": 6, "loss": -0.20688128471374512, "seconds": 14.567230749875307, "sequence_tokens_so_far": 51465, "peak_memory_gb": 2.920330688}
+{"arm": "coverage_continuation", "step": 7, "loss": -0.11492267996072769, "seconds": 15.160421542357653, "sequence_tokens_so_far": 60114, "peak_memory_gb": 2.92033824}
+{"arm": "coverage_continuation", "step": 8, "loss": 0.013879060745239258, "seconds": 14.896384582854807, "sequence_tokens_so_far": 68629, "peak_memory_gb": 2.92033824}
+{"arm": "coverage_continuation", "step": 9, "loss": 0.13377590477466583, "seconds": 14.700098792091012, "sequence_tokens_so_far": 77154, "peak_memory_gb": 2.92033824}
+{"arm": "coverage_continuation", "step": 10, "loss": 0.20229121297597885, "seconds": 14.852310708258301, "sequence_tokens_so_far": 85637, "peak_memory_gb": 2.92033824}
+{"arm": "coverage_continuation", "step": 11, "loss": 0.20495976507663727, "seconds": 15.498105749953538, "sequence_tokens_so_far": 94225, "peak_memory_gb": 2.92033824}
+{"arm": "coverage_continuation", "step": 12, "loss": 0.33167483657598495, "seconds": 14.101249999832362, "sequence_tokens_so_far": 102812, "peak_memory_gb": 2.92033824}
+{"arm": "coverage_continuation", "step": 13, "loss": 0.03611595183610916, "seconds": 12.85191937489435, "sequence_tokens_so_far": 111328, "peak_memory_gb": 2.92033824}
+{"arm": "coverage_continuation", "step": 14, "loss": -0.3799600899219513, "seconds": 12.222768624778837, "sequence_tokens_so_far": 119981, "peak_memory_gb": 2.92033824}

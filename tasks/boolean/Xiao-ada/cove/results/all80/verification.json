@@ -1,0 +1,46 @@
+{
+  "pass": true,
+  "splits": {
+    "validation": {
+      "outputs_rescored": 1296,
+      "episodes": 108,
+      "rankings_and_metrics_match": true,
+      "outside_reference_distinct_hits_summed_over_both_protocols": {
+        "base_iid": 3,
+        "frozen_iid": 0,
+        "llm_catalog_wor": 0,
+        "cove_llm_4306": 0,
+        "cove_llm_4307": 0,
+        "cove_llm_4308": 0,
+        "cove_only_4306": 0,
+        "uniform_wor": 0,
+        "symbolic_wor": 0
+      }
+    },
+    "test": {
+      "outputs_rescored": 17685,
+      "episodes": 1404,
+      "rankings_and_metrics_match": true,
+      "outside_reference_distinct_hits_summed_over_both_protocols": {
+        "base_iid": 20,
+        "frozen_iid": 0,
+        "llm_catalog_wor": 0,
+        "cove_llm_4306": 0,
+        "cove_llm_4307": 0,
+        "cove_llm_4308": 0,
+        "cove_only_4306": 0,
+        "uniform_wor": 0,
+        "symbolic_wor": 0
+      }
+    }
+  },
+  "all_original_source_hashes_match": true,
+  "train_only_inventory_and_training_ids": true,
+  "training_compatibility_labels_checked": 528,
+  "classes": 33,
+  "executor_parameters": 179,
+  "no_catalog_reference_external_validity_artifacts": true,
+  "new_iid_calls": 42,
+  "learned_sampler_replayed_without_exact_execution": true,
+  "scope": "CPU checks saved logits and learned weights; three on-device teacher-forcing checks separately recorded. Does not retrain or repeat all LLM forward passes."
+}

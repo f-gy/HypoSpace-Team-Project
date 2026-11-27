@@ -1,0 +1,24 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "alias_index": 0,
+      "full_logp": -2.4815142154693604,
+      "cached_batched_logp": -2.4743456840515137,
+      "absolute_difference": 0.00716853141784668
+    },
+    {
+      "alias_index": 31,
+      "full_logp": -4.636075019836426,
+      "cached_batched_logp": -4.642906665802002,
+      "absolute_difference": 0.006831645965576172
+    },
+    {
+      "alias_index": 65,
+      "full_logp": -6.773929595947266,
+      "cached_batched_logp": -6.77976655960083,
+      "absolute_difference": 0.005836963653564453
+    }
+  ],
+  "note": "Small quantized GEMM shape differences are allowed; full probabilities include EOS and exclude prompt tokens."
+}

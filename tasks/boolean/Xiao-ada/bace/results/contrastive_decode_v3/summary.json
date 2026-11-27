@@ -1,0 +1,28 @@
+{
+  "split": "validation",
+  "outputs": 192,
+  "metrics": {
+    "cc_class_cfg2": {
+      "VR": 0.2916666666666667,
+      "NR": 1.0,
+      "RR": 0.5601851851851852
+    },
+    "cc_class_cfg4": {
+      "VR": 0.2604166666666667,
+      "NR": 1.0,
+      "RR": 0.4861111111111111
+    }
+  },
+  "accepted_methods": [],
+  "selected": null,
+  "status": "Not adopted: neither fixed guidance strength passes the validity guard",
+  "limitation": "Pilot prompt operator order follows the upstream unordered set and can differ from v1. This is exploratory, not a strict byte-identical-prompt comparison.",
+  "ledger": {
+    "generated_answers": 192,
+    "model_forward_streams": 384,
+    "conditional_prompt_tokens": 102144,
+    "prior_prompt_tokens": 96192,
+    "completion_tokens_per_stream": 1836,
+    "errors": 0
+  }
+}

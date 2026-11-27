@@ -1,0 +1,17 @@
+{
+  "operator_set": "extended",
+  "max_depth": 2,
+  "split_seed": 4300,
+  "train_tasks": 16,
+  "validation_tasks": 6,
+  "test_tasks": 6,
+  "train_queries": 16,
+  "eval_queries": 16,
+  "eval_seeds": [17, 29],
+  "methods": ["memory", "fixed", "random", "learned", "no_history"],
+  "temperature": 0.8,
+  "max_output_tokens": 128,
+  "request_timeout_seconds": 90,
+  "max_api_calls": 1400,
+  "max_total_tokens": 5000000
+}

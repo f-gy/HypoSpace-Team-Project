@@ -1,0 +1,58 @@
+{
+  "label": "Exploratory decoder/learned-proposal attribution; selected model fixed on validation",
+  "target": "coverage_continuation_bace",
+  "comparisons": {
+    "coverage_continuation_iid": {
+      "VR": {
+        "difference": -0.035256410256410256,
+        "task_bootstrap_95_interval": [
+          -0.0737179487179487,
+          0.0008012820512820537
+        ],
+        "paired_tasks": 26
+      },
+      "NR": {
+        "difference": 0.17067307692307693,
+        "task_bootstrap_95_interval": [
+          0.13541666666666666,
+          0.2067307692307692
+        ],
+        "paired_tasks": 26
+      },
+      "RR": {
+        "difference": 0.09319591084296963,
+        "task_bootstrap_95_interval": [
+          0.0590307105748282,
+          0.1281593556225909
+        ],
+        "paired_tasks": 26
+      }
+    },
+    "uniform_bace": {
+      "VR": {
+        "difference": 0.07451923076923075,
+        "task_bootstrap_95_interval": [
+          0.02964743589743589,
+          0.11939102564102563
+        ],
+        "paired_tasks": 26
+      },
+      "NR": {
+        "difference": -0.024038461538461533,
+        "task_bootstrap_95_interval": [
+          -0.035256410256410235,
+          -0.013621794871794875
+        ],
+        "paired_tasks": 26
+      },
+      "RR": {
+        "difference": 0.10306178026766262,
+        "task_bootstrap_95_interval": [
+          0.05358259115612056,
+          0.1523435367736838
+        ],
+        "paired_tasks": 26
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "new_model_calls": 3656,
+  "replayed_model_calls": 1720,
+  "uniform_draws": 1344,
+  "new_model_tokens": 1968968,
+  "replayed_model_tokens": 926883,
+  "errors": 0,
+  "prefix_builds": 64,
+  "physical_prefix_tokens": 33768,
+  "physical_last_prompt_tokens": 3656,
+  "physical_completion_tokens": 37788,
+  "prefix_build_seconds": 24.060472916346043
+}

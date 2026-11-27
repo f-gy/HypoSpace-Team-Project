@@ -1,0 +1,39 @@
+{
+  "methods": [
+    "base_iid",
+    "frozen_iid",
+    "llm_catalog_wor",
+    "cove_llm_4306",
+    "cove_llm_4307",
+    "cove_llm_4308",
+    "cove_only_4306",
+    "uniform_wor",
+    "symbolic_wor"
+  ],
+  "protocols": [
+    "adaptive_1x",
+    "fixed16"
+  ],
+  "seeds": [
+    101
+  ],
+  "primary_method": "cove_llm_4306",
+  "primary_protocol": "adaptive_1x",
+  "primary_target": "Macro VR, NR and RR all > .8",
+  "learned_executor_seeds": "4306 primary; 4307/4308 fixed replication, no test selection",
+  "posterior_tau": 1.0,
+  "posterior_beta": 10.0,
+  "class_sampling": "Gumbel top-N, no replacement",
+  "catalog_source": "Original training split aliases plus grammar-only structural representatives",
+  "benchmark_budget": "adaptive_1x uses N=reference K, matching official README query-multiplier=1.0; K is supplied only as budget, not a solution-membership label",
+  "fairness": "All methods receive same task, observations and budget in a protocol; both protocols reported separately",
+  "proposal_type": "LLM-scored finite catalog selection, not unrestricted autoregressive generation",
+  "exact_constraints": "Only symbolic_wor uses exact execution. Proposed COVE likelihood uses learned 179-parameter modules.",
+  "test_status": "Exploratory known-v1 observation follow-up; auxiliary unseen-depth executor probe is separate",
+  "source_sha256": {
+    "all80_experiment.py": "20f7d6b82672e01a010321150c37e8409f5377da9a2133b4a2c86bec3c5af630",
+    "catalog_scores.py": "2e9afe4d8c23726c9c8237c33769d49e1b5a8a4d76bf950d3d62fcaafc739e59",
+    "posterior_bank.py": "99e3bffac6e3010d8f6e23ef3ae0bc008b8687503ed43dd31475ed071cb3f093",
+    "learned_executor.py": "3ac5b0e4c8722a17ef4f772b79bef6aa1a706ba77b02a818ba0046762719905d"
+  }
+}

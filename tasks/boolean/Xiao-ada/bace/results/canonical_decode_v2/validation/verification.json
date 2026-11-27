@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "raw_outputs_rescored": 576,
+  "methods": [
+    "cc_grammar_iid",
+    "cc_string_wor",
+    "cc_class_wor",
+    "sft_class_wor",
+    "base_class_wor",
+    "uniform_class_wor"
+  ],
+  "excluded_failed_attempts_in_formal_run": 0
+}

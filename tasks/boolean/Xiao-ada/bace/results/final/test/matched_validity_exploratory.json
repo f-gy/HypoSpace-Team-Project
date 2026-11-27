@@ -1,0 +1,459 @@
+{
+  "note": "Post-hoc diagnostic, not primary inference. Exact hypergeometric downsampling of recorded reference-valid outputs; zero-common-valid episodes excluded.",
+  "included_episodes": 75,
+  "total_paired_episodes": 78,
+  "included_tasks": 26,
+  "task_mean_expected_RR_difference": -0.007674298426560868,
+  "episodes": [
+    {
+      "task": "529e001f10ce8f35",
+      "seed": 17,
+      "matched_reference_valid_draws": 4,
+      "expected_RR_difference": -0.16666666666666666
+    },
+    {
+      "task": "529e001f10ce8f35",
+      "seed": 43,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "d2bab89d4e62c767",
+      "seed": 17,
+      "matched_reference_valid_draws": 10,
+      "expected_RR_difference": -0.02673796791443853
+    },
+    {
+      "task": "d2bab89d4e62c767",
+      "seed": 29,
+      "matched_reference_valid_draws": 8,
+      "expected_RR_difference": -0.059893048128342216
+    },
+    {
+      "task": "d2bab89d4e62c767",
+      "seed": 43,
+      "matched_reference_valid_draws": 11,
+      "expected_RR_difference": 0.061840120663650064
+    },
+    {
+      "task": "4ae35d977a5b3a7f",
+      "seed": 17,
+      "matched_reference_valid_draws": 2,
+      "expected_RR_difference": -0.1
+    },
+    {
+      "task": "4ae35d977a5b3a7f",
+      "seed": 29,
+      "matched_reference_valid_draws": 4,
+      "expected_RR_difference": -0.24
+    },
+    {
+      "task": "4ae35d977a5b3a7f",
+      "seed": 43,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "33ba982524498e44",
+      "seed": 17,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "33ba982524498e44",
+      "seed": 29,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "33ba982524498e44",
+      "seed": 43,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 17,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": 0.16666666666666666
+    },
+    {
+      "task": "ccb74e75ae7fe6f8",
+      "seed": 29,
+      "matched_reference_valid_draws": 2,
+      "expected_RR_difference": -0.055555555555555546
+    },
+    {
+      "task": "cfb68019d93cb40b",
+      "seed": 17,
+      "matched_reference_valid_draws": 5,
+      "expected_RR_difference": -0.388888888888889
+    },
+    {
+      "task": "cfb68019d93cb40b",
+      "seed": 29,
+      "matched_reference_valid_draws": 6,
+      "expected_RR_difference": 0.16666666666666666
+    },
+    {
+      "task": "cfb68019d93cb40b",
+      "seed": 43,
+      "matched_reference_valid_draws": 6,
+      "expected_RR_difference": -0.16666666666666666
+    },
+    {
+      "task": "3376193cc0b23f84",
+      "seed": 17,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": -0.06666666666666668
+    },
+    {
+      "task": "3376193cc0b23f84",
+      "seed": 29,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "3376193cc0b23f84",
+      "seed": 43,
+      "matched_reference_valid_draws": 5,
+      "expected_RR_difference": -0.027777777777777776
+    },
+    {
+      "task": "05ace31b5594de25",
+      "seed": 17,
+      "matched_reference_valid_draws": 4,
+      "expected_RR_difference": -0.025000000000000022
+    },
+    {
+      "task": "05ace31b5594de25",
+      "seed": 29,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "5a17b622676fbafd",
+      "seed": 17,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "5a17b622676fbafd",
+      "seed": 29,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "5a17b622676fbafd",
+      "seed": 43,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": -0.125
+    },
+    {
+      "task": "cf672e2a816c26f7",
+      "seed": 17,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "cf672e2a816c26f7",
+      "seed": 29,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "cf672e2a816c26f7",
+      "seed": 43,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "0460f9d0a8255d57",
+      "seed": 17,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": 0.16666666666666666
+    },
+    {
+      "task": "0460f9d0a8255d57",
+      "seed": 29,
+      "matched_reference_valid_draws": 2,
+      "expected_RR_difference": 0.11111111111111112
+    },
+    {
+      "task": "0460f9d0a8255d57",
+      "seed": 43,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "96e90180d0d7e7c1",
+      "seed": 17,
+      "matched_reference_valid_draws": 12,
+      "expected_RR_difference": -0.058823529411764705
+    },
+    {
+      "task": "96e90180d0d7e7c1",
+      "seed": 29,
+      "matched_reference_valid_draws": 8,
+      "expected_RR_difference": 0.058823529411764705
+    },
+    {
+      "task": "96e90180d0d7e7c1",
+      "seed": 43,
+      "matched_reference_valid_draws": 9,
+      "expected_RR_difference": -0.08235294117647061
+    },
+    {
+      "task": "4193d5a0e928436f",
+      "seed": 17,
+      "matched_reference_valid_draws": 10,
+      "expected_RR_difference": 0.0324675324675325
+    },
+    {
+      "task": "4193d5a0e928436f",
+      "seed": 29,
+      "matched_reference_valid_draws": 10,
+      "expected_RR_difference": -0.038211788211788215
+    },
+    {
+      "task": "4193d5a0e928436f",
+      "seed": 43,
+      "matched_reference_valid_draws": 10,
+      "expected_RR_difference": 0.038211788211788215
+    },
+    {
+      "task": "eb5c49b8875cb38d",
+      "seed": 17,
+      "matched_reference_valid_draws": 8,
+      "expected_RR_difference": 0.04206773618538323
+    },
+    {
+      "task": "eb5c49b8875cb38d",
+      "seed": 29,
+      "matched_reference_valid_draws": 9,
+      "expected_RR_difference": -0.029411764705882353
+    },
+    {
+      "task": "eb5c49b8875cb38d",
+      "seed": 43,
+      "matched_reference_valid_draws": 11,
+      "expected_RR_difference": -0.0368455074337427
+    },
+    {
+      "task": "366130c4ee65403b",
+      "seed": 17,
+      "matched_reference_valid_draws": 4,
+      "expected_RR_difference": -0.09999999999999994
+    },
+    {
+      "task": "366130c4ee65403b",
+      "seed": 29,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "366130c4ee65403b",
+      "seed": 43,
+      "matched_reference_valid_draws": 2,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "41afe33958a0f175",
+      "seed": 17,
+      "matched_reference_valid_draws": 8,
+      "expected_RR_difference": -0.0411111111111111
+    },
+    {
+      "task": "41afe33958a0f175",
+      "seed": 29,
+      "matched_reference_valid_draws": 10,
+      "expected_RR_difference": 0.07348484848484849
+    },
+    {
+      "task": "41afe33958a0f175",
+      "seed": 43,
+      "matched_reference_valid_draws": 11,
+      "expected_RR_difference": 0.016666666666666698
+    },
+    {
+      "task": "4e203c42afda39ea",
+      "seed": 17,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "4e203c42afda39ea",
+      "seed": 29,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": 0.16666666666666666
+    },
+    {
+      "task": "4e203c42afda39ea",
+      "seed": 43,
+      "matched_reference_valid_draws": 5,
+      "expected_RR_difference": 0.16666666666666666
+    },
+    {
+      "task": "78e9bb81fdfa58e9",
+      "seed": 17,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": -0.10000000000000002
+    },
+    {
+      "task": "78e9bb81fdfa58e9",
+      "seed": 29,
+      "matched_reference_valid_draws": 4,
+      "expected_RR_difference": 0.03571428571428573
+    },
+    {
+      "task": "78e9bb81fdfa58e9",
+      "seed": 43,
+      "matched_reference_valid_draws": 5,
+      "expected_RR_difference": -0.055555555555555504
+    },
+    {
+      "task": "901883305471e27f",
+      "seed": 17,
+      "matched_reference_valid_draws": 4,
+      "expected_RR_difference": 0.01666666666666668
+    },
+    {
+      "task": "901883305471e27f",
+      "seed": 29,
+      "matched_reference_valid_draws": 5,
+      "expected_RR_difference": -0.027777777777777752
+    },
+    {
+      "task": "901883305471e27f",
+      "seed": 43,
+      "matched_reference_valid_draws": 5,
+      "expected_RR_difference": 0.041666666666666664
+    },
+    {
+      "task": "bb95a672f4564a67",
+      "seed": 17,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "bb95a672f4564a67",
+      "seed": 29,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "bb95a672f4564a67",
+      "seed": 43,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "bc56fbefe7c38a2a",
+      "seed": 17,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": -0.05
+    },
+    {
+      "task": "bc56fbefe7c38a2a",
+      "seed": 29,
+      "matched_reference_valid_draws": 4,
+      "expected_RR_difference": -0.07999999999999999
+    },
+    {
+      "task": "bc56fbefe7c38a2a",
+      "seed": 43,
+      "matched_reference_valid_draws": 4,
+      "expected_RR_difference": 0.2
+    },
+    {
+      "task": "309cb870390c832b",
+      "seed": 17,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "309cb870390c832b",
+      "seed": 29,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "309cb870390c832b",
+      "seed": 43,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": -0.1111111111111111
+    },
+    {
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 17,
+      "matched_reference_valid_draws": 9,
+      "expected_RR_difference": -0.16666666666666666
+    },
+    {
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 29,
+      "matched_reference_valid_draws": 7,
+      "expected_RR_difference": -0.0034722222222222467
+    },
+    {
+      "task": "53d0f06e5b9f9cf5",
+      "seed": 43,
+      "matched_reference_valid_draws": 9,
+      "expected_RR_difference": -0.041666666666666664
+    },
+    {
+      "task": "2f44f7747e67ffb6",
+      "seed": 17,
+      "matched_reference_valid_draws": 2,
+      "expected_RR_difference": -0.0625
+    },
+    {
+      "task": "2f44f7747e67ffb6",
+      "seed": 29,
+      "matched_reference_valid_draws": 4,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "2f44f7747e67ffb6",
+      "seed": 43,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": 0.09999999999999998
+    },
+    {
+      "task": "af3d6162e50915b5",
+      "seed": 17,
+      "matched_reference_valid_draws": 8,
+      "expected_RR_difference": -0.08333333333333326
+    },
+    {
+      "task": "af3d6162e50915b5",
+      "seed": 29,
+      "matched_reference_valid_draws": 7,
+      "expected_RR_difference": 0.375
+    },
+    {
+      "task": "af3d6162e50915b5",
+      "seed": 43,
+      "matched_reference_valid_draws": 5,
+      "expected_RR_difference": 0.0714285714285714
+    },
+    {
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 17,
+      "matched_reference_valid_draws": 6,
+      "expected_RR_difference": -0.01785714285714285
+    },
+    {
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 29,
+      "matched_reference_valid_draws": 5,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "b6e6f6b6a9c5ed13",
+      "seed": 43,
+      "matched_reference_valid_draws": 7,
+      "expected_RR_difference": -0.03125
+    }
+  ]
+}

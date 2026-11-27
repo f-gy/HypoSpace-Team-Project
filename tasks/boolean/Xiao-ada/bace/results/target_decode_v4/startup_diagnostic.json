@@ -1,0 +1,4 @@
+{
+  "model_calls": 0,
+  "reason": "Pre-inference assertion detected upstream unordered-set prompt formatting across Python processes. V4 now reuses exact immutable v1 prompt text. No model outcomes were produced or selected."
+}

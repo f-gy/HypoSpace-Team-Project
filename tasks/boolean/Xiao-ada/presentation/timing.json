@@ -1,0 +1,17 @@
+{
+  "spoken_word_count": 167,
+  "by_slide": [
+    59,
+    76,
+    32
+  ],
+  "convention": "Hyphen components count separately. LLM is three spoken letters. BACE, LoRA and COVE are pronounced as words.",
+  "pause_allowance_seconds": 8,
+  "estimated_seconds_including_pause_allowance": {
+    "80": 133.25,
+    "85": 125.88,
+    "90": 119.33,
+    "100": 108.2
+  },
+  "delivery_condition": "At least 80 spoken words/minute, at most 8 additional seconds of pauses; read only the script paragraphs."
+}

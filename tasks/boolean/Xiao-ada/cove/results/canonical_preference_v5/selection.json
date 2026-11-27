@@ -1,0 +1,19 @@
+{
+  "selected_method": "coverage_continuation_bace",
+  "selection_source": "validation only, before any new test outputs",
+  "validation_summary_sha256": "8f5e34910894627423e433a58ead38f252a37e70a4a459d9419292508994753b",
+  "selected_validation_metrics": {
+    "VR": 0.3854166666666667,
+    "NR": 0.8125,
+    "RR": 0.4907407407407407,
+    "seconds": 3.621014318584154,
+    "tokens": 8672.0,
+    "outside_reference": 0.0,
+    "intervention_calls": 6.666666666666667
+  },
+  "new_preference_term_selected": false,
+  "all_fixed_test_arms_retained": true,
+  "retained_if_no_selection": "canonical_coverage_iid",
+  "date": "2026-11-26",
+  "scope": "Exploratory follow-up on known v1 observation test sets; no untouched-confirmation claim"
+}

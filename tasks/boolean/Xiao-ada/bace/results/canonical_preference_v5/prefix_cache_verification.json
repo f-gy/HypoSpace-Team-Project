@@ -1,0 +1,43 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "task": "58afbe555602c1b3",
+      "grammar_masked": false,
+      "same_text_and_tokens": true,
+      "shared_cache_unchanged": true,
+      "uncached_seconds": 3.111845124978572,
+      "cached_seconds_excluding_build": 1.0235658753663301,
+      "cache_build_seconds": 6.709681292064488
+    },
+    {
+      "task": "58afbe555602c1b3",
+      "grammar_masked": true,
+      "same_text_and_tokens": true,
+      "shared_cache_unchanged": true,
+      "uncached_seconds": 2.3902980419807136,
+      "cached_seconds_excluding_build": 0.7899703341536224,
+      "cache_build_seconds": 6.709681292064488
+    },
+    {
+      "task": "ad53dfd61538637a",
+      "grammar_masked": false,
+      "same_text_and_tokens": true,
+      "shared_cache_unchanged": true,
+      "uncached_seconds": 3.038719333242625,
+      "cached_seconds_excluding_build": 2.0255343331955373,
+      "cache_build_seconds": 1.2697769170626998
+    },
+    {
+      "task": "ad53dfd61538637a",
+      "grammar_masked": true,
+      "same_text_and_tokens": true,
+      "shared_cache_unchanged": true,
+      "uncached_seconds": 2.24401337467134,
+      "cached_seconds_excluding_build": 1.2748105423524976,
+      "cache_build_seconds": 1.2697769170626998
+    }
+  ],
+  "purpose": "Runtime-only implementation equivalence, not a method score",
+  "random_seed": 4305
+}

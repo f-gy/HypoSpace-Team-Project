@@ -1,0 +1,445 @@
+{
+  "note": "Post-hoc description; not a preregistered primary outcome. Operator counts on official mechanistic keys. Empty strata excluded.",
+  "episodes": [
+    {
+      "method": "base_iid",
+      "task": "58afbe555602c1b3",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "58afbe555602c1b3",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "ad53dfd61538637a",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "ad53dfd61538637a",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "f25ac6d673e4a101",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "base_iid",
+      "task": "f25ac6d673e4a101",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "base_iid",
+      "task": "c0ebd18dfefc1425",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "b80ea1ea0723d497",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "b80ea1ea0723d497",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "base_iid",
+      "task": "e581cfb9a2e7da47",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_iid",
+      "task": "e581cfb9a2e7da47",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.375
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "58afbe555602c1b3",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "58afbe555602c1b3",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.3
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "ad53dfd61538637a",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "ad53dfd61538637a",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.4
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "f25ac6d673e4a101",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "f25ac6d673e4a101",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "c0ebd18dfefc1425",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "b80ea1ea0723d497",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "b80ea1ea0723d497",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "e581cfb9a2e7da47",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "balanced_sft_iid",
+      "task": "e581cfb9a2e7da47",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.25
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "58afbe555602c1b3",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "58afbe555602c1b3",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.4
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "ad53dfd61538637a",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "ad53dfd61538637a",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.8
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "f25ac6d673e4a101",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "f25ac6d673e4a101",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "c0ebd18dfefc1425",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "b80ea1ea0723d497",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "b80ea1ea0723d497",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.7142857142857143
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "e581cfb9a2e7da47",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "canonical_coverage_iid",
+      "task": "e581cfb9a2e7da47",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.25
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "58afbe555602c1b3",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "58afbe555602c1b3",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.5
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "ad53dfd61538637a",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "ad53dfd61538637a",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.6
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "f25ac6d673e4a101",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "f25ac6d673e4a101",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.2
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "c0ebd18dfefc1425",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.3333333333333333
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "b80ea1ea0723d497",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "b80ea1ea0723d497",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.7142857142857143
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "e581cfb9a2e7da47",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "string_coverage_iid",
+      "task": "e581cfb9a2e7da47",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.625
+    },
+    {
+      "method": "base_memory",
+      "task": "58afbe555602c1b3",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.5
+    },
+    {
+      "method": "base_memory",
+      "task": "58afbe555602c1b3",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 10,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "ad53dfd61538637a",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "ad53dfd61538637a",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "f25ac6d673e4a101",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 1.0
+    },
+    {
+      "method": "base_memory",
+      "task": "f25ac6d673e4a101",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 5,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "c0ebd18dfefc1425",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 6,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "b80ea1ea0723d497",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 2,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "b80ea1ea0723d497",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 7,
+      "RR": 0.14285714285714285
+    },
+    {
+      "method": "base_memory",
+      "task": "e581cfb9a2e7da47",
+      "seed": 101,
+      "stratum": "simple_0_or_1",
+      "reference_size": 1,
+      "RR": 0.0
+    },
+    {
+      "method": "base_memory",
+      "task": "e581cfb9a2e7da47",
+      "seed": 101,
+      "stratum": "complex_2_or_more",
+      "reference_size": 8,
+      "RR": 0.25
+    }
+  ]
+}

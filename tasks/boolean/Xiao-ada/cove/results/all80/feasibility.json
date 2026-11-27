@@ -1,0 +1,24 @@
+{
+  "target": {
+    "VR": 0.8,
+    "NR": 0.8,
+    "RR": 0.8
+  },
+  "fixed_protocol": {
+    "budget": 16,
+    "tasks": 26,
+    "mean_reference_size": 9.192307692307692,
+    "upper_macro_NR_if_macro_VR_at_least_0_8": 0.7745192307692308
+  },
+  "assumption": "All truly valid hypotheses lie in the enumerated admissible reference classes; implementation out-of-reference artifacts are not used to inflate the scores.",
+  "inequality": "U <= K/N + 1 - V; average across equal-N tasks.",
+  "new_protocol": {
+    "name": "adaptive_1x",
+    "budget": "N=max(1,int(K*1.0))",
+    "source": "Pinned official Boolean runner, lines 710-713; README example uses query-multiplier 1.0",
+    "same_task_ids": true,
+    "all_baselines_use_same_budget": true,
+    "not_directly_comparable_to_fixed16": true
+  },
+  "no_test_reference_keys_in_proposal": true
+}

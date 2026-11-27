@@ -1,0 +1,14 @@
+{
+  "training_groups": 1,
+  "model": "actual frozen quantized Qwen2.5-1.5B with v1 canonical adapter",
+  "optimizer_updates": 0,
+  "full_loss": 0.4476620852947235,
+  "response_only_loss": 0.4476621448993683,
+  "loss_absolute_difference": 5.960464477539063e-08,
+  "gradient_relative_l2_difference": 0.0,
+  "gradient_max_absolute_difference": 0.0,
+  "full_seconds": 3.295260750222951,
+  "response_only_seconds": 2.5494695003144443,
+  "note": "One-batch implementation check, not a new method result or a general speed benchmark. Float precision can change with quantized matrix shapes.",
+  "pass": true
+}

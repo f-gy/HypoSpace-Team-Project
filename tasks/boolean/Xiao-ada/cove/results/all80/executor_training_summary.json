@@ -1,0 +1,38 @@
+{
+  "runs": [
+    {
+      "seed": 4306,
+      "steps": 2000,
+      "parameters": 179,
+      "seconds": 18.713983250316232,
+      "final_loss": 3.069186641369015e-05,
+      "positive_observation_accuracy": 1.0,
+      "numpy_mlx_max_difference": 1.7285346984863281e-06,
+      "training_observation_labels": 260,
+      "training_class_task_pairs": 528
+    },
+    {
+      "seed": 4307,
+      "steps": 2000,
+      "parameters": 179,
+      "seconds": 9.285617665853351,
+      "final_loss": 2.995782961079385e-05,
+      "positive_observation_accuracy": 1.0,
+      "numpy_mlx_max_difference": 1.3113021850585938e-06,
+      "training_observation_labels": 260,
+      "training_class_task_pairs": 528
+    },
+    {
+      "seed": 4308,
+      "steps": 2000,
+      "parameters": 179,
+      "seconds": 9.208195709157735,
+      "final_loss": 2.9441056540235877e-05,
+      "positive_observation_accuracy": 1.0,
+      "numpy_mlx_max_difference": 1.6093254089355469e-06,
+      "training_observation_labels": 260,
+      "training_class_task_pairs": 528
+    }
+  ],
+  "no_validation_or_test_gradients": true
+}

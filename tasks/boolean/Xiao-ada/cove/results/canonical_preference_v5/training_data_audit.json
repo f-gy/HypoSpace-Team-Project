@@ -1,0 +1,9 @@
+{
+  "pairs": 143,
+  "training_tasks": 16,
+  "all_negatives_violate_exactly_one_observation": true,
+  "mean_absolute_negative_length_difference": 0.7062937062937062,
+  "max_absolute_negative_length_difference": 6,
+  "uses_validation_or_test_labels": false,
+  "training_data_sha256": "680564477bde6e5730f9088bd8fbce727c03cea060aef8c2dd6b15ea6f82e9fd"
+}

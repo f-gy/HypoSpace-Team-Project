@@ -1,0 +1,121 @@
+{
+  "schema": "design_specification_not_an_executable_runner_config",
+  "plan_version": "canonical_coverage_lora_v1_1_independent",
+  "status": "ready_for_review_not_implemented",
+  "device": "Apple M5 GPU, 24 GiB shared system memory",
+  "runtime": "mlx-lm==0.32.2",
+  "model_lock": "model.local_mlx.lock.json",
+  "split_manifest": "results/coverage_plan/split_manifest.json",
+  "scope": {
+    "task": "Boolean",
+    "variables": [
+      "x",
+      "y"
+    ],
+    "operators": [
+      "AND",
+      "OR",
+      "NOT"
+    ],
+    "max_depth": 2,
+    "train": 16,
+    "validation": 6,
+    "test": 26
+  },
+  "training": {
+    "base_weights_frozen": true,
+    "lora_rank": 8,
+    "lora_scale": 16.0,
+    "lora_dropout": 0.0,
+    "lora_last_layers": 8,
+    "lora_keys": [
+      "self_attn.q_proj",
+      "self_attn.v_proj"
+    ],
+    "learning_rate": 0.0001,
+    "gradient_checkpointing": true,
+    "max_sequence_tokens": 1024,
+    "aliases_per_class_cap": 2,
+    "effective_response_batch": 8,
+    "warmup_sft_updates": 80,
+    "continuation_updates_per_branch": 120,
+    "coverage_budget": 16,
+    "coverage_lambda": 1.0,
+    "training_seed": 4300,
+    "branches": [
+      "balanced_sft",
+      "canonical_coverage",
+      "string_coverage"
+    ],
+    "checkpoint_rule": "Use final fixed-budget checkpoint. Adapt resources/update count after the 20-step timing probe and before validation/test; record amendment and match branch budgets.",
+    "alias_construction": "serialized formula and fixed redundant outer-parenthesis variant, validated and token-deduplicated"
+  },
+  "evaluation": {
+    "methods": [
+      "base_iid",
+      "balanced_sft_iid",
+      "canonical_coverage_iid",
+      "string_coverage_iid",
+      "base_memory"
+    ],
+    "main_four_methods_use_history": false,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "min_p": 0.0,
+    "repetition_penalty": 1.0,
+    "max_output_tokens": 128,
+    "calls_per_episode": 16,
+    "eval_seeds": [
+      17,
+      29,
+      43
+    ],
+    "test_calls": 6240,
+    "validation_calls": 480,
+    "validation_seeds": [
+      101
+    ],
+    "curve_budgets": [
+      1,
+      2,
+      4,
+      8,
+      10,
+      16
+    ],
+    "run_directory": "runs/coverage_lora_v1",
+    "generation_attempt_cap": 7500,
+    "usage_note": "Separate local-model experiment; old controller request caps and temperature do not apply. No paid API."
+  },
+  "primary_comparison": "Canonical coverage versus matched balanced SFT, paired by held-out observation set",
+  "primary_metric": "RR at 16 counted attempts",
+  "success_rule": "Report RR difference and task-bootstrap interval with VR/NR. Provisional practical target: +5 percentage points RR, no more than 2 percentage points VR loss versus balanced SFT. These are selection criteria, not predicted gains.",
+  "method_boundary": {
+    "core_mechanism": "offline LoRA training on official structural classes",
+    "test_conditioning": "original observations and task rules only",
+    "uses_previous_answers": false,
+    "uses_unobserved_prediction_targets": false,
+    "adds_synthetic_test_observations": false,
+    "uses_repair_loop": false,
+    "uses_variable_permutation_sampler": false,
+    "uses_behavior_preserving_rewrite_sampler": false,
+    "alias_role": "fixed serialized/outer-parenthesis training encodings; no LLM rewriting",
+    "teammate_direction": "DCHG inference conditioned on specified prediction differences, as described by user"
+  },
+  "group_comparison": {
+    "status": "pending_teammate_configuration_and_overlap_audit",
+    "screenshot_scope": {
+      "label": "development",
+      "tasks": 34,
+      "repetitions": 3,
+      "calls_per_task": 10
+    },
+    "matched_reporting_budget": 10,
+    "internal_primary_budget_unchanged": 16,
+    "same_base_checkpoint_required": true,
+    "repair_calls_counted": true,
+    "separate_training_cost": true,
+    "fresh_joint_test_rule": "Exclude union of both methods training, validation, tuning and development-selection task IDs; do not relabel development results as an independent test."
+  }
+}

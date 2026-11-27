@@ -1,0 +1,55 @@
+{
+  "version": "canonical_group_preference_v5",
+  "updates_per_arm": 80,
+  "arms": [
+    "coverage_continuation",
+    "canonical_preference"
+  ],
+  "initial_adapter": "v1 canonical_coverage",
+  "positive_aliases": 2,
+  "negative_aliases": 2,
+  "microbatches_per_update": 4,
+  "learning_rate": 5e-05,
+  "dpo_beta": 0.5,
+  "preference_weight": 1.0,
+  "training_seed": 4305,
+  "training_tasks": [
+    "031bf2437b8c4fad",
+    "3b1e497b20fbea1b",
+    "3d6511e6558fa796",
+    "42ba50fe4dfba2e3",
+    "4405aec39ba683ca",
+    "4675d1be2394c6d7",
+    "72832228484609cf",
+    "795475f220082197",
+    "7d1eeb3efb43a526",
+    "a46b551e501700e7",
+    "a8ff40ee4488550c",
+    "b1b48777fd8ba827",
+    "cf88edc0ec282769",
+    "d50367af8a878038",
+    "da97f239c8b2c00d",
+    "f427ae1368a9ace0"
+  ],
+  "training_class_pairs": 143,
+  "negative_construction": "Exactly one training observation violation; first minimize complete-token length difference, then maximize spelling similarity; two same-class spellings.",
+  "loss": "positive per-token SFT - C16(positive canonical mass) + optional canonical-group DPO; reference margins frozen from common initial adapter",
+  "budgets": "Both arms receive identical four-response batches and update schedule; only the preference term differs. Adam starts from zero in both arms.",
+  "selection_rule": "Use final fixed-update checkpoints. Evaluate both IID and BACE on validation; retain all outcomes. No test-based hyperparameter tuning.",
+  "sources": {
+    "canonical_preference.py": "078ac0c4865eceb5d62888f27a9c33f34847e9c70fb65aa0dc4ef2082c1e1299",
+    "canonical_decode.py": "63ba3424c0bfda86d6788fbf56967c54aaf8858f5ff46aca6c5af2e4d7fcc824"
+  },
+  "original_preparation_sources": {
+    "canonical_preference.py": "8da8a03542f897d42bfd8a5e83f60dbddc5e8ae9c7cc0167ee68fb6cce0bfbf9",
+    "canonical_decode.py": "63ba3424c0bfda86d6788fbf56967c54aaf8858f5ff46aca6c5af2e4d7fcc824"
+  },
+  "resource_amendment": {
+    "reason": "Compute vocabulary logits only at response loss positions; same objective verified on actual quantized model before restarting both arms",
+    "probe_file": "resource_probe.json",
+    "verification_file": "response_projection_verification.json",
+    "prepared_reference_margins_unchanged": true,
+    "updates_per_final_arm_unchanged": 80,
+    "final_arms_restart_from_original_v1_adapter": true
+  }
+}

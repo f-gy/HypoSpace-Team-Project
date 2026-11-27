@@ -1,0 +1,67 @@
+{
+  "title": "BACE: Method, Results and COVE Supplement",
+  "slides": [
+    {
+      "title": "BACE for hypothesis coverage",
+      "subtitle": "Budget-Aware Canonical Exclusion with a coverage-trained LoRA model",
+      "left": [
+        ["Problem", "Repeated structures waste a fixed generation budget."],
+        ["Learned proposal", "Qwen2.5-1.5B with coverage LoRA\nLoss: SFT minus coverage proxy"],
+        ["Generation target", "13 distinct structural classes in 16 attempts"]
+      ],
+      "steps": [
+        "Sample normally and track canonical classes",
+        "Compute slack: attempts left minus new classes needed",
+        "At zero slack, mask previously seen classes",
+        "Let the LLM generate and count every attempt"
+      ],
+      "scope": "Finite grammar during intervention. No observation-validity filtering or free retries.",
+      "sentences": [
+        ["My method is BACE, or Budget-Aware Canonical Exclusion.", "我的方法是BACE，即预算感知的规范结构排除。"],
+        ["A coverage-trained LoRA model proposes hypotheses from partial observations.", "一个经过覆盖目标训练的LoRA模型根据部分观测提出假设。"],
+        ["Repeated structures waste attempts.", "重复结构会浪费尝试次数。"],
+        ["With sixteen attempts, BACE targets thirteen distinct structural classes.", "在十六次尝试中，BACE的目标是得到十三个不同的结构类别。"],
+        ["It samples normally while slack remains, then masks seen classes when another repeat would make the target unreachable.", "还有余量时正常采样；当再重复一次就会使目标无法达到时，屏蔽已经见过的类别。"],
+        ["The LLM generates, and every answer counts.", "生成仍由LLM完成，每个回答都计入预算。"]
+      ]
+    },
+    {
+      "title": "BACE results and decoder contribution",
+      "subtitle": "Same trained checkpoint, 26 Boolean tasks, 3 inference seeds, 16 attempts per task",
+      "columns": ["Method", "Validity", "Uniqueness", "Recovery"],
+      "method_rows": [
+        ["Same LLM, ordinary sampling", "coverage_continuation_iid"],
+        ["Same LLM + BACE", "coverage_continuation_bace"],
+        ["Uniform + BACE, no LLM", "uniform_bace"]
+      ],
+      "gain": "Recovery gain: +9.32 percentage points",
+      "interval": "95% task-bootstrap interval: [5.90, 12.82] points",
+      "cost": "Validity decreases by 3.53 points in the matched comparison",
+      "learning": "LLM + BACE exceeds uniform + BACE by 10.31 recovery points",
+      "scope": "One training run. Exploratory follow-up on previously used Boolean tasks. Extra coverage-loss benefit over SFT remains unproven.",
+      "sentences": [
+        ["I compared the same checkpoint with and without BACE on twenty-six Boolean tasks using three sampling seeds.", "我在二十六道布尔任务上，使用三个采样种子，对比同一个模型检查点使用和不使用BACE的表现。"],
+        ["Recovery rose from forty-one point zero two percent to fifty point three four percent.", "恢复率从百分之四十一点零二上升到百分之五十点三四。"],
+        ["Recovery gained nine point three two points, with a bootstrap interval of about six to thirteen points.", "恢复率提升了九点三二个百分点，bootstrap区间约为六到十三个百分点。"],
+        ["Validity fell by three point five three points.", "合法率下降了三点五三个百分点。"],
+        ["The LLM also outperformed uniform sampling.", "LLM也优于均匀采样对照。"],
+        ["This supports decoding, while the training-loss benefit remains unproven.", "这支持解码模块的收益，而训练损失的额外收益仍未得到证实。"]
+      ]
+    },
+    {
+      "title": "COVE as an alternative system approach",
+      "body": [
+        "COVE improves final system outputs using a learned executor and a fixed hypothesis catalog.",
+        "The executor-only control matches its scores, so these results do not demonstrate better LLM generation."
+      ],
+      "translations": [
+        "COVE使用学习执行器和固定假设目录改善最终系统输出。",
+        "仅使用执行器的对照也达到相同分数，因此这些结果不能证明LLM的生成能力有所提高。"
+      ],
+      "sentences": [
+        ["COVE improves final system outputs using a learned executor and a fixed hypothesis catalog.", "COVE使用学习执行器和固定假设目录改善最终系统输出。"],
+        ["The executor-only control matches its scores, so these results do not demonstrate better LLM generation.", "仅使用执行器的对照也达到相同分数，因此这些结果不能证明LLM的生成能力有所提高。"]
+      ]
+    }
+  ]
+}

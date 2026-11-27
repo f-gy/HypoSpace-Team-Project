@@ -1,0 +1,45 @@
+{
+  "note": "Post-hoc diagnostic, not primary inference. Exact hypergeometric downsampling of recorded reference-valid outputs; zero-common-valid episodes excluded.",
+  "included_episodes": 6,
+  "total_paired_episodes": 6,
+  "included_tasks": 6,
+  "task_mean_expected_RR_difference": -0.03417600917600919,
+  "episodes": [
+    {
+      "task": "58afbe555602c1b3",
+      "seed": 101,
+      "matched_reference_valid_draws": 4,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "ad53dfd61538637a",
+      "seed": 101,
+      "matched_reference_valid_draws": 2,
+      "expected_RR_difference": -0.01666666666666668
+    },
+    {
+      "task": "f25ac6d673e4a101",
+      "seed": 101,
+      "matched_reference_valid_draws": 1,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "c0ebd18dfefc1425",
+      "seed": 101,
+      "matched_reference_valid_draws": 3,
+      "expected_RR_difference": 0.0
+    },
+    {
+      "task": "b80ea1ea0723d497",
+      "seed": 101,
+      "matched_reference_valid_draws": 10,
+      "expected_RR_difference": -0.16616716616716617
+    },
+    {
+      "task": "e581cfb9a2e7da47",
+      "seed": 101,
+      "matched_reference_valid_draws": 4,
+      "expected_RR_difference": -0.02222222222222224
+    }
+  ]
+}
