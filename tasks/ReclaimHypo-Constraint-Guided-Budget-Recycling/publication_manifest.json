@@ -68,7 +68,7 @@
     "judge_training_v1/validator.json": "5385410d3976840e32e96986e8459583276efcd38553763f56086c7410168108",
     "original_source_manifest.json": "8c48d29de0e2f4c1330c9339fc1f305cc14efd91b0de495b5f2ea29c79be7b99",
     "outputs/HypoSpace_候选筛选/datasets/boolean_extended_depth2.json": "0fd23de35ca9d24533fed1d366ca2f3b9bd88ebfe03bad9bdfe0cedfb60102c8",
-    "presentation/两分钟汇报稿.md": "0477a38fee648f86a5c72122adb688200fb80366b78840db61516b6bed5517ee",
+    "presentation/两分钟汇报稿.md": "8ad6e59390ef70e95b140fd7feb72658a42630be2abf49a4e88080e41c3e5e24",
     "report.md": "ade856989070296fc3c45eff074116444c7a1add291a37b8c45512c4f9a0727e",
     "reproduce_cpu.sh": "d08d1c387d336138053395f33f12d6fb11b16f378eb53e2b09696feb6415b37b",
     "reproduction_publication_check/batch_summary.json": "f7c05ed40e13d911dbd0f88805528d3d0f11252ae02529bbb44bd5db5967437d",
